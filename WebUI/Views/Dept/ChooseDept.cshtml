@@ -1,0 +1,35 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/Dept/ChooseDept.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>PurviewID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="PurviewID" name="PurviewID" /></td>
+        </tr>
+        <tr style="display: none;">
+            <td>UserID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="UserID" name="UserID" /></td>
+        </tr>
+        <tr style="display: none;">
+            <td>RoleID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="RoleID" name="RoleID" /></td>
+        </tr>
+        <tr>
+            <td>部门：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="DeptID" name="DeptID" data-options="required:true" /></td>
+        </tr>
+        <tr>
+            <td>权限范围：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="Range" name="Range" data-options="required:true"></td>
+        </tr>
+    </table>
+</form>

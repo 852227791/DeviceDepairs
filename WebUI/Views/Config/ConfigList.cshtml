@@ -1,0 +1,18 @@
+﻿@{
+    Layout = "~/Views/Shared/_Blank.cshtml";
+}
+@section head
+{
+    <script src="@Url.Content("~/Content/Scripts/Config/ConfigList.js")?v=@(new Random().Next())" type="text/javascript"></script>
+}
+<div id="infoMain" class="easyui-layout" data-options="fit:true">
+<div data-options="region:'center',border:false">
+    <table id="grid" data-options="fit:true,border:false"></table>
+</div>
+</div>
+
+<div id="editConfig"></div>
+<div id="editConfig-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSave" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#editConfig').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>

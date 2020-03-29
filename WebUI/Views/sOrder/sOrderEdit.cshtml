@@ -1,0 +1,37 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sOrder/sOrderEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fsOrderSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>sOrderID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="editsOrderID" name="sOrderID" />
+            </td>
+        </tr>
+        <tr>
+            <td>缴费项：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="editDetailID" name="DetailID" data-options="required:true" />
+            </td>
+        </tr>
+        <tr>
+            <td>应收金额：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="editShouldMoney" name="ShouldMoney" data-options="required:true,min:0,precision:2" />
+            </td>
+        </tr>
+        <tr>
+            <td>缴费截止日期：</td>
+            <td>
+                <input class="easyui-datebox" type="text" id="editLimitTime" name="LimitTime" data-options="required:true,editable:false">
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+

@@ -1,0 +1,21 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>姓名</td><td>身份证号</td><td>学历层次</td><td>专业</td><td>班级</td><td>系统备注</td>
+	</tr><tr>
+		<td>吉以金作2</td><td>513436199406060428</td><td>大专</td><td>会计</td><td>会计1班</td><td>姓名和身份证号不匹配;此学生不存在;</td>
+	</tr><tr>
+		<td>吉以金作</td><td>513436199406060427</td><td>大专</td><td>会计</td><td>会计1班</td><td>身份证号不规范;此学生不存在;</td>
+	</tr><tr>
+		<td>吉以金作</td><td>513436199406060428</td><td>专科</td><td>会计</td><td>会计1班</td><td>学习层次不存在;此学生不存在;</td>
+	</tr><tr>
+		<td>吉以金作</td><td>513436199406060428</td><td>大专</td><td>会计2</td><td>会计1班</td><td>专业不存在此学生没有报过任何专业;</td>
+	</tr><tr>
+		<td>吉以金作</td><td>513436199406060428</td><td>大专</td><td>会计</td><td>会计2班</td><td>班级不存在;</td>
+	</tr><tr>
+		<td>吉以金作</td><td>513436199406060428</td><td>大专</td><td>会计</td><td>&nbsp;</td><td>班级不存在;</td>
+	</tr><tr>
+		<td>吉以金作</td><td>513436199406060428</td><td>&nbsp;</td><td>会计</td><td>会计1班</td><td>学习层次不存在;此学生不存在;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td> </td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>姓名不能为空;身份证号不规范;学习层次不存在;此学生不存在;</td>
+	</tr>
+</table>

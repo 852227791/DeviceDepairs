@@ -1,0 +1,44 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sEnroll/sEnrollAudit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fAudit" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="audId" name="audId" />
+            </td>
+        </tr>
+        <tr>
+            <td>姓名：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="audName" name="audName" data-options="required:true,editable:false" />
+            </td>
+
+        </tr>
+        <tr>
+            <td>身份证号：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="audIdCard" name="audIdCard" data-options="required:true,editable:false" />
+            </td>
+        </tr>
+        <tr>
+            <td>报名时间：</td>
+            <td>
+                <input class="easyui-datebox" type="text" id="audsEnrollTime" name="audsEnrollTime" data-options="required:true" />
+            </td>
+        </tr>
+        <tr>
+            <td>审查意见：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="audExplain" name="audExplain" data-options="required:true" />
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+

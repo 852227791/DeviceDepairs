@@ -1,0 +1,70 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/Student/StudentEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>StudentID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="StudentID" name="StudentID" />
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>校区：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="DeptID" name="DeptID" data-options="required:true,editable:false" />
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>姓名：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="Name" name="Name" data-options="required:true,validType:['length[1,16]']" />
+            </td>
+            <td>身份证号：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="IDCard" name="IDCard" data-options="required:true,validType:['length[1,32]','isRight[0,\'身份证号已被使用\']','isRight[1,\'身份证号不规范\']']">
+            </td>
+        </tr>
+        <tr>
+            <td>性别：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="Sex" name="Sex" data-options="required:true,editable:false" />
+            </td>
+            <td>联系电话：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="Mobile" name="Mobile" data-options="required:true,validType:['length[0,16]']" />
+            </td>
+        </tr>
+        <tr>
+            <td>QQ号：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="QQ" name="QQ" data-options="validType:['length[0,16]']" />
+            </td>
+            <td>微信号：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="WeChat" name="WeChat" data-options="validType:['length[0,32]']" />
+            </td>
+        </tr>
+        <tr>
+            <td>家庭地址：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="Address" name="Address" data-options="validType:['length[0,128]']" />
+            </td>
+
+        </tr>
+        <tr>
+            <td>说明：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="Remark" name="Remark" data-options="multiline:true" style="height: 80px; width: 460px;" />
+            </td>
+        </tr>
+    </table>
+</form>
+

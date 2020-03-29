@@ -1,0 +1,43 @@
+﻿@{
+    Layout = "~/Views/Shared/_Blank.cshtml";
+}
+
+@section head
+{
+    <script src="@Url.Content("~/Content/Scripts/sReport/FeeUserReport.js")?v=@(new Random().Next())" ty type="text/javascript"></script>
+}
+<div id="infoMain" class="easyui-layout" data-options="fit:true">
+    <div title="搜索" data-options="region:'north',border:false,collapsible:false,iconCls:'icon-search'" style="height: 57px;">
+        <div id="searchBox" class="easyui-layout" data-options="fit:true">
+            <form id="fSearch" class="easyui-form">
+                <div data-options="region:'north',border:false">
+                    <div class="t-div">
+                        <div>收费学校:</div>
+                        <div>
+                            <input class="easyui-combotree" id="treeDeptID" name="treeDeptID" type="text" style="width: 100px;">
+                        </div>
+
+                        <div>实际供款日期:</div>
+                        <div>
+                            <input class="easyui-datebox" id="txtFeeTimeS" name="txtFeeTimeS" type="text" style="width: 100px;" />
+                        </div>
+                        <div>至</div>
+                        <div>
+                            <input class="easyui-datebox" id="txtFeeTimeE" name="txtFeeTimeE" type="text" style="width: 100px;" />
+                        </div>
+
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnSearch" class="easyui-linkbutton" iconcls="icon-search">查询</a>
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnReset" class="easyui-linkbutton" iconcls="icon-undo">重置</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div data-options="region:'center',border:false">
+        <table id="grid" data-options="fit:true,border:false"></table>
+    </div>
+</div>

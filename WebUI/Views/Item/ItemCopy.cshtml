@@ -1,0 +1,36 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/Item/ItemCopy.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<form id="fCopy" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr>
+            <td>校区：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="FromDeptID" name="FromDeptID" data-options="required:true" style="width:250px;" />
+            </td>
+        </tr>
+        <tr>
+            <td>复制项：</td>
+            <td >
+                <input type="text" id="FromItemID" name="FromItemID" class="easyui-combotree"   data-options="required:true" style="width:250px;"  />
+            </td>
+        </tr>
+   
+
+        <tr>
+            <td>复制到：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="ToDeptID" name="ToDeptID" data-options="required:true" style="width:250px;"  />
+            </td>
+        </tr>
+        <tr>
+            <td>项目：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="ToItemID" name="ToItemID" data-options="required:true" style="width:250px;"  />
+            </td>
+        </tr>
+    </table>
+</form>

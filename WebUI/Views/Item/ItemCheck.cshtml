@@ -1,0 +1,14 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/Item/ItemCheck.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<div id="cc" class="easyui-layout"data-options="fit:true">
+    <div data-options="region:'north',title:'收费项',collapsible:false,split:true" style="height:50%">
+        <table id="itemgrid" data-options="fit:true,border:false"></table>
+    </div>
+    <div data-options="region:'center',title:'收费明细'">
+        <table id="detailgrid" data-options="fit:true,border:false"></table>
+    </div>
+</div>  

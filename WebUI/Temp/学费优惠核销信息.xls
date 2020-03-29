@@ -1,0 +1,13 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>校区</td><td>凭证号</td><td>票据号</td><td>姓名</td><td>身份证号</td><td>缴费方案</td><td>收费项</td><td>核销类别</td><td>核销金额</td><td>核销时间</td><td>支付对象</td><td>核销员</td><td>核销备注</td><td>状态</td>
+	</tr><tr>
+		<td>贵州应用技术职业学院</td><td>X20160921071695</td><td>3039009</td><td>刘双琴</td><td>522227199710210420</td><td>2016年统招专科缴费方案 第1学年</td><td>学费</td><td>&nbsp;</td><td>500.00</td><td>2016-09-29</td><td>sss</td><td>业务管理员</td><td>sss</td><td>启用</td>
+	</tr><tr>
+		<td>贵州应用技术职业学院</td><td>X20160921071695</td><td>3039009</td><td>刘双琴</td><td>522227199710210420</td><td>2016年统招专科缴费方案 第1学年</td><td>学费</td><td>更正错账</td><td>500.00</td><td>2016-09-29</td><td>sss</td><td>业务管理员</td><td>sss</td><td>启用</td>
+	</tr><tr>
+		<td>贵州应用技术职业学院</td><td>X20160921071695</td><td>3039009</td><td>刘双琴</td><td>522227199710210420</td><td>2016年统招专科缴费方案 第1学年</td><td>学费</td><td>更正错账</td><td>500.00</td><td>2016-09-29</td><td>sss</td><td>业务管理员</td><td>sss</td><td>启用</td>
+	</tr><tr>
+		<td>民办四川天一学院(绵竹)</td><td>X20160907066215</td><td>3033872</td><td>苟连鹏</td><td>513322199609195011</td><td>2015年统招缴费方案33880 第一年</td><td>学费</td><td>更正错账</td><td>1.00</td><td>2016-09-29</td><td>123123</td><td>业务管理员</td><td>&nbsp;</td><td>启用</td>
+	</tr>
+</table>

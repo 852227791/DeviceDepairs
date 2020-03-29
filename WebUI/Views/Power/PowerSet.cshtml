@@ -1,0 +1,211 @@
+﻿@{
+    Layout = "~/Views/Shared/_Blank.cshtml";
+}
+
+@section head
+{
+    <script type="text/javascript">
+        var queryDataDefault = { selStatus: "1" };
+
+        firstFunction = function () {
+            //加载表格
+            initTable(queryDataDefault);
+
+            bindBtnLoadEvent();//加载按钮
+
+            //加载搜索表单数据
+            bindSearchFormEvent();
+
+            //加载搜索按钮的点击事件
+            bindSearchClickEvent();
+        }
+
+        //绑定按钮加载
+        bindBtnLoadEvent = function () {
+            var btn = Easy.loadAloneToolbar(menuId, "1");
+            if (btn != "") {
+                $("#PowerBox").layout("add", {
+                    region: "north",
+                    border: false,
+                    height: 30,
+                    content: btn
+                });
+            }
+
+            //保存
+            save = function () {
+                if (Easy.bindPowerValidationEvent(menuId, "1", "save")) {
+                    var rows = $("#grid").datagrid("getSelections");//选中的所有ID
+                    //验证是否选中行
+                    if (Easy.checkRow(rows, "角色")) {
+                        var roleid = rows[0].RoleID;
+                        var o;
+                        var datas = [];
+                        var nodes = $("#powerTree").tree("getChecked", ["checked", "indeterminate"]);
+                        //验证是否选择
+                        if (Easy.checkNode(nodes, "权限")) {
+                            for (var i = 0; i < nodes.length; i++) {
+                                var id = nodes[i].id;
+                                if (id.indexOf("-") > -1) {
+                                    var idArr = id.split('-');
+                                    o = $.extend({}, { menuid: idArr[0], buttonid: idArr[1] });
+                                }
+                                else {
+                                    o = $.extend({}, { menuid: id, buttonid: "0" });
+                                }
+                                datas.push(o);
+                            }
+                            $.ajax({
+                                type: "post",
+                                url: "@Url.Content("~/Power/SavePower")",
+                                async: false,
+                                data: { RoleID: roleid, PowerData: JSON.stringify(datas) },
+                                dataType: "json",
+                                success: function (result) {
+                                    if (result.IsError === false) {
+                                        Easy.centerShow("系统消息", "保存成功", 3000);
+                                    }
+                                    else {
+                                        Easy.centerShow("系统消息", result.Message, 3000);
+                                    }
+                                },
+                                error: function () {
+                                    Easy.centerShow("系统消息", "保存失败", 3000);
+                                }
+                            });
+                        }
+                    }
+                }
+            }
+
+            del = function () {
+                if (Easy.bindPowerValidationEvent(menuId, "1", "del")) {
+                    var rows = $("#grid").datagrid("getSelections");//选中的所有ID
+                    //验证是否选中行
+                    if (Easy.checkRow(rows, "角色")) {
+                        var roleid = rows[0].RoleID;
+                        var roletype = rows[0].RoleTypeValue;
+                        $.ajax({
+                            type: "post",
+                            url: "@Url.Content("~/Power/DelPower")",
+                            async: false,
+                            data: { RoleID: roleid },
+                            dataType: "json",
+                            success: function (result) {
+                                if (result.IsError === false) {
+                                    Easy.centerShow("系统消息", "删除成功", 3000);
+                                    intTree(roleid, roletype);
+                                }
+                                else {
+                                    Easy.centerShow("系统消息", result.Message, 3000);
+                                }
+                            },
+                            error: function () {
+                                Easy.centerShow("系统消息", "删除失败", 3000);
+                            }
+                        });
+                    }
+                }
+            }
+        }
+
+        //加载表格
+        initTable = function (queryData) {
+            $("#grid").datagrid({
+                striped: true,//斑马线
+                rownumbers: true,//行号
+                singleSelect: true,//只允许选择一行
+                pagination: true,//分页
+                pageSize: 20,
+                queryParams: queryData,//异步查询的参数
+                columns: [[
+                    { field: "RoleID", hidden: true },
+                    { field: "Name", title: "角色名", width: 100, sortable: true },
+                    { field: "Status", title: "状态", width: 60, sortable: true },
+                    { field: "RoleType", title: "角色分类", width: 70, sortable: true },
+                    { field: "Description", title: "角色描述", width: 300, sortable: true }
+                ]],
+                url: "@Url.Content("~/Role/GetRoleList")", sortName: "RoleID", sortOrder: "asc",
+                onSelect: function (rowIndex, rowData) {
+                    if (Easy.bindPowerValidationEvent(menuId, "1", "view")) {
+                        intTree(rowData.RoleID, rowData.RoleTypeValue);
+                    }
+                }
+            });
+        }
+
+        //绑定搜索按钮的点击事件
+        bindSearchClickEvent = function () {
+            $("#btnSearch").click(function () {//按条件进行查询数据，首先我们得到数据的值
+                var queryData = {//得到用户输入的参数
+                    txtName: $("#txtName").val(),
+                    selRoleType: "" + $("#selRoleType").combobox("getValues"),
+                    selStatus: "1"
+                }
+                initTable(queryData);//将值传递给
+            });
+            $("#btnReset").click(function () {
+                $("#fSearch").form("reset");//重置表单
+                initTable(queryDataDefault);
+            });
+        }
+
+        //绑定搜索表单数据
+        bindSearchFormEvent = function () {
+            $("#selRoleType").combobox({
+                url: "@Url.Content("~/Refe/SelList")?RefeTypeID=2",
+                valueField: "Value",
+                textField: "RefeName",
+                panelHeight: "80",
+                multiple: true
+            });
+        }
+
+        intTree = function (roleid, type) {
+            $("#powerTree").tree({
+                url: "@Url.Content("~/Power/GetPowerTree")",
+                queryParams: { RoleID: roleid, Type: type },
+                animate: true,
+                lines: true,
+                checkbox: true
+            });
+        }
+    </script>
+}
+
+<div id="infoMain" class="easyui-layout" data-options="fit:true">
+    <div title="搜索" data-options="region:'north',border:false,collapsible:false,iconCls:'icon-search'" style="height: 57px;">
+        <div id="searchBox" class="easyui-layout" data-options="fit:true">
+            <form id="fSearch" class="easyui-form">
+                <div data-options="region:'north',border:false">
+                    <div class="t-div">
+                        <div>角色名:</div>
+                        <div>
+                            <input id="txtName" name="txtName" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>角色分类:</div>
+                        <div>
+                            <input class="easyui-combobox" id="selRoleType" name="selRoleType" type="text" style="width: 80px;">
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnSearch" class="easyui-linkbutton" iconcls="icon-search">查询</a>
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnReset" class="easyui-linkbutton" iconcls="icon-undo">重置</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div title="角色信息" data-options="region:'west',border:false,collapsible:false,split:true,disabled:true" style="width: 570px;">
+        <table id="grid" data-options="fit:true,border:false"></table>
+    </div>
+    <div title="选择权限" data-options="region:'center',border:false">
+        <div id="PowerBox" class="easyui-layout" data-options="fit:true" style="margin-top: 3px;">
+            <div data-options="region:'center',border:false">
+                <div id="powerTree" style="padding: 10px;"></div>
+            </div>
+        </div>
+    </div>
+</div>

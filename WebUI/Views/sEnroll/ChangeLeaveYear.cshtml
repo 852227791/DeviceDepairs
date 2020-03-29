@@ -1,0 +1,39 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sEnroll/ChangeLeaveYear.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<style type="text/css">
+    .datagrid-wrap {
+        border: 0;
+    }
+</style>
+
+
+<table class="bodytable0">
+    <tr style="display:none">
+        <td></td>
+        <td><input id="modlsEnrollsProfessionID" name="modlsEnrollsProfessionID" type="text" class="easyui-textbox" /></td>
+    </tr>
+    <tr>
+        <td>姓名：</td>
+        <td><span id="modlName"></span></td>
+    </tr>
+    <tr>
+        <td>身份证号：</td>
+        <td><span id="modlIDCard"></span></td>
+    </tr>
+    <tr>
+        <td>学号：</td>
+        <td><span id="modlEnrollNum"></span></td>
+    </tr>
+    <tr>
+        <td>专业：</td>
+        <td><span id="modlMajor"></span></td>
+    </tr>
+    <tr>
+        <td>毕业年份：</td>
+        <td><input id="modlLeave" name="modlLeave" type="text" class="easyui-combobox" /></td>
+    </tr>
+</table>

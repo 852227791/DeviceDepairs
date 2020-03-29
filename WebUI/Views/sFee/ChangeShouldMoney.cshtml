@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sFee/ChangeShouldMoney.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<form id="fSearch_ChangeShouldMoney" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>sOrderID：</td>
+            <td >
+                <input class="easyui-textbox" type="text" id="sOrderID" name="sOrderID" />
+            </td>
+        </tr>
+        <tr>
+            <td>金额:</td>
+            <td><input class="easyui-numberspinner" type="text" id="ChangeShouldMoney" name="ChangeShouldMoney" data-options="required:true,min:0,precision:2" /></td>
+        </tr>
+        <tr>
+            <td>备注:</td>
+            <td><input class="easyui-textbox" type="text" id="ChangeShouldMoneyRemark" name="ChangeShouldMoneyRemark" data-options="multiline:true,required:true" style="height: 50px; width: 300px;" /></td>
+        </tr>
+    </table>
+</form>

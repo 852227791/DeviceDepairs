@@ -1,0 +1,17 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>考生号</td><td>姓名</td><td>身份证号</td><td>性别</td><td>手机号</td><td>QQ</td><td>微信</td><td>地址</td><td>民族</td><td>生源地_省</td><td>生源地_市</td><td>邮政编码</td><td>毕业学校</td><td>父母姓名</td><td>父母电话</td><td>学习层次</td><td>录取专业</td><td>招生部门</td><td>系统备注</td>
+	</tr><tr>
+		<td>1600000001</td><td>陈翰毅</td><td>210701198408261694</td><td>男</td><td>13219711211</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省成都市青羊区贝森</td><td>汉族</td><td>四川省</td><td>成都市</td><td>610000</td><td>四川省成都市XXX中学</td><td>&nbsp;</td><td>13555554444</td><td>专科</td><td>烹调工艺与营养</td><td>资阳1</td><td>该校区下没有此招生部门;</td>
+	</tr><tr>
+		<td>1600000002</td><td>葛枫震</td><td>522636198404104471</td><td>男</td><td>13219711213</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省南充市XXX街56号</td><td>汉族</td><td>四川省</td><td>南充市</td><td>610000</td><td>四川省成都市XXX中学</td><td>&nbsp;</td><td>13555554447</td><td>专科</td><td>烹调工艺与营养</td><td>资阳1</td><td>该校区下没有此招生部门;</td>
+	</tr><tr>
+		<td>1600000003</td><td>林准辰</td><td>411621199112256979</td><td>男</td><td>13219711215</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省资阳市XXX街56号</td><td>汉族</td><td>四川省</td><td>资阳市</td><td>610000</td><td>四川省资阳市XXX中学</td><td>&nbsp;</td><td>13555554450</td><td>专科</td><td>烹调工艺与营养</td><td>资阳1</td><td>该校区下没有此招生部门;</td>
+	</tr><tr>
+		<td>1600000004</td><td>廉恩妙</td><td>350428198403176970</td><td>男</td><td>13219711217</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省德阳市XXXXXX街56号</td><td>汉族</td><td>四川省</td><td>德阳市</td><td>610000</td><td>四川省德阳市XXX中学</td><td>&nbsp;</td><td>13555554453</td><td>专科</td><td>烹调工艺与营养</td><td>资阳1</td><td>该校区下没有此招生部门;</td>
+	</tr><tr>
+		<td>1600000005</td><td>潘可文</td><td>210103199001156352</td><td>男</td><td>13219711219</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省绵阳市培城区XXX街56号</td><td>汉族</td><td>四川省</td><td>绵阳市</td><td>610000</td><td>四川省绵阳市XXX中学</td><td>&nbsp;</td><td>13555554456</td><td>专科</td><td>烹调工艺与营养</td><td>资阳1</td><td>该校区下没有此招生部门;</td>
+	</tr><tr>
+		<td>1600000006</td><td>胡凡睦</td><td>430502198806142830</td><td>男</td><td>13219711221</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省乐山市市中区XXX街56号</td><td>汉族</td><td>四川省</td><td>乐山市</td><td>610000</td><td>四川省乐山市XXX中学</td><td>&nbsp;</td><td>13555554459</td><td>专科</td><td>烹调工艺与营养</td><td>资阳2</td><td>该校区下没有此招生部门;</td>
+	</tr>
+</table>

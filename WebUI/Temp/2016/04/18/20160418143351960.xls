@@ -1,0 +1,7 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>考生号</td><td>姓名</td><td>身份证号</td><td>性别</td><td>手机号</td><td>QQ</td><td>微信</td><td>地址</td><td>民族</td><td>生源地_省</td><td>生源地_市</td><td>邮政编码</td><td>毕业学校</td><td>父母姓名</td><td>父母电话</td><td>学习层次</td><td>录取专业</td><td>系统备注</td>
+	</tr><tr>
+		<td>1</td><td>张金龙</td><td>510121199807058878</td><td>男</td><td>13438138215</td><td>qq</td><td>weixin</td><td>地址</td><td>地址</td><td>四川省</td><td>成都市</td><td>61000</td><td>学校</td><td>父母姓名</td><td>父母电话</td><td>大专</td><td>电子商务</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr>
+</table>

@@ -1,0 +1,172 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/ChangeEnroll/ChangeProfessionView.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+
+<div id="ViewInfo" class="easyui-tabs" data-options="border:false">
+    <div title="转专业信息" id="t1">
+        <table class="bodytable0">
+            <tr>
+                <td>姓名:</td>
+                <td><span id="chName"></span></td>
+                <td>学号:</td>
+                <td><span id="chEnrollNum"></span></td>
+            </tr>
+            <tr>
+                <td>身份证号:</td>
+                <td colspan="3"><span id="chIDCard"></span></td>
+            </tr>
+            <tr>
+                <td style="width: 70px">转前校区:</td>
+                <td colspan="3"><span id="chBeSchool"></span></td>
+            </tr>
+            <tr>
+                <td style="width: 70px">转前年份:</td>
+                <td><span id="chBeYear"></span></td>
+                <td>转前月份:</td>
+                <td><span id="chBeMonth"></span></td>
+            </tr>
+            <tr>
+                <td>转前专业:</td>
+                <td ><span id="chBeMajor"></span></td>
+                <td>转前层次:</td>
+                <td><span id="chBeLevel"></span></td>
+            </tr>
+            <tr>
+                <td style="width: 70px">转后校区:</td>
+                <td colspan="3"><span id="chAfSchool"></span></td>
+            </tr>
+            <tr>
+                <td style="width: 70px">转后年份:</td>
+                <td><span id="chAfYear"></span></td>
+                <td>转后月份:</td>
+                <td><span id="chAfMonth"></span></td>
+            </tr>
+            <tr>
+                <td>转后专业:</td>
+                <td ><span id="chAfMajor"></span></td>
+                <td>转后层次:</td>
+                <td><span id="chAfLevel"></span></td>
+            </tr>
+            <tr>
+                <td>转专业时间:</td>
+                <td><span id="chChangeTime"></span></td>
+                <td>记录类型:</td>
+                <td><span id="chSortName"></span></td>
+            </tr>
+            <tr>
+                <td>转专业原因:</td>
+                <td  colspan="3"><span id="chChangeReson"></span></td>
+            </tr>
+        </table>
+    </div>
+    <div id="t2" title="学生信息" data-options="closable:false,fit:true">
+        <div id="cc" class="easyui-layout" style="width:786px;height:490px;">
+            <div data-options="region:'north',title:'基础信息',split:true,border:false,collapsible:false" style="height:205px;">
+                <table class="bodytable0">
+                    <tr>
+                        <td style="width: 60px">姓名:</td>
+                        <td><span id="spStudentName"></span></td>
+                        <td style="width: 60px">身份证号:</td>
+                        <td><span id="spStudentIDCard"></span></td>
+                    </tr>
+                    <tr>
+                        <td>性别:</td>
+                        <td><span id="spSex"></span></td>
+                        <td>联系电话:</td>
+                        <td><span id="spMobile"></span></td>
+                    </tr>
+                    <tr>
+                        <td>QQ号:</td>
+                        <td><span id="spQQ"></span></td>
+                        <td>微信号:</td>
+                        <td><span id="spWeChat"></span></td>
+                    </tr>
+
+                    <tr>
+                        <td>家庭地址：</td>
+                        <td colspan="3"><span id="spAddress"></span></td>
+                    </tr>
+                    <tr>
+                        <td>说明：</td>
+                        <td colspan="3"><span id="spStudentRemark"></span></td>
+                    </tr>
+
+                </table>
+            </div>
+            <div data-options="region:'center',title:'扩展信息',border:false">
+                <table class="bodytable0">
+                    <tr>
+                        <td style="width: 60px">生源地:</td>
+                        <td colspan="3"><span id="spPC"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 60px">民族:</td>
+                        <td><span id="spNation"></span></td>
+                        <td style="width: 60px">邮编:</td>
+                        <td><span id="spZip"></span></td>
+                    </tr>
+                    <tr>
+                        <td>毕业学校：</td>
+                        <td colspan="3"><span id="spSchool"></span></td>
+                    </tr>
+                </table>
+
+            </div>
+            <div data-options="region:'south',title:'联系人信息',split:true,border:false,collapsible:false" style="height:140px;">
+                <table id="studentContanctgrid" data-options="fit:true,border:false"></table>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div title="缴费信息" data-options="closable:false,fit:true">
+        <div class="easyui-layout" style="height:497px">
+            <div data-options="region:'north',title:'转前费用',border:false,collapsible:false" style="height:50%"  >
+                <table class="bodytable0">
+                    <tr>
+                        <td style="width: 70px">应缴总额:</td>
+                        <td><span id="chBeShouldMoeny"></span></td>
+                        <td style="width: 70px">实缴总额:</td>
+                        <td><span id="chBePadiMoney"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 70px">优惠总额:</td>
+                        <td><span id="chBeDiscountMoney"></span></td>
+                        <td style="width: 70px">充抵总额:</td>
+                        <td><span id="chBeOffsetMoney"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 70px">被充抵总额:</td>
+                        <td colspan="3"><span id="chBeByOffsetMoney"></span></td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div data-options="region:'center',title:'转后费用',border:false" style="height:50%">
+                <table class="bodytable0">
+                    <tr>
+                        <td style="width: 70px">应缴总额:</td>
+                        <td><span id="chAfShouldMoeny"></span></td>
+                        <td style="width: 70px">实缴总额:</td>
+                        <td><span id="chAfPadiMoney"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 70px">优惠总额:</td>
+                        <td><span id="chAfDiscountMoney"></span></td>
+                        <td style="width: 70px">充抵总额:</td>
+                        <td><span id="chAfOffsetMoney"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 70px">被充抵总额:</td>
+                        <td colspan="3"><span id="chAfByOffsetMoney"></span></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>  
+    </div>
+</div>

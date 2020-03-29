@@ -1,0 +1,29 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>姓名</td><td>身份证号</td><td>学历层次</td><td>专业</td><td>缴费学年</td><td>费用类别</td><td>缴费类别</td><td>供款金额</td><td>缴费方式</td><td>打印说明</td><td>备注</td><td>系统备注</td>
+	</tr><tr>
+		<td>杨楠堃</td><td>513422199206170018</td><td>专科</td><td>文秘</td><td>&nbsp;</td><td>学费</td><td>实收</td><td>8680</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>缴费学年不能为空;</td>
+	</tr><tr>
+		<td>袁萍</td><td>51132119930907090X</td><td>专科</td><td>旅游管理</td><td>第二年</td><td>学费</td><td>实收</td><td>8680</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;此学生不存在;</td>
+	</tr><tr>
+		<td>杨宇</td><td>511621199307280016</td><td>专科</td><td>环境艺术设计(室内设计方向)</td><td>第二年</td><td>学费</td><td>实收</td><td>11780</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>此学生没有报过该层次下的任何专业;</td>
+	</tr><tr>
+		<td>李桐</td><td>510623199312200027</td><td>专科</td><td>应用英语（幼儿英语方向）</td><td>第一年</td><td>学费</td><td>实收</td><td>9580</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>此缴费单已交清;缴费金额超过此订单的金额;</td>
+	</tr><tr>
+		<td>李宇龙</td><td>513821199407191515</td><td>专科</td><td>物流管理</td><td>第一年</td><td>学费</td><td>实收</td><td>8680</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>此缴费单已交清;缴费金额超过此订单的金额;</td>
+	</tr><tr>
+		<td>肖先杜</td><td>511322199008057017</td><td>专科</td><td>动漫设计与制作</td><td>第一年</td><td>学费</td><td>实收</td><td>12780</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>缴费金额超过此订单的金额;</td>
+	</tr><tr>
+		<td>李秋芳</td><td>511521199408207680</td><td>专科</td><td>会计电算化</td><td>第一年</td><td>学费</td><td>实收</td><td>8680</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>此缴费单已交清;缴费金额超过此订单的金额;</td>
+	</tr><tr>
+		<td>王清芳</td><td>510823199403147760</td><td>专科</td><td>会计电算化</td><td>第一年</td><td>学费</td><td>实收</td><td>8680</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>此缴费单已交清;缴费金额超过此订单的金额;</td>
+	</tr><tr>
+		<td>黎术容</td><td>510822199301045564</td><td>专科</td><td>会计电算化</td><td>第一年</td><td>学费</td><td>实收</td><td>9580</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>此缴费单已交清;缴费金额超过此订单的金额;</td>
+	</tr><tr>
+		<td>沙林</td><td>513423199108074897</td><td>专科</td><td>工程造价</td><td>第一年</td><td>学费</td><td>实收</td><td>9580</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>此缴费单已交清;缴费金额超过此订单的金额;</td>
+	</tr><tr>
+		<td>张倪</td><td>511623199409124295</td><td>专科</td><td>建筑工程技术</td><td>第一年</td><td>学费</td><td>实收</td><td>11760</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>缴费金额超过此订单的金额;</td>
+	</tr><tr>
+		<td>张奎林</td><td>513723199307225674</td><td>专科</td><td>电子信息工程技术</td><td>第一年</td><td>学费</td><td>实收</td><td>11760</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>缴费金额超过此订单的金额;</td>
+	</tr>
+</table>

@@ -1,0 +1,39 @@
+﻿@{
+    Layout = "~/Views/Shared/_Blank.cshtml";
+}
+
+@section head
+{
+    <script src="@Url.Content("~/Content/Scripts/Message/MessageList.js")?v=@(new Random().Next())" type="text/javascript"></script>
+}
+
+<div id="infoMain" class="easyui-layout" data-options="fit:true">
+    <div title="搜索" data-options="region:'north',border:false,collapsible:false,iconCls:'icon-search'" style="height: 57px;">
+        <div id="searchBox" class="easyui-layout" data-options="fit:true">
+            <form id="fSearch" class="easyui-form">
+                <div data-options="region:'north',border:false">
+                    <div class="t-div">
+                        <div>时间:</div>
+                        <div>
+                            <input id="txtTimeS" name="txtTimeS" type="text" class="easyui-datebox" style="width: 100px;" />
+                        </div>
+                        <div>至</div>
+                        <div>
+                            <input id="txtTimeE" name="txtTimeE" type="text" class="easyui-datebox" style="width: 100px;" />
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnSearch" class="easyui-linkbutton" iconcls="icon-search">查询</a>
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnReset" class="easyui-linkbutton" iconcls="icon-undo">重置</a>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <div data-options="region:'center',border:false">
+        <table id="grid" data-options="fit:true,border:false"></table>
+    </div>
+</div>

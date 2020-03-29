@@ -1,0 +1,11 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+<script src="@Url.Content("~/Content/Scripts/Fee/FeeDiscountEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<div id="infoMainChooseFeeDiscount" class="easyui-layout" data-options="fit:true">
+    <div data-options="region:'center',border:false">
+        <table id="feediscountList" data-options="fit:true,border:true"></table>
+    </div>
+</div>
+

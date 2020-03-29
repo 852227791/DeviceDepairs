@@ -1,0 +1,37 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+<script src="@Url.Content("~/Content/Scripts/Prove/ProveChoose.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<div id="infoMainProveChoose" class="easyui-layout" data-options="fit:true">
+    <div title="搜索" data-options="region:'north',border:false,collapsible:false,iconCls:'icon-search'" style="height: 57px;">
+        <div id="searchBoxProveChoose" class="easyui-layout" data-options="fit:true">
+            <form id="fSearchProveChoose" class="easyui-form">
+                <div data-options="region:'north',border:false">
+                    <div class="t-div">
+                        <div>学生姓名:</div>
+                        <div>
+                            <input id="txtNameChoose" name="txtNameChoose" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>身份证号:</div>
+                        <div>
+                            <input id="txtIDCardChoose" name="txtIDCardChoose" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>联系电话:</div>
+                        <div>
+                            <input class="easyui-textbox" id="txtMobileChoose" name="txtMobileChoose" type="text" style="width: 80px;">
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnSearchProveChoose" class="easyui-linkbutton" iconcls="icon-search">查询</a>
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnResetProveChoose" class="easyui-linkbutton" iconcls="icon-undo">重置</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div data-options="region:'center',border:false">
+        <table id="gridProveChoose" data-options="fit:true,border:false"></table>
+    </div>
+</div>

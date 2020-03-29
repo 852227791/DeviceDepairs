@@ -1,0 +1,17 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>考生号</td><td>姓名</td><td>身份证号</td><td>性别</td><td>手机号</td><td>QQ</td><td>微信</td><td>地址</td><td>民族</td><td>生源地_省</td><td>生源地_市</td><td>邮政编码</td><td>毕业学校</td><td>父母姓名</td><td>父母电话</td><td>学习层次</td><td>录取专业</td><td>招生部门</td><td>系统备注</td>
+	</tr><tr>
+		<td>16511903130017</td><td>吉布</td><td>513233199811260327</td><td>女</td><td>13882498458</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省阿坝州茂县儿童福利院</td><td>藏族</td><td>四川省</td><td>阿坝藏族羌族自治州</td><td>623200</td><td>北京盛基艺术学校</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>播音与主持</td><td>崇州校区</td><td>生源地_县不存在;</td>
+	</tr><tr>
+		<td>16511909130062</td><td>阳机拉姆</td><td>513226199708084528</td><td>女</td><td>18283737888</td><td>&nbsp;</td><td>&nbsp;</td><td>四川阿坝州马尔康县中学郑图碧收转高三一班阳机拉姆</td><td>藏族</td><td>四川省</td><td>阿坝藏族羌族自治州</td><td>624000</td><td>马尔康县中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>环境艺术设计</td><td>崇州校区</td><td>生源地_县不存在;</td>
+	</tr><tr>
+		<td>16512001130022</td><td>尼玛扎西</td><td>513329199708120036</td><td>男</td><td>18708176400</td><td>&nbsp;</td><td>&nbsp;</td><td>四川成都双流县东升镇藏卫路南一段45号1栋4单元11号</td><td>藏族</td><td>四川省</td><td>甘孜藏族自治州</td><td>610299</td><td>青白江区大弯中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>戏剧影视表演</td><td>崇州校区</td><td>生源地_县不存在;</td>
+	</tr><tr>
+		<td>16512001130039</td><td>刘骁锴</td><td>51332119970709009X</td><td>男</td><td>18990450069</td><td>&nbsp;</td><td>&nbsp;</td><td>中国农业银行四川省甘孜州分行孟文收</td><td>藏族</td><td>四川省</td><td>甘孜藏族自治州</td><td>626000</td><td>康定中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>播音与主持</td><td>崇州校区</td><td>生源地_县不存在;</td>
+	</tr><tr>
+		<td>16512102130037</td><td>李雯英</td><td>513422199609061940</td><td>女</td><td>0834-151834</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省凉山州木里县县中学兰阿布转</td><td>彝族</td><td>四川省</td><td>凉山彝族自治州</td><td>615899</td><td>木里县中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>播音与主持</td><td>崇州校区</td><td>生源地_县不存在;</td>
+	</tr><tr>
+		<td>16512102130053</td><td>沈芮莹</td><td>513401199712050228</td><td>女</td><td>18328899762</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省凉山州木里县县中学李志友收</td><td>汉族</td><td>四川省</td><td>凉山彝族自治州</td><td>615899</td><td>木里县中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>环境艺术设计</td><td>崇州校区</td><td>生源地_县不存在;</td>
+	</tr>
+</table>

@@ -1,0 +1,17 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+<script src="@Url.Content("~/Content/Scripts/sFee/SameFeeOffset.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<div class="easyui-layout" data-options="fit:true" >
+
+    <div data-options="region:'west',border:false,collapsible:false,split:true,disabled:true" style="width: 320px;">
+        <table id="sfeeDetail" data-options="fit:true,border:true,title:'新专业收费项',border:false" ></table>
+    </div>
+    <div data-options="region:'center',border:false,split:true,title:'老专业收费项'">
+        <table id="sFeeOrder" data-options="fit:true,border:false"></table>
+    </div>
+    <div data-options="region:'south',border:false,collapsible:false" style="height:220px;">
+        <table id="sFeesOffset" data-options="fit:true,border:false"></table>
+    </div>
+</div>

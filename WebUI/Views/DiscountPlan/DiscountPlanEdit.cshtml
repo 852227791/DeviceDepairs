@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+<style type="text/css">
+    .content {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 240px;
+        width: 70%;
+    }
+
+    .content1 {
+        position: absolute;
+        top: 20px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 40px;
+        width: 90%;
+    }
+</style>
+<script src="@Url.Content("~/Content/Scripts/DiscountPlan/DiscountPlanEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<div class="easyui-layout" data-options="fit:true">
+    <div data-options="region:'north',split:true" style="height:45px;">
+        <div style="display:none">
+            <input class="easyui-textbox" type="text" id="DiscountPlanID" name="DiscountPlanID" />
+        </div>
+        <div class="content1">
+            优惠方案名称：  <input class="easyui-textbox" type="text" id="DiscountName" name="DiscountName" data-options="required:true,validType:['length[1,32]','DiscountPlanName']" />
+        </div>
+    </div>
+    <div data-options="region:'west',title:'缴费次数',split:true,collapsible:false,border:false" style="width:130px;">
+        <table id="gridItemNum" data-options="fit:true,border:false"></table>
+
+    </div>
+    <div data-options="region:'center',fit:true,border:false">
+        <div class="easyui-layout" data-options="fit:true">
+            <div data-options="region:'west',title:'缴费明细',split:true,collapsible:false" style="width:290px;">
+
+                <table id="gridItemDetail" data-options="fit:true,border:false"></table>
+            </div>
+            <div data-options="region:'center',title:'优惠明细',split:true,collapsible:false" style="width:390px;">
+                <table id="gridDiscountDetail" data-options="fit:true,border:false"></table>
+            </div>
+        </div>
+    </div>
+
+</div>  

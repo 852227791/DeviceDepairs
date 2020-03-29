@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D123A82-5BB2-490D-B7FC-62A8865FC047}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL</RootNamespace>
+    <AssemblyName>BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AreaBLL.cs" />
+    <Compile Include="ClassBLL.cs" />
+    <Compile Include="ConfigBLL.cs" />
+    <Compile Include="DeptAreaBLL.cs" />
+    <Compile Include="DeptBLL.cs" />
+    <Compile Include="DeptDCPBLL.cs" />
+    <Compile Include="DetailBLL.cs" />
+    <Compile Include="DetailSubjectBLL.cs" />
+    <Compile Include="DisableNoteBLL.cs" />
+    <Compile Include="DiscountDetailBLL.cs" />
+    <Compile Include="DiscountPlanBLL.cs" />
+    <Compile Include="FeeBLL.cs" />
+    <Compile Include="FeeDetailBLL.cs" />
+    <Compile Include="FeeManageBLL.cs" />
+    <Compile Include="iDisableNoteBLL.cs" />
+    <Compile Include="iFeeBLL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="iOffsetBLL.cs" />
+    <Compile Include="iRefundBLL.cs" />
+    <Compile Include="iReportConfigBLL.cs" />
+    <Compile Include="ItemBLL.cs" />
+    <Compile Include="ItemDetailBLL.cs" />
+    <Compile Include="LogBLL.cs" />
+    <Compile Include="NoteBLL.cs" />
+    <Compile Include="OffsetBLL.cs" />
+    <Compile Include="PowerBLL.cs" />
+    <Compile Include="ProfessionBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProveBLL.cs" />
+    <Compile Include="ProveOldBLL.cs" />
+    <Compile Include="PurviewBLL.cs" />
+    <Compile Include="RefeBLL.cs" />
+    <Compile Include="RefeTypeBLL.cs" />
+    <Compile Include="RefundBLL.cs" />
+    <Compile Include="RoleBLL.cs" />
+    <Compile Include="sDisableNoteBLL.cs" />
+    <Compile Include="sEnrollBLL.cs" />
+    <Compile Include="sEnrollNumBLL.cs" />
+    <Compile Include="sEnrollsProfessionBLL.cs" />
+    <Compile Include="sEnrollsProfessionChangeBLL.cs" />
+    <Compile Include="sEnrollsProfessionNoteBLL.cs" />
+    <Compile Include="sEnrollsProfessionsOrderBLL.cs" />
+    <Compile Include="sEnrollsProfessionsOrderGiveBLL.cs" />
+    <Compile Include="sEnrollsProfessionStatusBLL.cs" />
+    <Compile Include="sFeeBLL.cs" />
+    <Compile Include="sFeesOrderBLL.cs" />
+    <Compile Include="sFeesOrderGiveBLL.cs" />
+    <Compile Include="sGiveBLL.cs" />
+    <Compile Include="sItemsGiveBLL.cs" />
+    <Compile Include="sItemsProfessionBLL.cs" />
+    <Compile Include="sItemsEnrollBLL.cs" />
+    <Compile Include="sOffsetBLL.cs" />
+    <Compile Include="sOrderAddBLL.cs" />
+    <Compile Include="sOrderAddDetailBLL.cs" />
+    <Compile Include="sOrderAddsProfessionBLL.cs" />
+    <Compile Include="sOrderBLL.cs" />
+    <Compile Include="sOrderCreateBLL.cs" />
+    <Compile Include="sOrderGiveBLL.cs" />
+    <Compile Include="sOrderNoteBLL.cs" />
+    <Compile Include="sProfessionBLL.cs" />
+    <Compile Include="sRefundBLL.cs" />
+    <Compile Include="sRefundDiscountBLL.cs" />
+    <Compile Include="StudentBLL.cs" />
+    <Compile Include="StudentContactBLL.cs" />
+    <Compile Include="StudentInfoBLL.cs" />
+    <Compile Include="SubjectBLL.cs" />
+    <Compile Include="UserBLL.cs" />
+    <Compile Include="UserRoleBLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{4615c0fd-9365-44f0-ad1f-adb8763f8111}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{ebdc36b8-197b-4ce7-9380-297c0d70038e}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{87b4386e-3988-4065-b16b-e1de22499fdc}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

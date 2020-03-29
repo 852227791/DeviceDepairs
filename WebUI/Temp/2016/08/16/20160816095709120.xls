@@ -1,0 +1,9 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>姓名</td><td>身份证号</td><td>学历层次</td><td>专业</td><td>校区</td><td>系统备注</td>
+	</tr><tr>
+		<td>王川</td><td>510525200004218156</td><td>中专</td><td>汽车整车与配件营销</td><td>资阳3</td><td>此学生没有报过任何专业;</td>
+	</tr><tr>
+		<td>陈富</td><td>513228199912142417</td><td>中专</td><td>汽车运用与维修</td><td>资阳3</td><td>报名校区和当前报名校区相同;</td>
+	</tr>
+</table>

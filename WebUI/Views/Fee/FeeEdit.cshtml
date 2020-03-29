@@ -1,0 +1,98 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+<script src="@Url.Content("~/Content/Scripts/Fee/FeeEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>editFeeID：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="editFeeID" name="editFeeID" />
+                <input class="easyui-textbox" type="text" id="editProveID" name="editProveID" />
+                <input class="easyui-textbox" type="text" id="editOffsetID" name="editOffsetID">
+                <input class="easyui-textbox" type="text" id="editItemDetailJson" name="editItemDetailJson">
+                <input class="easyui-textbox" type="text" id="editFeeDiscountJson" name="editFeeDiscountJson">
+            </td>
+        </tr>
+        <tr>
+            <td>收费单位：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="editDeptID" name="editDeptID" data-options="required:true" />
+            </td>
+            <td>证书：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="editName" name="editName" data-options="required:true,editable:false" />
+                <a id="btnChooseProve" href="javascript:void(0)" class="easyui-linkbutton">选择证书</a>
+            </td>
+        </tr>
+        <tr>
+            <td>交款人员:</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="editPersonSort" name="editPersonSort" data-options="required:true" />
+            </td>
+            <td>收费项目：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="editItemDetailID" name="editItemDetailID" data-options="required:true,editable:false" />
+                <a id="setNone" href="javascript:void(0)" class="easyui-linkbutton">清空</a>
+            </td>
+        </tr>
+        <tr>
+            <td>缴费方式:</td>
+            <td colspan="3">
+                <input class="easyui-combobox" type="text" id="editFeeMode" name="editFeeMode" data-options="required:true" />
+            </td>
+        </tr>
+        <tr>
+            <td>应收金额：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="editShouldMoney" name="editShouldMoney" data-options="required:true,min:0,precision:2">
+            </td>
+            <td>实收金额：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="editPaidMoney" name="editPaidMoney" data-options="required:true,min:0,precision:2">
+            </td>
+        </tr>
+        <tr>
+
+            <td>充抵金额：</td>
+            <td colspan="3">
+                <input class="easyui-numberspinner" type="text" id="editOffsetMoney" name="editOffsetMoney" data-options="min:0,precision:2" value="0.00">
+                <a id="btnChooseOffset" href="javascript:void(0)" class="easyui-linkbutton">选择收费项</a>
+            </td>
+        </tr>
+        <tr>
+            <td>优惠金额：</td>
+            <td colspan="3">
+                <input class="easyui-numberspinner" type="text" id="editDiscountMoney" name="editDiscountMoney" data-options="min:0,precision:2" value="0.00">
+                <a id="btnChooseDiscount" href="javascript:void(0)" class="easyui-linkbutton">设置优惠</a>
+            </td>
+        </tr>
+        <tr>
+            <td>教师:</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="editTeacher" name="editTeacher" data-options="validType:['length[0,32]']" />
+            </td>
+            <td>收费时间：</td>
+            <td>
+                <input class="easyui-datebox" type="text" id="editFeeTime" name="editFeeTime" data-options="required:true">
+            </td>
+        </tr>
+        <tr>
+            <td>说明：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="editExplain" name="editExplain" data-options="multiline:true" style="height: 80px; width: 460px;" />
+            </td>
+        </tr>
+        <tr>
+            <td>备注：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="editRemark" name="editRemark" data-options="multiline:true" style="height: 80px; width: 460px;" />
+            </td>
+
+        </tr>
+    </table>
+</form>
+
+
+

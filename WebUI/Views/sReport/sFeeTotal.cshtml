@@ -1,0 +1,117 @@
+﻿@{
+    Layout = "~/Views/Shared/_Blank.cshtml";
+}
+
+@section head
+{
+    <script src="@Url.Content("~/Content/Scripts/sReport/sFeeTotal.js")?v=@(new Random().Next())" type="text/javascript"></script>
+}
+<div id="infoMain" class="easyui-layout" data-options="fit:true">
+    <div title="搜索" data-options="region:'north',border:false,collapsible:false,iconCls:'icon-search'" style="height: 57px;">
+        <div id="searchBox" class="easyui-layout" data-options="fit:true">
+            <form id="fSearch" class="easyui-form">
+                <div data-options="region:'north',border:false">
+                    <div class="t-div">
+                        <div>学号:</div>
+                        <div>
+                            <input class="easyui-textbox" id="txtEnrollNum" name="txtEnrollNum" type="text" style="width: 60px;">
+                        </div>
+                        <div>学生姓名:</div>
+                        <div>
+                            <input class="easyui-textbox" id="txtStudentName" name="txtStudentName" type="text" style="width: 60px;" />
+                        </div>
+                        <div>身份证号:</div>
+                        <div>
+                            <input class="easyui-textbox" id="txtIDCard" name="txtIDCard" type="text" style="width: 60px;" />
+                        </div>
+                        <div>年份:</div>
+                        <div>
+                            <input class="easyui-combobox" id="selYear" name="selYear" type="text" style="width: 70px;" />
+                        </div>
+                        <div>月份:</div>
+                        <div>
+                            <input class="easyui-combobox" id="selMonth" name="selMonth" type="text" style="width: 60px;" />
+                        </div>
+                        <div>实际供款日期:</div>
+                        <div>
+                            <input class="easyui-datebox" id="txtFeeTimeS" name="txtFeeTimeS" type="text" style="width: 90px;" />
+                        </div>
+                        <div>至</div>
+                        <div>
+                            <input class="easyui-datebox" id="txtFeeTimeE" name="txtFeeTimeE" type="text" style="width: 90px;" />
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnSearch" class="easyui-linkbutton" iconcls="icon-search">查询</a>
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnReset" class="easyui-linkbutton" iconcls="icon-undo">重置</a>
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="openSearchBox" class="easyui-linkbutton" iconcls="icon-add2">更多搜索</a>
+                            <a href="javascript:void(0)" id="closeSearchBox" class="easyui-linkbutton" iconcls="icon-clear" style="display: none;">关闭更多</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-options="region:'center',border:false">
+                    <div class="t-div">
+                        <div>收费学校:</div>
+                        <div>
+                            <input class="easyui-combotree" id="treeDeptID" name="treeDeptID" type="text" style="width: 100px;">
+                        </div>
+                        <div>在校状态:</div>
+                        <div>
+                            <input class="easyui-combobox" id="selStatus" name="selStatus" type="text" style="width: 80px;" />
+                        </div>
+                        <div>预报日期:</div>
+                        <div>
+                            <input class="easyui-datebox" id="txtBeforeEnrollTimeS" name="txtBeforeEnrollTimeS" type="text" style="width: 90px;" />
+                        </div>
+                        <div>至</div>
+                        <div>
+                            <input class="easyui-datebox" id="txtBeforeEnrollTimeE" name="txtBeforeEnrollTimeE" type="text" style="width: 90px;" />
+                        </div>
+                        <div>正报日期:</div>
+                        <div>
+                            <input class="easyui-datebox" id="txtEnrollTimeS" name="txtEnrollTimeS" type="text" style="width: 90px;" />
+                        </div>
+                        <div>至</div>
+                        <div>
+                            <input class="easyui-datebox" id="txtEnrollTimeE" name="txtEnrollTimeE" type="text" style="width: 90px;" />
+                        </div>
+                        <div>首次缴费日期:</div>
+                        <div>
+                            <input class="easyui-datebox" id="txtFirstFeeTimeS" name="txtFirstFeeTimeS" type="text" style="width: 90px;" />
+                        </div>
+                        <div>至</div>
+                        <div>
+                            <input class="easyui-datebox" id="txtFirstFeeTimeE" name="txtFirstFeeTimeE" type="text" style="width: 90px;" />
+                        </div>
+                        <div>报读专业:</div>
+                        <div>
+                            <input class="easyui-textbox" id="txtProfessionName" name="txtProfessionName" type="text" style="width: 60px;" />
+                        </div>
+                        <div>学历层次:</div>
+                        <div>
+                            <input class="easyui-combobox" id="selEnrollLevel" name="selEnrollLevel" type="text" style="width: 80px;" />
+                        </div>
+                        <div>报读类别:</div>
+                        <div>
+                            <input class="easyui-combobox" id="selSort" name="selSort" type="text" style="width: 80px;" />
+                        </div>
+                        <div>供款金额:</div>
+                        <div>
+                            <input class="easyui-numberspinner" id="txtMoneyS" name="txtMoneyS" type="text" style="width: 60px;" />
+                        </div>
+                        <div>至</div>
+                        <div>
+                            <input class="easyui-numberspinner" id="txtMoneyE" name="txtMoneyE" type="text" style="width: 60px;" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div data-options="region:'center',border:false">
+        <table id="gridsFeeTotal" data-options="fit:true,border:false"></table>
+    </div>
+</div>

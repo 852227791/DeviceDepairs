@@ -1,0 +1,17 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>姓名</td><td>身份证号</td><td>学号</td><td>转前校区</td><td>转前年份</td><td>转前月份</td><td>转前层次</td><td>转前专业</td><td>转前总应缴</td><td>转前总实缴</td><td>转后校区</td><td>转后年份</td><td>转后月份</td><td>转后层次</td><td>转后专业</td><td>转后总应缴</td><td>转后总实缴</td><td>转专业原因</td><td>转专业时间</td><td>记录类型</td>
+	</tr><tr>
+		<td>勒则五兴</td><td>513434199605064090</td><td>SA1600015</td><td>民办四川天一学院(绵竹)</td><td>2016</td><td>9</td><td>大专</td><td>工程造价</td><td>0.00</td><td>0.00</td><td>民办四川天一学院(绵竹)</td><td>2016</td><td>9</td><td>大专</td><td>环境艺术设计</td><td>43520.00</td><td>10300.00</td><td>报名时要求转专业</td><td>2016-05-04</td><td>转专业</td>
+	</tr><tr>
+		<td>范莎蕊</td><td>510125199711210041</td><td>SA1600016</td><td>民办四川天一学院(绵竹)</td><td>2016</td><td>9</td><td>大专</td><td>艺术设计</td><td>0.00</td><td>0.00</td><td>民办四川天一学院(绵竹)</td><td>2016</td><td>9</td><td>大专</td><td>电子商务</td><td>33920.00</td><td>-750.00</td><td>ssssssss</td><td>2016-05-04</td><td>转专业</td>
+	</tr><tr>
+		<td>俄作五卡</td><td>513434199604104556</td><td>&nbsp;</td><td>民办四川天一学院(绵竹)</td><td>2016</td><td>9</td><td>大专</td><td>体育运营与管理</td><td>0.00</td><td>0.00</td><td>民办四川天一学院(绵竹)</td><td>2016</td><td>9</td><td>中专</td><td>电子商务</td><td>0.00</td><td>0.00</td><td>sdfsdfsfsdf</td><td>2016-05-05</td><td>转专业</td>
+	</tr><tr>
+		<td>顾发会</td><td>513425199710242120</td><td>SA1600017</td><td>民办四川天一学院(绵竹)</td><td>2016</td><td>9</td><td>大专</td><td>旅游管理</td><td>0.00</td><td>0.00</td><td>民办四川天一学院(绵竹)</td><td>2016</td><td>9</td><td>大专</td><td>电子商务</td><td>0.00</td><td>0.00</td><td>报名时要求转专业</td><td>2016-05-05</td><td>转专业</td>
+	</tr><tr>
+		<td>顾发会</td><td>513425199710242120</td><td>SA1600017</td><td>民办四川天一学院(绵竹)</td><td>2016</td><td>9</td><td>大专</td><td>电子商务</td><td>33920.00</td><td>2380.00</td><td>民办四川天一学院(绵竹)</td><td>2016</td><td>9</td><td>大专</td><td>电子信息工程技术</td><td>33920.00</td><td>0.00</td><td>ssasas</td><td>2016-05-13</td><td>转专业</td>
+	</tr><tr>
+		<td>王卿</td><td>513428199510080015</td><td>SA1600026</td><td>民办四川天一学院(绵竹)</td><td>2016</td><td>9</td><td>大专</td><td>财务管理</td><td>30920.00</td><td>0.00</td><td>民办四川天一学院(绵竹)</td><td>2016</td><td>9</td><td>大专</td><td>电子商务</td><td>33920.00</td><td>11100.00</td><td>试试</td><td>2016-05-16</td><td>转专业</td>
+	</tr>
+</table>

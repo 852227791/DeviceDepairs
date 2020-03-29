@@ -1,0 +1,66 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/Student/StudentModify.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<script src="@Url.Content("~/Content/EasyUI/plugins/jquery.edatagrid.js")"></script>
+<div id="modify_tabs" class="easyui-tabs" data-options="border:false">
+    <div title="学生扩展信息" id="info" data-options="border:false">
+        <form id="fModifySave" class="easyui-form" method="post">
+            <table class="t-form">
+                <tr style="display: none;">
+                    <td>StudentID：</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="studentId" name="StudentID" />
+                        <input class="easyui-textbox" type="text" id="studentInfoId" name="StudentInfoID" />
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>民族：</td>
+                    <td>
+                        <input class="easyui-combobox" type="text" id="nation" name="Nation" data-options="editable:false" />
+                    </td>
+                    <td>家庭地址：</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="address" name="Address" data-options="validType:['length[0,64]']" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>生源地：</td>
+                    <td colspan="3">
+                        <input class="easyui-combobox" type="text" id="province" name="ProvinceID" data-options="editable:false" style="width:130px"/>&nbsp;&nbsp;
+                        <input class="easyui-combobox" type="text" id="city" name="CityID" data-options="editable:false,valueField: 'id',textField: 'text'" style="width:130px"/>&nbsp;&nbsp;
+                        <input class="easyui-combobox" type="text" id="district" name="DistrictID" data-options="editable:false,valueField: 'id',textField: 'text'"style="width:130px" />
+                        <input type="text" id="search" name="search" data-options="valueField: 'id',textField: 'text',editable:true" style="width:130px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>QQ号：</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="qq" name="QQ" data-options="validType:['length[0,16]']" />
+                    </td>
+                    <td>微信号：</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="wechat" name="WeChat"data-options="validType:['length[0,32]']"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>毕业学校：</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="school" name="School" data-options="validType:['length[1,64]']" />
+                    </td>
+                    <td>邮编：</td>
+                    <td >
+                        <input class="easyui-textbox" type="text" id="zip" name="Zip" data-options="validType:['length[1,6]']">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+    <div title="联系人信息" id="constact" data-options="border:false,fit:true">
+        <table id="contactgrid" data-options="border:false" style="height:277px"></table>
+    </div>
+</div>

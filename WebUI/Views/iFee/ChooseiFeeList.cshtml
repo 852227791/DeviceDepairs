@@ -1,0 +1,48 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+<script src="@Url.Content("~/Content/Scripts/iFee/ChooseiFeeList.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<div id="infoMainChooseFee" class="easyui-layout" data-options="fit:true">
+    <div title="搜索" data-options="region:'north',border:false,collapsible:false,iconCls:'icon-search'" style="height: 57px;">
+        <div id="searchBoxChooseFee" class="easyui-layout" data-options="fit:true">
+            <form id="fSearchChooseFee" class=" easyui-form">
+                <div data-options="region:'north',border:false">
+                    <div class="t-div">
+                        <div>人员姓名:</div>
+                        <div>
+                            <input id="txtStudentNameChooseFee" name="txtStudentNameChooseFee" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>凭证号:</div>
+                        <div>
+                            <input id="txtVoucherChooseFee" name="txtVoucherChooseFee" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnSearchChooseFee" class="easyui-linkbutton" iconcls="icon-search">查询</a>
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnResetChooseFee" class="easyui-linkbutton" iconcls="icon-undo">重置</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div data-options="region:'center',border:false">
+        <table id="choosefeegrid1" data-options="fit:true,border:true"></table>
+    </div>
+    <div data-options="region:'south',border:false" style="height:250px;">
+        <div id="btn" class="easyui-layout" data-options="fit:true">
+            <div data-options="region:'north',border:false" style="height: 36px;">
+                <div style="text-align: center; margin: 5px 0;">
+                    <a id="btnAdd" href="javascript:void(0)" class="easyui-linkbutton">添&nbsp;&nbsp;加</a> &nbsp;&nbsp;
+                    <a id="btnRemove" href="javascript:void(0)" class="easyui-linkbutton">移&nbsp;&nbsp;除</a>
+                </div>
+            </div>
+            <div data-options="region:'center',border:false">
+                <table id="choosefeegrid2" data-options="fit:true,border:true"></table>
+            </div>
+        </div>
+    </div>
+</div>
+

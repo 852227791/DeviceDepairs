@@ -1,0 +1,32 @@
+﻿@{
+    Layout = "~/Views/Shared/_Blank.cshtml";
+}
+
+@section head
+{
+    <script src="@Url.Content("~/Content/Scripts/Profession/ProfessionList.js")?v=@(new Random().Next())" type="text/javascript"></script>
+}
+
+<div id="infoMain" class="easyui-layout" data-options="fit:true" style="margin-top: 3px;">
+    <div title="校区信息" data-options="region:'west',border:false,collapsible:false,split:true,disabled:true" style="width: 320px;">
+        <table id="deptTree" data-options="fit:true,border:false"></table>
+    </div>
+    <div title="专业信息" data-options="region:'center',border:false">
+        <table id="professionGrid" data-options="fit:true,border:false"></table>
+    </div>
+    <div title="班级信息" data-options="region:'east',border:false,collapsible:false,split:true,disabled:true" style="width: 450px;">
+        <table id="classGrid" data-options="fit:true,border:false"></table>
+    </div>
+</div>
+
+<div id="editProfession"></div>
+<div id="editProfession-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveProfession" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#editProfession').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+
+<div id="editClass"></div>
+<div id="editClass-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveClass" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#editClass').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>

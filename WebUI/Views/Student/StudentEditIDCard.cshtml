@@ -1,0 +1,29 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/Student/StudentEditIDCard.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fIDCardSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>StudentID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="idStudentID" name="idStudentID" />
+            </td>
+        </tr>
+        <tr>
+            <td>姓名：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="idName" name="idName" data-options="readonly:true" />
+            </td>
+        </tr>
+        <tr>
+            <td>身份证号：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="idIDCard" name="idIDCard" data-options="required:true,validType:['length[1,32]','isRight[0,\'身份证号已被使用\']','isRight[1,\'身份证号不规范\']']">
+            </td>
+        </tr>
+    </table>
+</form>
+

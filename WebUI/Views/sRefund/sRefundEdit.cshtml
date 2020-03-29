@@ -1,0 +1,55 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sRefund/sRefundEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<form id="fSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>RefundID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="sRefundID" name="sRefundID" />
+                <input class="easyui-textbox" type="text" id="sFeesOrderID" name="sFeesOrderID" />
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>收费项：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="sFeeName" name="sFeeName" data-options="required:true,editable:false"style="width:400px" />
+                <a id="btnChooseFee" href="javascript:void(0)" class="easyui-linkbutton">选择收费项</a>
+            </td>
+        </tr>
+        <tr>
+            <td>核销类别：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="Sort" name="Sort" data-options="required:true">
+            </td>
+            <td>核销金额：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="RefundMoney" name="RefundMoney" data-options="required:true,min:0,precision:2">
+            </td>
+        </tr>
+        <tr>
+
+            <td>核销时间：</td>
+            <td>
+                <input class="easyui-datebox" type="text" id="RefundTime" name="RefundTime" data-options="required:true">
+            </td>
+            <td>支付对象：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="PayObject" name="PayObject" data-options="required:true">
+            </td>
+        </tr>
+        <tr>
+            <td>核销备注：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="Remark" name="Remark" data-options="multiline:true" style="height: 80px; width: 460px;">
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+

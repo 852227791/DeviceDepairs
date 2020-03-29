@@ -1,0 +1,19 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>姓名</td><td>身份证号</td><td>学历层次</td><td>专业</td><td>在校状态</td><td>变更理由</td><td>系统备注</td>
+	</tr><tr>
+		<td>江飞龙</td><td>511303159308150919</td><td>专科</td><td>工程造价</td><td>退学</td><td>0</td><td>身份证号不规范;此学生不存在;</td>
+	</tr><tr>
+		<td>邓万亿</td><td>511028199107155917</td><td>专科</td><td>汽车技术服务与营销</td><td>退学</td><td>0</td><td>此学生没有报过任何专业;</td>
+	</tr><tr>
+		<td>廖雪玲</td><td>513030199507268121</td><td>专科</td><td>旅游管理</td><td>毕业</td><td>0</td><td>变更状态和当前状态相同;</td>
+	</tr><tr>
+		<td>杨宇</td><td>511621199307280016</td><td>专科</td><td>体育服务与管理</td><td>退学</td><td>0</td><td>此学生没有报过任何专业;</td>
+	</tr><tr>
+		<td>林皓宇</td><td>510903199404060412</td><td>专科</td><td>工商企业管理</td><td>毕业</td><td>0</td><td>身份证号不规范;此学生不存在;</td>
+	</tr><tr>
+		<td>安桂蓉</td><td>510703199404060412</td><td>专科</td><td>会计电算化</td><td>休学</td><td>0</td><td>姓名和身份证号不匹配;</td>
+	</tr><tr>
+		<td>郭秋霞</td><td>510129199511015829</td><td>专科</td><td>工程造价</td><td>离校</td><td>0</td><td>变更状态不存在;</td>
+	</tr>
+</table>

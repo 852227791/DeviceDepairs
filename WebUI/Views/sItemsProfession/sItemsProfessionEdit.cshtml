@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sItemsProfession/sItemsProfessionEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave_Pro" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display:none ;">
+            <td>sItemsProfessionID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="sItemsProfessionID" name="sItemsProfessionID" />
+                <input class="easyui-textbox" type="text" id="ItemID2" name="ItemID" />
+            </td>
+        </tr>
+        <tr>
+            <td>专业：</td>
+            <td>
+                <input class="easyui-combogrid" type="text" id="sProfessionID" name="sProfessionID" data-options="required:true,editable:false" style="width:350px">
+            </td>
+        </tr>
+    </table>
+</form>

@@ -1,0 +1,35 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sProfession/sProfessionEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>sProfessionID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="sProfessionID" name="sProfessionID" />
+                <input class="easyui-textbox" type="text" id="DeptID" name="DeptID" />
+            </td>
+        </tr>
+        <tr>
+            <td>年份：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="Year" name="Year" data-options="required:true,editable:false" />
+            </td>
+        </tr>
+        <tr>
+            <td>月份：</td>
+            <td>
+                <input class="easyui-combobox" id="Month" name="Month" type="text" data-options="required:true,editable:false">
+            </td>
+        </tr>
+        <tr>
+            <td>专业：</td>
+            <td>
+                <input class="easyui-combogrid" type="text" id="ProfessionID" name="ProfessionID" data-options="required:true,editable:false" style="width:350px">
+            </td>
+        </tr>
+    </table>
+</form>

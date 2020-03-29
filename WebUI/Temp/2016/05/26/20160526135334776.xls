@@ -1,0 +1,17 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>姓名</td><td>身份证号</td><td>学历层次</td><td>专业</td><td>在校状态</td><td>变更理由</td><td>系统备注</td>
+	</tr><tr>
+		<td>吉以金作</td><td>513436199406060428</td><td>大专</td><td>会计</td><td>在校2</td><td>已在校读书</td><td>变更状态不存在;此学生不存在;</td>
+	</tr><tr>
+		<td>吉以金作</td><td>513436199406060428</td><td>大专</td><td>会计2</td><td>在校</td><td>已在校读书</td><td>专业不存在;</td>
+	</tr><tr>
+		<td>吉以金作2</td><td>513436199406060428</td><td>大专</td><td>会计</td><td>在校</td><td>已在校读书</td><td>姓名和身份证号不匹配;此学生不存在;</td>
+	</tr><tr>
+		<td>吉以金作</td><td>513436199406060427</td><td>大专</td><td>会计</td><td>在校</td><td>已在校读书</td><td>身份证号不规范;此学生不存在;</td>
+	</tr><tr>
+		<td>吉以金作</td><td>513436199406060428</td><td>中专</td><td>会计</td><td>在校</td><td>已在校读书</td><td>此学生没有报过任何专业;</td>
+	</tr><tr>
+		<td>吉以金作</td><td>513436199406060428</td><td>大专</td><td>会计</td><td>在校</td><td>&nbsp;</td><td>变更理由不能为空;此学生不存在;</td>
+	</tr>
+</table>

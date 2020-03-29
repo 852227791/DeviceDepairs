@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="IE=Edge;chrome=1" http-equiv="X-UA-Compatible" />
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/EasyUI/themes/default/easyui.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/EasyUI/themes/icon.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/Styles/Site.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Content/EasyUI/jquery.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Content/EasyUI/jquery.easyui.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Content/EasyUI/src/jquery.edatagrid.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Content/EasyUI/locale/easyui-lang-zh_CN.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Content/Scripts/Easy.js")"></script>
+    <script type="text/javascript">
+        var menuId = Easy.GetQueryString("MenuID");//获得菜单ID
+        var defaultDeptID = "";    
+        $(function () {
+            $.ajax({
+                type: "post",
+                url: "@Url.Content("~/Power/GetValidatePagePower")",
+                async: false,
+                data: { MenuID: menuId },
+                dataType: "json",
+                success: function (result) {
+                    if (result.IsError === false) {
+                        BindDefaultDeptIDEvent();
+                        firstFunction();
+                    }
+                    else {
+                        Easy.centerShow("系统消息", result.Message, 3000);
+                    }
+                },
+                error: function () {
+                    Easy.centerShow("系统消息", "获取权限失败，请重新登录", 3000);
+                }
+            });
+            Easy.bindResetTimeFormatEvent();//重置编辑时间格式事件
+        });
+
+        BindDefaultDeptIDEvent = function () {
+            $.ajax({
+                type: "post",
+                url: "@Url.Content("~/Dept/GetDefaultDeptID")",
+                async: false,
+                data: { MenuID: menuId },
+                dataType: "json",
+                success: function (result) {
+                    if (result.IsError === false) {
+                        defaultDeptID = result.Message;
+                    }
+                },
+                error: function () {
+                    Easy.centerShow("系统消息", "发现系统错误", 3000);
+                }
+            });
+        }
+    </script>
+    @RenderSection("head", required: false)
+</head>
+<body>
+    @RenderBody()
+</body>
+</html>

@@ -1,0 +1,51 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sOrder/sOrderAdd.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fsOrderAddSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display:none;">
+            <td></td>
+            <td>
+                <input class="easyui-textbox" type="text" id="sOrderContent" name="sOrderContent" />
+            </td>
+        </tr>
+        <tr>
+            <td>学生：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="StuName" name="StuName" data-options="required:true,editable:false" />
+                <a id="btnChooseStudent" href="javascript:void(0)" class="easyui-linkbutton">选择学生</a>
+            </td>
+        </tr>
+        <tr>
+            <td>报名专业：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="sEnrollMajor" name="sEnrollMajor" data-options="required:true,editable:false" />
+            </td>
+        </tr>
+        <tr>
+            <td>缴费方案：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="sEnrollScheme" name="sEnrollScheme" data-options="required:true,editable:false" />
+            </td>
+        </tr>
+        <tr>
+            <td>缴费学期：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="SchemeSemester" name="SchemeSemester" data-options="required:true,editable:false" />
+            </td>
+        </tr>
+        <tr>
+            <td>缴费项：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="sOrderName" name="sOrderName" data-options="required:true,editable:false" />
+                <a id="btnAddSetsOrder" href="javascript:void(0)" class="easyui-linkbutton">设置缴费项</a>
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+

@@ -1,0 +1,9 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>生成结果</td><td>备注</td><td>学生姓名</td><td>年份</td><td>月份</td><td>学习层次</td><td>专业</td><td>缴费方案</td><td>身份证号</td>
+	</tr><tr>
+		<td>缴费单生成成功</td><td>&nbsp;</td><td>邓大大</td><td>2016</td><td>3月（春季）</td><td>中专</td><td>电子商务</td><td>2016年大专缴费方案</td><td>360702199110227251</td>
+	</tr><tr>
+		<td>未生成配品</td><td>方案未设置配品</td><td>邓大大</td><td>2016</td><td>3月（春季）</td><td>中专</td><td>电子商务</td><td>2016年大专缴费方案</td><td>360702199110227251</td>
+	</tr>
+</table>

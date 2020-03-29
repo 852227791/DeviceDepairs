@@ -1,0 +1,19 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sEnroll/StopsEnroll.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSaveStop" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr>
+            <td>退费原因：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="RefundRemark" name="RefundRemark" data-options="required:true,multiline:true" style="height: 80px; width: 260px;" />
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+

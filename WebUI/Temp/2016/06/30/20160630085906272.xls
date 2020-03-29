@@ -1,0 +1,13 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>姓名</td><td>身份证号</td><td>学历层次</td><td>专业</td><td>在校状态</td><td>变更理由</td><td>系统备注</td>
+	</tr><tr>
+		<td>刘晓红</td><td>513701200009094626</td><td>中专+专科</td><td>学前教育</td><td>休学</td><td>aaaa</td><td>变更状态和当前状态相同;</td>
+	</tr><tr>
+		<td>刘晓红</td><td>513701200009094626</td><td>中专+专科</td><td>学前教育</td><td>休学</td><td>aaaa</td><td>变更状态和当前状态相同;</td>
+	</tr><tr>
+		<td>黎洁</td><td>511024200209203545</td><td>中专+专科</td><td>航空服务</td><td>在校</td><td>aaaa</td><td>变更状态和当前状态相同;</td>
+	</tr><tr>
+		<td>陈国松</td><td>511025200104251010</td><td>专科</td><td>汽车电子技术</td><td>在校</td><td>aaaa</td><td>该报名信息状态不能修改</td>
+	</tr>
+</table>

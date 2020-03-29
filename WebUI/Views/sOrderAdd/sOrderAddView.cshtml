@@ -1,0 +1,50 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sOrderAdd/sOrderAddView.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<div id="ViewInfo" class="easyui-tabs" data-options="fit:true,border:false">
+    <div id="t1_sorderadd" title="批量缴费单信息">
+        <table class="bodytable0">
+            <tr>
+                <td>状态：</td>
+                <td><span id="spStatus"></span></td>
+                <td>名称：</td>
+                <td><span id="spName"></span></td>
+            </tr>
+            <tr>
+                <td>校区：</td>
+                <td><span id="spDept"></span></td>
+                <td>年份：</td>
+                <td><span id="spYear"></span></td>
+            </tr>
+            <tr>
+                <td>月份：</td>
+                <td><span id="spMonth"></span></td>
+                <td>专业：</td>
+                <td><span id="spMajor"></span></td>
+            </tr>
+            <tr>
+            <tr>
+                <td>缴费方案名称：</td>
+                <td><span id="spsFeeScheme"></span></td>
+                <td>缴费次数名称：</td>
+                <td><span id="spsFeeSemester"></span></td>
+            </tr>
+            <tr>
+                <td>创建人：</td>
+                <td><span id="spCreateName"></span></td>
+                <td>创建时间：</td>
+                <td><span id="spCreateTime"></span></td>
+            </tr>
+            <tr>
+                <td>备注：</td>
+                <td colspan="3"><span id="spRemark"></span></td>
+            </tr>
+        </table>
+    </div>
+    <div id="t2_sfeeinfo" title="缴费项信息">
+        <table id="view_grid" data-options="fit:true,border:false"></table>
+    </div>
+</div>

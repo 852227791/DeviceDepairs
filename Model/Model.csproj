@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87B4386E-3988-4065-B16B-E1DE22499FDC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AreaModel.cs" />
+    <Compile Include="ClassModel.cs" />
+    <Compile Include="CommonModel.cs" />
+    <Compile Include="ConfigModel.cs" />
+    <Compile Include="DeptAreaModel.cs" />
+    <Compile Include="DeptDCPModel.cs" />
+    <Compile Include="DeptModel.cs" />
+    <Compile Include="DetailModel.cs" />
+    <Compile Include="DetailSubjectModel.cs" />
+    <Compile Include="DisableNoteModel.cs" />
+    <Compile Include="DiscountDetailModel.cs" />
+    <Compile Include="DiscountPlanModel.cs" />
+    <Compile Include="EnrollApiModel.cs" />
+    <Compile Include="EnrollDataModel.cs" />
+    <Compile Include="FeeDetailModel.cs" />
+    <Compile Include="FeeManageModel.cs" />
+    <Compile Include="FeeModel.cs" />
+    <Compile Include="iDisableNoteModel.cs" />
+    <Compile Include="iFeeModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="iOffsetModel.cs" />
+    <Compile Include="iRefundModel.cs" />
+    <Compile Include="iReportConfigModel.cs" />
+    <Compile Include="ItemDetailModel.cs" />
+    <Compile Include="ItemModel.cs" />
+    <Compile Include="LogModel.cs" />
+    <Compile Include="NoteModel.cs" />
+    <Compile Include="OffsetChooserModel.cs" />
+    <Compile Include="OffsetModel.cs" />
+    <Compile Include="PaymentModel.cs" />
+    <Compile Include="PowerModel.cs" />
+    <Compile Include="ProfessionModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProveModel.cs" />
+    <Compile Include="ProveOldModel.cs" />
+    <Compile Include="PurviewModel.cs" />
+    <Compile Include="RefeModel.cs" />
+    <Compile Include="RefeTypeModel.cs" />
+    <Compile Include="RefundModel.cs" />
+    <Compile Include="RoleModel.cs" />
+    <Compile Include="sDisableNoteModel.cs" />
+    <Compile Include="SearchModel.cs" />
+    <Compile Include="sEnrollsProfessionChangeModel.cs" />
+    <Compile Include="sEnrollsProfessionNoteModel.cs" />
+    <Compile Include="sEnrollsProfessionsOrderGiveModel.cs" />
+    <Compile Include="sEnrollsProfessionsOrderModel.cs" />
+    <Compile Include="sEnrollsProfessionStatusModel.cs" />
+    <Compile Include="sFeeModel.cs" />
+    <Compile Include="sEnrollModel.cs" />
+    <Compile Include="sEnrollNumModel.cs" />
+    <Compile Include="sEnrollsProfessionModel.cs" />
+    <Compile Include="sFeesOrderGiveModel.cs" />
+    <Compile Include="sFeesOrderModel.cs" />
+    <Compile Include="sGiveModel.cs" />
+    <Compile Include="sItemsGiveModel.cs" />
+    <Compile Include="sItemsEnrollModel.cs" />
+    <Compile Include="sItemsProfessionModel.cs" />
+    <Compile Include="sOffsetModel.cs" />
+    <Compile Include="sOrderAddDetailModel.cs" />
+    <Compile Include="sOrderAddModel.cs" />
+    <Compile Include="sOrderAddsProfessionModel.cs" />
+    <Compile Include="sOrderCreateModel.cs" />
+    <Compile Include="sOrderGiveModel.cs" />
+    <Compile Include="sOrderModel.cs" />
+    <Compile Include="sOrderNoteModel.cs" />
+    <Compile Include="sProfessionModel.cs" />
+    <Compile Include="sRefundDiscountModel.cs" />
+    <Compile Include="sRefundModel.cs" />
+    <Compile Include="StudentContactModel.cs" />
+    <Compile Include="StudentInfoModel.cs" />
+    <Compile Include="StudentModel.cs" />
+    <Compile Include="SubjectModel.cs" />
+    <Compile Include="UserModel.cs" />
+    <Compile Include="UserRoleModel.cs" />
+    <Compile Include="VerifyModel.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

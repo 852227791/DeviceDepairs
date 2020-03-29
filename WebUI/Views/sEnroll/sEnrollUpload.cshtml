@@ -1,0 +1,57 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+<link href="@Url.Content("~/Content/uploadify/uploadify.css")" rel="stylesheet" type="text/css" />
+<script src="@Url.Content("~/Content/uploadify/swfobject.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Content/uploadify/jquery.uploadify.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Content/Scripts/sEnroll/sEnrollUpload.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<div id="stuLayout" class="easyui-layout" data-options="fit:true">
+    <div title="基本信息" data-options="region:'north',border:false,height:150,doSize:false" id="northPanel">
+        <form id="fupload" class="easyui-form" method="post">
+            <table class="t-form">
+                <tr style="display: none;">
+                    <td></td>
+                    <td>
+                        <div id="uploadfileQueue"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span style="float:right;">报名学校:</span>
+                    </td>
+                    <td>
+                        <input type="text" id="upDeptId" name="upDeptId" class="easyui-combotree" data-options="required:true" />
+                    </td>
+                    <td>层次：</td>
+                    <td>
+                        <input class="easyui-combobox" type="text" id="upSort" name="upSort" data-options="required:true,editable:false" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="float:right;">年份：</td>
+                    <td>
+                        <input class="easyui-combobox" type="text" id="upYear" name="upYear" data-options="required:true" />
+                    </td>
+                    <td style="float:right;">月份：</td>
+                    <td>
+                        <input class="easyui-combobox" type="text" id="upMonth" name="upMonth" data-options="required:true" />
+                    </td>
+                </tr>
+                <tr>
+
+                    <td><span style="float:right;"> 选择文件:</span> </td>
+                    <td>
+                        <div id="file_upload"></div>
+                    </td>
+                    <td><span style="float:right;"> 文件名:</span></td>
+                    <td>
+                        <input type="text" id="filePath" name="filePath" class="easyui-textbox" data-options="required:true,readonly:true" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div title="学生信息" data-options="region:'center',border:false">
+        <table id="gridStudent" data-options="border:false,fit:true"></table>
+    </div>
+</div>

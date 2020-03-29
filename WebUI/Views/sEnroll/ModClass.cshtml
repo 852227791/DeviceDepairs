@@ -1,0 +1,39 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sEnroll/ModClass.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<style type="text/css">
+    .datagrid-wrap {
+        border: 0;
+    }
+</style>
+
+
+<table class="bodytable0">
+    <tr style="display:none">
+        <td></td>
+        <td><input id="modcsEnrollsProfessionID" name="modcsEnrollsProfessionID" type="text" class="easyui-textbox" /></td>
+    </tr>
+    <tr>
+        <td>姓名：</td>
+        <td><span id="modcName"></span></td>
+    </tr>
+    <tr>
+        <td>身份证号：</td>
+        <td><span id="modcIDCard"></span></td>
+    </tr>
+    <tr>
+        <td>学号：</td>
+        <td><span id="modcEnrollNum"></span></td>
+    </tr>
+    <tr>
+        <td>专业：</td>
+        <td><span id="modcMajor"></span></td>
+    </tr>
+    <tr>
+        <td>班级：</td>
+        <td><input id="modcClass" name="modcClass" type="text" class="easyui-combobox" /></td>
+    </tr>
+</table>

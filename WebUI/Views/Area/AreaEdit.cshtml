@@ -1,0 +1,30 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/Area/AreaEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>AreaID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="AreaID" name="AreaID" />
+            </td>
+        </tr>
+        <tr>
+            <td>名称：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="Name" name="Name" data-options="required:true,validType:['length[1,16]']" />
+                
+            </td>
+            
+        </tr>
+        <tr>
+            <td>父级：</td>
+            <td>
+                <input  type="text" id="ParentID" name="ParentID"  data-options="editable:true" />
+            </td>
+        </tr>
+    </table>
+</form>

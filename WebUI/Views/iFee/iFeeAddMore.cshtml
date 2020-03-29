@@ -1,0 +1,71 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+<script src="@Url.Content("~/Content/Scripts/iFee/iFeeAddMore.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fAddSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>AddiFeeID：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="AddiFeeID" name="AddiFeeID" />
+                <input class="easyui-textbox" type="text" id="AddStudentID" name="StudentID" />
+                <input class="easyui-textbox" type="text" id="AddChooseItemDetail" name="AddChooseItemDetail" />
+            </td>
+        </tr>
+        <tr>
+            <td>收费单位：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="AddDeptID" name="DeptID" data-options="required:true" />
+            </td>
+            <td>收费校区:</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="AddDeptAreaID" name="DeptAreaID" data-options="required:true" />
+            </td>
+        </tr>
+        <tr>
+            <td>交款人员:</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="AddPersonSort" name="PersonSort" data-options="required:true" />
+            </td>
+            <td>缴费人：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="AddName" name="AddName" data-options="required:true,editable:false" />
+                <a id="btnAddChooseStudent" href="javascript:void(0)" class="easyui-linkbutton">选择人员</a>
+            </td>
+        </tr>
+        <tr>
+            <td>收费时间：</td>
+            <td>
+                <input class="easyui-datebox" type="text" id="AddFeeTime" name="FeeTime" data-options="required:true">
+            </td>
+            <td>收费项目：</td>
+            <td>
+                <a id="btnAddSetiFee" href="javascript:void(0)" class="easyui-linkbutton">设置收费明细</a>
+            </td>
+        </tr>
+        <tr>
+            <td>应收金额：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="AddShouldMoney" name="AddShouldMoney" data-options="required:true,readonly:true,min:0,precision:2">
+            </td>
+            <td>实收金额：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="AddPaidMoney" name="AddPaidMoney" data-options="required:true,readonly:true,min:0,precision:2">
+            </td>
+        </tr>
+        <tr>
+            <td>优惠金额：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="AddDiscountMoney" name="AddDiscountMoney" data-options="readonly:true,min:0,precision:2" value="0.00">
+            </td>
+            <td>充抵金额：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="AddOffsetMoney" name="AddOffsetMoney" data-options="readonly:true,min:0,precision:2" value="0.00">
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+

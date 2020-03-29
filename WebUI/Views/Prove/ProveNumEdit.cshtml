@@ -1,0 +1,22 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/Prove/ProveNumEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fPrintNumSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>ProveID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="NProveID" name="ProveID" />
+            </td>
+        </tr>
+        <tr>
+            <td>证书编号：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="ProveNum" name="ProveNum" data-options="required:true,validType:['length[1,36]']">
+            </td>
+        </tr>
+    </table>
+</form>

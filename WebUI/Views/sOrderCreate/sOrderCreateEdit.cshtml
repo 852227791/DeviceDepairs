@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sOrderCreate/sOrderCreateEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>sOrderCreateID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="sOrderCreateID" name="sOrderCreateID" />
+            </td>
+        </tr>
+        <tr>
+            <td>校区：</td>
+            <td>
+                <input type="text" id="DeptID" name="DeptID" data-options="required:true,editable:false" />
+            </td>
+        </tr>
+    </table>
+</form>
+

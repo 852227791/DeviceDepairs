@@ -1,0 +1,13 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>凭证号</td><td>票据号</td><td>学生姓名</td><td>学号</td><td>身份证号</td><td>专业</td><td>年份</td><td>月份</td><td>报读类别</td><td>缴费次数</td><td>应缴金额</td><td>实缴金额</td><td>优惠金额</td><td>充抵金额</td><td>被充抵金额</td><td>核销金额</td><td>缴费方式</td><td>收费人</td><td>收费时间</td><td>结账人</td><td>结账时间</td><td>收费单位</td><td>报名校区</td><td>地址</td><td>状态</td><td>说明</td><td>备注</td>
+	</tr><tr>
+		<td>X20160828058489</td><td>3026125</td><td>马蕊</td><td>15290301</td><td>513128199604052828</td><td>会计电算化</td><td>2015</td><td>9</td><td>统招学费</td><td>第二年</td><td>9910.00</td><td>9400.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>刷卡</td><td>杨新</td><td>2016-08-28</td><td>&nbsp;</td><td>&nbsp;</td><td>民办四川天一学院(绵竹)</td><td>绵竹校区</td><td>四川省雅安市宝兴县跷碛藏族乡嘎日村丰收组15号</td><td>正常</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>X20160828058483</td><td>3026119</td><td>马蕊</td><td>15290301</td><td>513128199604052828</td><td>会计电算化</td><td>2015</td><td>9</td><td>统招学费</td><td>第二年</td><td>9910.00</td><td>510.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>现金</td><td>杨新</td><td>2016-08-28</td><td>&nbsp;</td><td>&nbsp;</td><td>民办四川天一学院(绵竹)</td><td>绵竹校区</td><td>四川省雅安市宝兴县跷碛藏族乡嘎日村丰收组15号</td><td>正常</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>X20160827052659</td><td>3020409</td><td>周婷</td><td>15290056</td><td>513722199705244727</td><td>会计电算化</td><td>2015</td><td>9</td><td>统招学费</td><td>第二年</td><td>9910.00</td><td>9910.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>刷卡</td><td>段伟云</td><td>2016-08-27</td><td>&nbsp;</td><td>&nbsp;</td><td>民办四川天一学院(绵竹)</td><td>绵竹校区</td><td>四川省</td><td>正常</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>X20160826049616</td><td>3017364</td><td>余美玲</td><td>15290020</td><td>510781199704020702</td><td>会计电算化</td><td>2015</td><td>9</td><td>统招学费</td><td>第二年</td><td>9910.00</td><td>9910.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>刷卡</td><td>段伟云</td><td>2016-08-26</td><td>&nbsp;</td><td>&nbsp;</td><td>民办四川天一学院(绵竹)</td><td>绵竹校区</td><td>四川省</td><td>正常</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr>
+</table>

@@ -1,0 +1,29 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/DeptArea/DeptAreaEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>DeptAreaID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="DeptAreaID" name="DeptAreaID" />
+                <input class="easyui-textbox" type="text" id="DeptID" name="DeptID" />
+            </td>
+        </tr>
+        <tr>
+            <td>收费校区名称：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="Name" name="Name" data-options="required:true,validType:['length[1,32]','isRight[0,\'收费校区名称不能重复\']']" />
+            </td>
+        </tr>
+        <tr>
+            <td>排序：</td>
+            <td>
+                <input class="easyui-numberspinner" id="Queue" name="Queue" type="text" data-options="required:true">
+            </td>
+        </tr>
+    </table>
+</form>

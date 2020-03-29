@@ -1,0 +1,99 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/Prove/ProveView.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<div id="ViewInfo" class="easyui-tabs" data-options="border:false">
+    <div title="证书信息" id="t1">
+        <table class="bodytable0">
+            <tr>
+                <td style="width: 60px">校区:</td>
+                <td colspan="3"><span id="spDeptName"></span></td>
+            </tr>
+            <tr>
+                <td style="width: 60px">证书名称:</td>
+                <td><span id="spItemName"></span></td>
+                <td style="width: 60px">证书编号:</td>
+                <td><span id="spProveNum"></span></td>
+            </tr>
+            <tr>
+                <td style="width: 60px">报名时间:</td>
+                <td><span id="spEnrollTime"></span></td>
+                <td style="width: 60px">证书状态:</td>
+                <td><span id="spStatus"></span></td>
+
+            </tr>
+            <tr>
+                <td style="width: 60px">强制保存:</td>
+                <td colspan="3"><span id="spForce"></span></td>
+            </tr>
+            <tr>
+                <td>说明：</td>
+                <td colspan="3"><span id="spItemRemark"></span></td>
+            </tr>
+        </table>
+    </div>
+    <div title="学生信息" data-options="closable:false,fit:true">
+        <div class="easyui-layout" style="width:786px;height:490px;">
+            <div data-options="region:'north',title:'基础信息',split:true,border:false,collapsible:false" style="height:205px;">
+                <table class="bodytable0">
+                    <tr>
+                        <td style="width: 60px">姓名:</td>
+                        <td><span id="spStudentName"></span></td>
+                        <td style="width: 60px">身份证号:</td>
+                        <td><span id="spStudentIDCard"></span></td>
+                    </tr>
+                    <tr>
+                        <td>性别:</td>
+                        <td><span id="spSex"></span></td>
+                        <td>联系电话:</td>
+                        <td><span id="spMobile"></span></td>
+                    </tr>
+                    <tr>
+                        <td>QQ号:</td>
+                        <td><span id="spQQ"></span></td>
+                        <td>微信号:</td>
+                        <td><span id="spWeChat"></span></td>
+                    </tr>
+
+                    <tr>
+                        <td>家庭地址：</td>
+                        <td colspan="3"><span id="spAddress"></span></td>
+                    </tr>
+                    <tr>
+                        <td>说明：</td>
+                        <td colspan="3"><span id="spStudentRemark"></span></td>
+                    </tr>
+
+                </table>
+            </div>
+            <div data-options="region:'center',title:'扩展信息',border:false">
+                <table class="bodytable0">
+                    <tr>
+                        <td style="width: 60px">生源地:</td>
+                        <td colspan="3"><span id="spPC"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 60px">民族:</td>
+                        <td><span id="spNation"></span></td>
+                        <td style="width: 60px">邮编:</td>
+                        <td><span id="spZip"></span></td>
+                    </tr>
+                    <tr>
+                        <td>毕业学校：</td>
+                        <td colspan="3"><span id="spSchool"></span></td>
+                    </tr>
+                </table>
+
+            </div>
+            <div data-options="region:'south',title:'联系人信息',split:true,border:false,collapsible:false" style="height:140px;">
+                <table id="studentContanctgrid" data-options="fit:true,border:false"></table>
+            </div>
+        </div>
+
+    </div>
+    <div id="t2" title="交费信息" data-options="closable:false">
+        <table id="feeGrid" data-options="border:false" style="height:495px"></table>
+    </div>
+</div>

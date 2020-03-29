@@ -1,0 +1,84 @@
+﻿@{
+    Layout = "~/Views/Shared/_Blank.cshtml";
+}
+
+@section head
+{
+    <script src="@Url.Content("~/Content/Scripts/User/UserSet.js")?v=@(new Random().Next())" type="text/javascript"></script>
+}
+
+<div id="infoMain" class="easyui-layout" data-options="fit:true">
+    <div title="搜索" data-options="region:'north',border:false,collapsible:false,iconCls:'icon-search'" style="height: 57px;">
+        <div id="searchBox" class="easyui-layout" data-options="fit:true">
+            <form id="fSearch" class="easyui-form">
+                <div data-options="region:'north',border:false">
+                    <div class="t-div">
+                        <div>登录名:</div>
+                        <div>
+                            <input id="txtLoginName" name="txtLoginName" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>姓名:</div>
+                        <div>
+                            <input id="txtName" name="txtName" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>手机:</div>
+                        <div>
+                            <input id="txtMobile" name="txtMobile" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnSearch" class="easyui-linkbutton" iconcls="icon-search">查询</a>
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnReset" class="easyui-linkbutton" iconcls="icon-undo">重置</a>
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="openSearchBox" class="easyui-linkbutton" iconcls="icon-add2">展开高级搜索</a>
+                            <a href="javascript:void(0)" id="closeSearchBox" class="easyui-linkbutton" iconcls="icon-clear" style="display: none;">关闭高级搜索</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-options="region:'center',border:false">
+                    <div class="t-div">
+                        <div>用户分类:</div>
+                        <div>
+                            <input class="easyui-combobox" id="selUserType" name="selUserType" type="text" style="width: 80px;">
+                        </div>
+                        <div>性别:</div>
+                        <div>
+                            <input class="easyui-combobox" id="selSex" name="selSex" type="text" style="width: 80px;">
+                        </div>
+                        <div>最后登录时间:</div>
+                        <div>
+                            <input id="txtLoginTimeS" name="txtLoginTimeS" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>至</div>
+                        <div>
+                            <input id="txtLoginTimeE" name="txtLoginTimeE" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div title="用户信息" data-options="region:'west',border:false,collapsible:false,split:true,disabled:true" style="width: 500px;">
+        <table id="userGrid" data-options="fit:true,border:false"></table>
+    </div>
+    <div title="所属角色" data-options="region:'center',border:false">
+        <table id="roleGrid" data-options="fit:true,border:false"></table>
+    </div>
+    <div title="数据权限" data-options="region:'east',border:false,collapsible:false,split:true,disabled:true" style="width: 400px;">
+        <table id="deptGrid" data-options="fit:true,border:false"></table>
+    </div>
+</div>
+
+<div id="ChooseRole"></div>
+<div id="chooseRole-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSave-Choose" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript:$('#ChooseRole').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+
+<div id="ChooseDept"></div>
+<div id="ChooseDept-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSave" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript:$('#ChooseDept').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>

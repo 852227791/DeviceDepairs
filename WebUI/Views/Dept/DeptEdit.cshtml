@@ -1,0 +1,50 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/Dept/DeptEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>DeptID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="DeptID" name="DeptID" />
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>部门名称：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="Name" name="Name" data-options="required:true,validType:['length[1,16]','isRight[0,\'部门名称不能重复\']']" />
+            </td>
+            <td>上级部门：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="ParentID" name="ParentID" data-options="required:true,validType:['isRight[1,\'不能选择自己或自己的下级作为上级部门\']']" />
+            </td>
+        </tr>
+        <tr>
+            <td>部门简称：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="ShortName" name="ShortName" data-options="validType:['length[0,8]']" />
+            </td>
+            <td>部门编码：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="Code" name="Code" data-options="validType:['length[0,4]','isRight[2,\'部门编码不能重复\']']" />
+            </td>
+        </tr>
+        <tr>
+            <td>排序：</td>
+            <td colspan="3">
+                <input class="easyui-numberspinner" type="text" id="Queue" name="Queue" data-options="required:true" />
+            </td>
+        </tr>
+        <tr>
+            <td>备注：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="Remark" name="Remark" data-options="multiline:true" style="height: 80px; width: 470px;" />
+            </td>
+        </tr>
+    </table>
+</form>

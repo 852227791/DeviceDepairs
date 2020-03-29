@@ -1,0 +1,111 @@
+﻿@{
+    Layout = "~/Views/Shared/_Blank.cshtml";
+}
+
+@section head
+{
+    <script src="@Url.Content("~/Content/Scripts/Prove/ProveList.js")?v=@(new Random().Next())" type="text/javascript"></script>
+}
+
+<div id="infoMain" class="easyui-layout" data-options="fit:true">
+    <div title="搜索" data-options="region:'north',border:false,collapsible:false,iconCls:'icon-search'" style="height: 57px;">
+        <div id="searchBox" class="easyui-layout" data-options="fit:true">
+            <form id="fSearch" class="easyui-form">
+                <div data-options="region:'north',border:false">
+                    <div class="t-div">
+                        <div>证书名称:</div>
+                        <div>
+                            <input id="txtProveName" name="txtProveName" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>学生姓名:</div>
+                        <div>
+                            <input id="txtName" name="txtName" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>身份证号:</div>
+                        <div>
+                            <input id="txtIDCard" name="txtIDCard" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>状态:</div>
+                        <div>
+                            <input class="easyui-combobox" id="selStatus" name="selStatus" type="text" style="width: 80px;">
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnSearch" class="easyui-linkbutton" iconcls="icon-search">查询</a>
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnReset" class="easyui-linkbutton" iconcls="icon-undo">重置</a>
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="openSearchBox" class="easyui-linkbutton" iconcls="icon-add2">展开高级搜索</a>
+                            <a href="javascript:void(0)" id="closeSearchBox" class="easyui-linkbutton" iconcls="icon-clear" style="display: none;">关闭高级搜索</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-options="region:'center',border:false">
+                    <div class="t-div">
+                        <div>校区:</div>
+                        <div>
+                            <input class="easyui-combobox" id="treeDept" name="treeDept" type="text" style="width: 100px;">
+                        </div>
+                        <div>报名时间:</div>
+                        <div>
+                            <input id="txtEnrollTimeS" name="txtEnrollTimeS" type="text" class="easyui-datebox" style="width: 100px;" />
+                        </div>
+                        <div>至</div>
+                        <div>
+                            <input id="txtEnrollTimeE" name="txtEnrollTimeE" type="text" class="easyui-datebox" style="width: 100px;" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div data-options="region:'center',border:false">
+        <table id="grid" data-options="fit:true,border:false"></table>
+    </div>
+</div>
+
+<div id="editProve"></div>
+<div id="editProve-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSave" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: Easy.closeWindow('editProve', 'file_uploadpic')" iconcls="icon-cancel">关闭</a>
+</div>
+
+<div id="editProveStatus"></div>
+<div id="editProveStatus-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveStatus" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#editProveStatus').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+
+<div id="viewProve"></div>
+<div id="viewProve-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#viewProve').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+
+<div id="chooseStudent"></div>
+<div id="chooseStudent-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveStudent" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#chooseStudent').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+
+<div id="uploadProveStatus"></div>
+<div id="uploadProveStatus-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnUploadStatus" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: Easy.closeWindow('uploadProveStatus', 'file_upload')" iconcls="icon-cancel">关闭</a>
+</div>
+
+<div id="upProve"></div>
+<div id="upProve-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnupProve" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: Easy.closeWindow('upProve', 'file_upload')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="upProveNum"></div>
+<div id="upProveNum-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnupProveNum" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: Easy.closeWindow('upProveNum', 'file_upload1')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="editProveNum"></div>
+<div id="editProveNum-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btneditProveNum" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#editProveNum').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>

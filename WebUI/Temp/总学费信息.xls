@@ -1,0 +1,727 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>在校状态</td><td>学号</td><td>学生姓名</td><td>身份证号</td><td>就读学校</td><td>报读类别</td><td>报读专业</td><td>班级</td><td>预报名日期</td><td>正式报名日期</td><td>首次缴费日期</td><td>总学费金额</td><td>已供贷金额</td><td>未供贷金额</td><td>逾期欠费金额</td><td>逾期欠费(资助)</td><td>年份</td><td>月份</td><td>学历层次</td><td>逾期状态</td>
+	</tr><tr>
+		<td>在校</td><td>E31603613</td><td>田省委</td><td>522324199502064015</td><td>贵州财经大学商务学院</td><td>统招学费,</td><td>行政管理</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>58380.00</td><td>15495.00</td><td>42885.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>本科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>D31602779</td><td>蒲鑫</td><td>510703199707060217</td><td>四川文化传媒职业学院</td><td>统招学费,</td><td>播音与主持</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>43850.00</td><td>15350.00</td><td>28500.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>B31601153</td><td>马艳江</td><td>520221199704174515</td><td>四川希望汽车职业学院</td><td>统招学费,</td><td>新能源汽车技术</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>39950.00</td><td>6050.00</td><td>33900.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601992</td><td>冯松松</td><td>522528199607150012</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601983</td><td>蒲玉茁</td><td>52240119971014861X</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601982</td><td>覃江鸿</td><td>522227199606104417</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>450.00</td><td>28035.00</td><td>9545.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602021</td><td>杨秀娟</td><td>522732199608214220</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>4995.00</td><td>23490.00</td><td>5000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602051</td><td>李秀勇</td><td>522225199711158131</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602026</td><td>黄巧巧</td><td>522501199706062843</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602036</td><td>黄朋</td><td>522422199703207214</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601989</td><td>李章华</td><td>522427199706081372</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602035</td><td>杨勇真</td><td>522630199801080414</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601994</td><td>唐冬冬</td><td>52272519971115615X</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>C31604079</td><td>赵建泽</td><td>511526199607242915</td><td>西南交通大学希望学院(金堂)</td><td>统招学费,</td><td>土木工程</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>68000.00</td><td>18050.00</td><td>49950.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>本科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>D31602778</td><td>杨雅</td><td>511621199701015122</td><td>四川文化传媒职业学院</td><td>统招学费,</td><td>学前教育</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28850.00</td><td>10350.00</td><td>18500.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600128</td><td>李佳豪</td><td>430224200910020253</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-05-17</td><td>2016-08-30</td><td>123500.00</td><td>4550.00</td><td>118950.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600138</td><td>吴琛</td><td>51142120090207676x</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-08-27</td><td>2016-08-30</td><td>123500.00</td><td>4550.00</td><td>118950.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600163</td><td>曹君豪</td><td>510904200903080912</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-07-03</td><td>2016-08-30</td><td>123500.00</td><td>6550.00</td><td>116950.00</td><td>5800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600302</td><td>瞿浩天</td><td>500223200709015630</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-04-27</td><td>2016-08-30</td><td>98800.00</td><td>4550.00</td><td>94250.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600308</td><td>张彤</td><td>330381200801017222</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-05-12</td><td>2016-08-30</td><td>98800.00</td><td>4550.00</td><td>94250.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600378</td><td>徐志翔</td><td>511025200210181132</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>初中2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2013-07-23</td><td>2016-08-30</td><td>61800.00</td><td>4050.00</td><td>57750.00</td><td>11400.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600417</td><td>李坦阳</td><td>511321200511242075</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2013级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-06-17</td><td>2016-08-30</td><td>74100.00</td><td>4550.00</td><td>69550.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600448</td><td>何轩锐</td><td>330303200607133933</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2013级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-08-24</td><td>2016-08-30</td><td>74100.00</td><td>4550.00</td><td>69550.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600529</td><td>蒋琳</td><td>500228200604142520</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2012级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-06-06</td><td>2016-08-30</td><td>49400.00</td><td>4000.00</td><td>45400.00</td><td>8350.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>马紫洋</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2012级</td><td>&nbsp;</td><td>2014-09-04</td><td>&nbsp;</td><td>2016-08-30</td><td>49400.00</td><td>4550.00</td><td>44850.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600572</td><td>李晨阳</td><td>340121201005154014</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-04-12</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>D31602772</td><td>杜秀英</td><td>513002199808046340</td><td>四川文化传媒职业学院</td><td>统招学费,</td><td>市场营销</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28850.00</td><td>10350.00</td><td>18500.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>彭钰轩</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>2016-07-07</td><td>&nbsp;</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B21600378</td><td>李泰塬</td><td>511028200102283237</td><td>成都郫县希望职业学校</td><td>成教学费,</td><td>汽车全能技师</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>26900.00</td><td>8800.00</td><td>18100.00</td><td>0.00</td><td>1700.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>郑远豪</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>2016-06-03</td><td>&nbsp;</td><td>2016-08-30</td><td>98800.00</td><td>5350.00</td><td>93450.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600665</td><td>谢昊洋</td><td>34130220100621363X</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>148200.00</td><td>12350.00</td><td>135850.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>周犇</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>2016-08-30</td><td>&nbsp;</td><td>2016-08-30</td><td>148200.00</td><td>12350.00</td><td>135850.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>G21600469</td><td>王亚莉</td><td>513901200010111420</td><td>四川希望汽车技师学院</td><td>成教学费,</td><td>汽车技术服务与营销</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>34500.00</td><td>28800.00</td><td>5700.00</td><td>0.00</td><td>1900.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600667</td><td>秦一楠</td><td>610402201004190809</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>148200.00</td><td>12350.00</td><td>135850.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>G21600473</td><td>蒋德正</td><td>511025199911137657</td><td>四川希望汽车技师学院</td><td>成教学费,</td><td>汽车维修</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>34500.00</td><td>8800.00</td><td>25700.00</td><td>0.00</td><td>1900.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>G21600478</td><td>李德洋</td><td>511526199801140912</td><td>四川希望汽车技师学院</td><td>成教学费,</td><td>新能源汽车检测与维修</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-31</td><td>2016-08-30</td><td>22800.00</td><td>8800.00</td><td>14000.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601144</td><td>陈开宇</td><td>51011220020903009X</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,成教学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>41300.00</td><td>8800.00</td><td>32500.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>中专+专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601146</td><td>廖锐</td><td>51012119970610007X</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,成教学费,</td><td>汽车电子技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>37100.00</td><td>30800.00</td><td>6300.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>专科+本科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>刘箫</td><td>513901199909295533</td><td>资阳汽车科技职业学校</td><td>成教学费,</td><td>汽车运用与维修</td><td>&nbsp;</td><td>2016-08-30</td><td>&nbsp;</td><td>2016-08-30</td><td>22500.00</td><td>2500.00</td><td>20000.00</td><td>5300.00</td><td>1900.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>C21600171</td><td>李浩</td><td>512002200104122311</td><td>资阳汽车科技职业学校</td><td>成教学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>22500.00</td><td>8000.00</td><td>14500.00</td><td>0.00</td><td>1900.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>D31602783</td><td>陈美燕</td><td>511323199710036028</td><td>四川文化传媒职业学院</td><td>统招学费,</td><td>机场运行</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>37850.00</td><td>7350.00</td><td>30500.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>H21600323</td><td>王敏</td><td>511523199711105946</td><td>文化传媒学院继续教育学院</td><td>成教学费,</td><td>学前教育</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>26030.00</td><td>8810.00</td><td>17220.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>D31602785</td><td>成婷</td><td>511323199701011822</td><td>四川文化传媒职业学院</td><td>统招学费,</td><td>学前教育</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28850.00</td><td>10350.00</td><td>18500.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602096</td><td>余冰</td><td>522322199804222469</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>200.00</td><td>28285.00</td><td>9795.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602008</td><td>张茂林</td><td>522130199707247233</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601999</td><td>罗小辉</td><td>522530199706142511</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602015</td><td>程自友</td><td>522427199411142414</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602076</td><td>甘佳</td><td>522428199508040058</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601985</td><td>李洪登</td><td>522428199510101411</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601979</td><td>姜兴</td><td>522222199712083232</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602092</td><td>田美好</td><td>522228199706072017</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602000</td><td>邹进</td><td>522127199712084514</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602065</td><td>刘露</td><td>522401199506111721</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>应用化工技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602003</td><td>付梦桥</td><td>522427199405207496</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>995.00</td><td>27490.00</td><td>9000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602091</td><td>毛蓉</td><td>522325199501024421</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602056</td><td>龙安连</td><td>522632199709291561</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602043</td><td>杨治飞</td><td>522725199609087821</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>C31604083</td><td>刘露</td><td>513821199611186908</td><td>西南交通大学希望学院(金堂)</td><td>统招学费,</td><td>工程造价</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>68000.00</td><td>10050.00</td><td>57950.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>本科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>D31602780</td><td>苟梅</td><td>513430199811157022</td><td>四川文化传媒职业学院</td><td>统招学费,</td><td>学前教育</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28850.00</td><td>2350.00</td><td>26500.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600143</td><td>程梓轩</td><td>511321200902125036</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-07-29</td><td>2016-08-30</td><td>123500.00</td><td>4550.00</td><td>118950.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>谢林峰</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>2015-09-05</td><td>&nbsp;</td><td>2016-08-30</td><td>123500.00</td><td>4550.00</td><td>118950.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600365</td><td>周浩洋</td><td>440923200708030312</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-06-20</td><td>2016-08-30</td><td>98800.00</td><td>4550.00</td><td>94250.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600393</td><td>许静宇</td><td>370702200308141047</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>初中2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2013-07-01</td><td>2016-08-30</td><td>61800.00</td><td>5050.00</td><td>56750.00</td><td>10400.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600586</td><td>杜豪</td><td>510823200608046571</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2012级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-06-13</td><td>2016-08-30</td><td>49400.00</td><td>5350.00</td><td>44050.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600653</td><td>朱子赫</td><td>659002201008092118</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-07-01</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>徐涵</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>2016-05-17</td><td>&nbsp;</td><td>2016-08-30</td><td>148200.00</td><td>2350.00</td><td>145850.00</td><td>10000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B21600379</td><td>陈奕帆</td><td>610302200005285121</td><td>成都郫县希望职业学校</td><td>成教学费,成教学费,</td><td>护理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>34600.00</td><td>7800.00</td><td>26800.00</td><td>0.00</td><td>2200.00</td><td>2016</td><td>9月（秋季）</td><td>中专+专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>兰紫</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>2016-08-30</td><td>&nbsp;</td><td>2016-08-30</td><td>98800.00</td><td>5350.00</td><td>93450.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>G21600465</td><td>杨世黎</td><td>513921200103103898</td><td>四川希望汽车技师学院</td><td>成教学费,</td><td>汽车维修</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>34500.00</td><td>28800.00</td><td>5700.00</td><td>0.00</td><td>1900.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>王迪</td><td>520203199904215016</td><td>贵州应用技术职业学院</td><td>成教学费,</td><td>电子商务</td><td>&nbsp;</td><td>2016-08-30</td><td>&nbsp;</td><td>2016-08-30</td><td>10750.00</td><td>100.00</td><td>10650.00</td><td>2450.00</td><td>2000.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601134</td><td>倪洋</td><td>510104199708083174</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,成教学费,</td><td>汽车电子技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>37100.00</td><td>30800.00</td><td>6300.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>专科+本科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604229</td><td>王明君</td><td>513902199609298624</td><td>民办四川天一学院(绵竹)</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>30920.00</td><td>11100.00</td><td>19820.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601136</td><td>刘欢</td><td>510125199904273129</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,成教学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>37100.00</td><td>8800.00</td><td>28300.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>专科+本科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600668</td><td>唐焱城</td><td>512002201112112919</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>学前班2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>23200.00</td><td>11600.00</td><td>11600.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>E21600213</td><td>刀梓菊</td><td>510422199709087627</td><td>四川天一学院继续教育学院(绵竹)</td><td>成教学费,</td><td>护理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>29400.00</td><td>9800.00</td><td>19600.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>E21600214</td><td>岳相元</td><td>513722199710141781</td><td>四川天一学院继续教育学院(绵竹)</td><td>成教学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>26400.00</td><td>8800.00</td><td>17600.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602047</td><td>冉晓兰</td><td>522126199806253642</td><td>贵州应用技术职业学院</td><td>成教学费,</td><td>护理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>12750.00</td><td>3550.00</td><td>9200.00</td><td>0.00</td><td>2000.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B21600391</td><td>周江南</td><td>513922199807017577</td><td>成都郫县希望职业学校</td><td>成教学费,</td><td>烹饪</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>26900.00</td><td>14000.00</td><td>12900.00</td><td>0.00</td><td>1700.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B21600392</td><td>岳娇</td><td>511922200104017929</td><td>成都郫县希望职业学校</td><td>成教学费,成教学费,</td><td>护理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>34600.00</td><td>7800.00</td><td>26800.00</td><td>0.00</td><td>2200.00</td><td>2016</td><td>9月（秋季）</td><td>中专+专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601151</td><td>王稼林</td><td>513328200102100013</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,</td><td>计算机及应用</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28100.00</td><td>8800.00</td><td>19300.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604236</td><td>刘贤华</td><td>510921199606292717</td><td>民办四川天一学院(绵竹)</td><td>统招学费,</td><td>计算机应用技术</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>33920.00</td><td>12100.00</td><td>21820.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604232</td><td>李凯凯</td><td>511321199810088797</td><td>民办四川天一学院(绵竹)</td><td>单招学费,</td><td>市场营销</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>30920.00</td><td>8100.00</td><td>22820.00</td><td>3000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>E31603612</td><td>陶永兴</td><td>522427199408042631</td><td>贵州财经大学商务学院</td><td>统招学费,</td><td>金融学</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>58380.00</td><td>1045.00</td><td>57335.00</td><td>14450.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>本科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604230</td><td>李小兰</td><td>511323199710274042</td><td>民办四川天一学院(绵竹)</td><td>统招学费,</td><td>护理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>41120.00</td><td>14900.00</td><td>26220.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604222</td><td>六斤他</td><td>513224199612081530</td><td>民办四川天一学院(绵竹)</td><td>统招学费,</td><td>物流管理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-29</td><td>2016-08-30</td><td>30920.00</td><td>11100.00</td><td>19820.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>B31601148</td><td>姚伟</td><td>511321199608102874</td><td>四川希望汽车职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>31850.00</td><td>11350.00</td><td>20500.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>B31601154</td><td>张攀丰</td><td>511323199711103077</td><td>四川希望汽车职业学院</td><td>统招学费,</td><td>新能源汽车技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>39950.00</td><td>10000.00</td><td>29950.00</td><td>4050.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601986</td><td>熊银</td><td>522401200001191231</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602009</td><td>胡琦</td><td>52242619960818323X</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602078</td><td>刘贵珍</td><td>522428199312024064</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1495.00</td><td>26990.00</td><td>8500.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602094</td><td>黎巷</td><td>522228199612063013</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>300.00</td><td>28185.00</td><td>9695.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602072</td><td>邰燕林</td><td>522625199704244711</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602019</td><td>王宇航</td><td>522422199609123436</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>应用化工技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>600.00</td><td>27885.00</td><td>9395.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602028</td><td>余虹澄</td><td>520121199608141013</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602050</td><td>林艳</td><td>520203199711184321</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602089</td><td>周康瑞</td><td>522731199704102898</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>C31604081</td><td>刘新源</td><td>513821199708148051</td><td>西南交通大学希望学院(金堂)</td><td>统招学费,</td><td>投资学</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>68000.00</td><td>5000.00</td><td>63000.00</td><td>13050.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>本科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600146</td><td>黄欣怡</td><td>510112200810240282</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-08-27</td><td>2016-08-30</td><td>123500.00</td><td>4550.00</td><td>118950.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600225</td><td>胡彦廷</td><td>510823200802267730</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-08-31</td><td>2016-08-30</td><td>123500.00</td><td>1550.00</td><td>121950.00</td><td>10800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600227</td><td>彭奕涵</td><td>500223200905025668</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-09-09</td><td>2016-08-30</td><td>123500.00</td><td>4550.00</td><td>118950.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600253</td><td>左正豪</td><td>511024200805187270</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-08-02</td><td>2016-08-30</td><td>98800.00</td><td>4550.00</td><td>94250.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600257</td><td>刘彦彤</td><td>510132200811120085</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-08-14</td><td>2016-08-30</td><td>98800.00</td><td>4550.00</td><td>94250.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600363</td><td>何子涵</td><td>510108200806010025</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-06-15</td><td>2016-08-30</td><td>98800.00</td><td>6550.00</td><td>92250.00</td><td>5800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>黎佳欣</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>2014-07-01</td><td>&nbsp;</td><td>2016-08-30</td><td>98800.00</td><td>4550.00</td><td>94250.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>刘宇佳</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2013级</td><td>&nbsp;</td><td>2013-08-25</td><td>&nbsp;</td><td>2016-08-30</td><td>74100.00</td><td>4550.00</td><td>69550.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600582</td><td>陈艺心</td><td>511028200606170826</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2012级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-05-07</td><td>2016-08-30</td><td>49400.00</td><td>5350.00</td><td>44050.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>帅雪萍</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2011级</td><td>&nbsp;</td><td>2013-07-15</td><td>&nbsp;</td><td>2016-08-30</td><td>24700.00</td><td>6050.00</td><td>18650.00</td><td>6300.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>苟涓松</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2012级</td><td>&nbsp;</td><td>2016-08-30</td><td>&nbsp;</td><td>2016-08-30</td><td>49400.00</td><td>12350.00</td><td>37050.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600660</td><td>王亚浩</td><td>361002200901102250</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>123500.00</td><td>5350.00</td><td>118150.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>刘梓煊</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>2016-08-30</td><td>&nbsp;</td><td>2016-08-30</td><td>123500.00</td><td>12350.00</td><td>111150.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A51600078</td><td>黄莉芝</td><td>511621199710207900</td><td>四川五月花专修学院</td><td>成教学费,成教学费,</td><td>财务会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>33800.00</td><td>14800.00</td><td>19000.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科+本科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>E21600212</td><td>余小凤</td><td>510183199712295300</td><td>四川天一学院继续教育学院(绵竹)</td><td>成教学费,</td><td>护理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>29400.00</td><td>9800.00</td><td>19600.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602007</td><td>王荣哲</td><td>52242519970805421X</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601138</td><td>李茂恺</td><td>511502199809063551</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,成教学费,</td><td>建筑工程管理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>37100.00</td><td>8800.00</td><td>28300.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>专科+本科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B21600388</td><td>赵印华</td><td>51372119980715825X</td><td>成都郫县希望职业学校</td><td>成教学费,成教学费,</td><td>烹饪</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>38900.00</td><td>9800.00</td><td>29100.00</td><td>0.00</td><td>1700.00</td><td>2016</td><td>9月（秋季）</td><td>中专+专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B21600389</td><td>廖方林</td><td>511028200005190813</td><td>成都郫县希望职业学校</td><td>成教学费,</td><td>游戏动漫高级设计师</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>26900.00</td><td>21800.00</td><td>5100.00</td><td>0.00</td><td>1700.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600670</td><td>黄讯</td><td>510122201008100212</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>148200.00</td><td>10350.00</td><td>137850.00</td><td>2000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601147</td><td>潘文港</td><td>510121199706041014</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,成教学费,</td><td>汽车电子技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>37100.00</td><td>13800.00</td><td>23300.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>专科+本科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>安幼熙</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>学前班2016级</td><td>&nbsp;</td><td>2016-08-30</td><td>&nbsp;</td><td>2016-08-30</td><td>23200.00</td><td>10000.00</td><td>13200.00</td><td>1600.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>H21600322</td><td>王万瑶</td><td>513023199811123329</td><td>文化传媒学院继续教育学院</td><td>成教学费,</td><td>会计信息管理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>26030.00</td><td>8810.00</td><td>17220.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>G21600476</td><td>谢正华</td><td>511524199806076910</td><td>四川希望汽车技师学院</td><td>成教学费,</td><td>汽车维修</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>22800.00</td><td>8800.00</td><td>14000.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>D31602784</td><td>谭雅维</td><td>511323199810281928</td><td>四川文化传媒职业学院</td><td>统招学费,</td><td>学前教育</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28850.00</td><td>10350.00</td><td>18500.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>E31603616</td><td>马现敏</td><td>522122199709200826</td><td>贵州财经大学商务学院</td><td>统招学费,</td><td>行政管理</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>58380.00</td><td>7495.00</td><td>50885.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>本科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604231</td><td>朱殿清</td><td>510521199805314390</td><td>民办四川天一学院(绵竹)</td><td>统招学费,</td><td>市场营销</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>30920.00</td><td>11100.00</td><td>19820.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604228</td><td>刘兰</td><td>511322199912223925</td><td>民办四川天一学院(绵竹)</td><td>统招学费,</td><td>护理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>41120.00</td><td>14900.00</td><td>26220.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604238</td><td>杨志军</td><td>513701199610040914</td><td>民办四川天一学院(绵竹)</td><td>统招学费,</td><td>汽车运用与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>33920.00</td><td>12100.00</td><td>21820.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604233</td><td>杨蓉</td><td>51322719980803062X</td><td>民办四川天一学院(绵竹)</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>30920.00</td><td>3100.00</td><td>27820.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604223</td><td>胡龙</td><td>513433199806084913</td><td>民办四川天一学院(绵竹)</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>30920.00</td><td>11100.00</td><td>19820.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>B31601151</td><td>江睿</td><td>222424199712114919</td><td>四川希望汽车职业学院</td><td>统招学费,</td><td>新能源汽车技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>39950.00</td><td>8500.00</td><td>31450.00</td><td>5550.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602074</td><td>敖云贵</td><td>520202199902084415</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602005</td><td>朱霄</td><td>522526199712221422</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602081</td><td>周治旺</td><td>522423199407107338</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602010</td><td>王荣福</td><td>522636199607021419</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602034</td><td>唐振雄</td><td>520121199612201218</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601988</td><td>王彬彬</td><td>520203199804010216</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602001</td><td>常丹</td><td>522428199511220826</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602097</td><td>邹强</td><td>522228199503103012</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602013</td><td>张平金</td><td>52263019980116073X</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602057</td><td>袁朝富</td><td>522726199704120016</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601993</td><td>杨先行</td><td>52273219960501301X</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>C31604085</td><td>陈思伟</td><td>513826199710221811</td><td>西南交通大学希望学院(金堂)</td><td>统招学费,</td><td>工程造价</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>42300.00</td><td>5000.00</td><td>37300.00</td><td>10000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>C31604082</td><td>欧芳</td><td>513125199412042423</td><td>西南交通大学希望学院(金堂)</td><td>统招学费,</td><td>铁道交通运营管理</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>42300.00</td><td>7000.00</td><td>35300.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600134</td><td>潘旺</td><td>640205200908290019</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-06-02</td><td>2016-08-30</td><td>123500.00</td><td>4550.00</td><td>118950.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600136</td><td>刘朕宇</td><td>230102200711270734</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-06-18</td><td>2016-08-30</td><td>123500.00</td><td>4550.00</td><td>118950.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>王紫琪</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>2015-08-30</td><td>&nbsp;</td><td>2016-08-30</td><td>123500.00</td><td>9550.00</td><td>113950.00</td><td>2800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600326</td><td>张馨怡</td><td>51062320080630952X</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-07-17</td><td>2016-08-30</td><td>98800.00</td><td>4550.00</td><td>94250.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600400</td><td>侯佩瑶</td><td>510722200711165243</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-06-14</td><td>2016-08-30</td><td>98800.00</td><td>1550.00</td><td>97250.00</td><td>10800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600413</td><td>杜紫凌</td><td>51082320070621628X</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2013级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-08-09</td><td>2016-08-30</td><td>74100.00</td><td>4550.00</td><td>69550.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600426</td><td>邓裕豪</td><td>51010620010915037X</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>初中2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-06-04</td><td>2016-08-30</td><td>30900.00</td><td>5050.00</td><td>25850.00</td><td>10400.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600531</td><td>张天赐</td><td>130182200608116657</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2012级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-07-28</td><td>2016-08-30</td><td>49400.00</td><td>4550.00</td><td>44850.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>夏洋溢</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2012级</td><td>&nbsp;</td><td>2014-08-14</td><td>&nbsp;</td><td>2016-08-30</td><td>49400.00</td><td>4550.00</td><td>44850.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600570</td><td>阳姗珊</td><td>51152320061126390X</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2012级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-08-31</td><td>2016-08-30</td><td>49400.00</td><td>4550.00</td><td>44850.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>魏天阳</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2011级</td><td>&nbsp;</td><td>2016-08-29</td><td>&nbsp;</td><td>2016-08-30</td><td>24700.00</td><td>5350.00</td><td>19350.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600648</td><td>杨雨翾</td><td>450324200106110011</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>初中2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-07-09</td><td>2016-08-30</td><td>30900.00</td><td>13050.00</td><td>17850.00</td><td>2400.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>王柔</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>2016-07-07</td><td>&nbsp;</td><td>2016-08-30</td><td>148200.00</td><td>2550.00</td><td>145650.00</td><td>9800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>张泽</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>2016-07-13</td><td>&nbsp;</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600658</td><td>史溢</td><td>511421200808024840</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>98800.00</td><td>5350.00</td><td>93450.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600663</td><td>曾嘉仪</td><td>510114200706090109</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2013级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-04-11</td><td>2016-08-30</td><td>74100.00</td><td>5350.00</td><td>68750.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>C21600168</td><td>张春庆</td><td>513901200009171813</td><td>资阳汽车科技职业学校</td><td>成教学费,</td><td>汽车运用与维修</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>22500.00</td><td>12800.00</td><td>9700.00</td><td>0.00</td><td>1900.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>G21600468</td><td>刘一帆</td><td>510626199607303890</td><td>四川希望汽车技师学院</td><td>成教学费,</td><td>汽车维修</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>27800.00</td><td>8800.00</td><td>19000.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601132</td><td>刘小龙</td><td>510904199905062173</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28100.00</td><td>21800.00</td><td>6300.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601139</td><td>肖燕</td><td>510121199911266669</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,</td><td>学前教育</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28100.00</td><td>8800.00</td><td>19300.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>G21600472</td><td>周旭东</td><td>511524199805287070</td><td>四川希望汽车技师学院</td><td>成教学费,</td><td>汽车维修</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>22800.00</td><td>8800.00</td><td>14000.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602032</td><td>蒙祖琴</td><td>522701199802103423</td><td>贵州应用技术职业学院</td><td>成教学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>22500.00</td><td>7900.00</td><td>14600.00</td><td>14600.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>H21600319</td><td>朱洪亮</td><td>513029199805181731</td><td>文化传媒学院继续教育学院</td><td>成教学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>26030.00</td><td>8810.00</td><td>17220.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602040</td><td>杨显琦</td><td>522529199904090032</td><td>贵州应用技术职业学院</td><td>成教学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>10750.00</td><td>2550.00</td><td>8200.00</td><td>0.00</td><td>2000.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602058</td><td>孟西林</td><td>522422199703035416</td><td>贵州应用技术职业学院</td><td>成教学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>22500.00</td><td>7900.00</td><td>14600.00</td><td>14600.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601150</td><td>胡耀文</td><td>513425199912160414</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,</td><td>艺术设计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28100.00</td><td>8800.00</td><td>19300.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601162</td><td>廖雨欣</td><td>51011220000202272X</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,</td><td>学前教育</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-31</td><td>2016-08-30</td><td>28100.00</td><td>21800.00</td><td>6300.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601153</td><td>赵雨婷</td><td>510812200003230027</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,成教学费,</td><td>学前教育</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>41300.00</td><td>8800.00</td><td>32500.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>中专+专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>E31603615</td><td>雍进</td><td>522126199406235015</td><td>贵州财经大学商务学院</td><td>统招学费,</td><td>工商管理</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>58380.00</td><td>10000.00</td><td>48380.00</td><td>5495.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>本科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>E31603617</td><td>李宁</td><td>522725199605207638</td><td>贵州财经大学商务学院</td><td>统招学费,</td><td>金融学</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>58380.00</td><td>7495.00</td><td>50885.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>本科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604227</td><td>邢唯实</td><td>510602199801077814</td><td>民办四川天一学院(绵竹)</td><td>统招学费,</td><td>电子信息工程技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>33920.00</td><td>5000.00</td><td>28920.00</td><td>7100.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31603246</td><td>曹富强</td><td>510622199708043914</td><td>民办四川天一学院(绵竹)</td><td>统招学费,</td><td>工程造价</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-25</td><td>2016-08-30</td><td>33920.00</td><td>5000.00</td><td>28920.00</td><td>7100.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601991</td><td>陈祥林</td><td>522124199612164016</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602062</td><td>李军</td><td>522132199511185918</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602077</td><td>余会</td><td>522422199302133285</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>3995.00</td><td>24490.00</td><td>6000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601975</td><td>张忠权</td><td>522428199705155014</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601976</td><td>马荣</td><td>522428199706010028</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601981</td><td>杨洪军</td><td>522227199708101639</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601980</td><td>田伟</td><td>522228199808074056</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602084</td><td>刘小璨</td><td>522425199703073016</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602029</td><td>代雄艳</td><td>522229199505292247</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602030</td><td>张浩</td><td>522229199609204811</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602071</td><td>龙梅</td><td>522229199612240821</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601996</td><td>田荣剑</td><td>522324199509234013</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602061</td><td>易清海</td><td>522324199906234412</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602045</td><td>石青鹏</td><td>522635199801012456</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600113</td><td>向瑞渝</td><td>500230201009114767</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-06-13</td><td>2016-08-30</td><td>148200.00</td><td>5150.00</td><td>143050.00</td><td>7200.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600130</td><td>余凯城</td><td>350922200904150073</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-09-29</td><td>2016-08-30</td><td>123500.00</td><td>4550.00</td><td>118950.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600179</td><td>宋雨洁</td><td>350725200810274049</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-07-09</td><td>2016-08-30</td><td>123500.00</td><td>6550.00</td><td>116950.00</td><td>5800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600186</td><td>罗嘉鑫</td><td>510525200902260364</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-08-27</td><td>2016-08-30</td><td>123500.00</td><td>4550.00</td><td>118950.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600252</td><td>李俊宏</td><td>51180220080222561x</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-07-31</td><td>2016-08-30</td><td>98800.00</td><td>4550.00</td><td>94250.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600289</td><td>王杰斌</td><td>361002200806292834</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-06-17</td><td>2016-08-30</td><td>98800.00</td><td>8150.00</td><td>90650.00</td><td>4200.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600314</td><td>赵锦辉</td><td>522422200808224219</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-08-27</td><td>2016-08-30</td><td>98800.00</td><td>5550.00</td><td>93250.00</td><td>6800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600367</td><td>陈英杰</td><td>500227200706041812</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-06-30</td><td>2016-08-30</td><td>98800.00</td><td>5550.00</td><td>93250.00</td><td>6800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600371</td><td>彭诗涵</td><td>51132220071129858x</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-06-25</td><td>2016-08-30</td><td>98800.00</td><td>5350.00</td><td>93450.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600430</td><td>刘林志</td><td>511723200202125814</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>初中2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-06-11</td><td>2016-08-30</td><td>30900.00</td><td>5050.00</td><td>25850.00</td><td>10400.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600449</td><td>应欣颖</td><td>330326200607174721</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2013级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-10-13</td><td>2016-08-30</td><td>74100.00</td><td>4550.00</td><td>69550.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600521</td><td>石惊天</td><td>500242200608097170</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2012级</td><td>&nbsp;</td><td>&nbsp;</td><td>2013-07-15</td><td>2016-08-30</td><td>49400.00</td><td>4550.00</td><td>44850.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600589</td><td>王颖慧</td><td>130984200512144828</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2011级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-29</td><td>2016-08-30</td><td>24700.00</td><td>5350.00</td><td>19350.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600651</td><td>陈源峰</td><td>350524201003234515</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-05-27</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>毛思涵</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>2016-06-21</td><td>&nbsp;</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>石睿瑜</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>2016-06-15</td><td>&nbsp;</td><td>2016-08-30</td><td>123500.00</td><td>3750.00</td><td>119750.00</td><td>8600.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>蒋振康</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>2016-06-23</td><td>&nbsp;</td><td>2016-08-30</td><td>98800.00</td><td>5350.00</td><td>93450.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B21600382</td><td>张飞鹏</td><td>511527199902271811</td><td>成都郫县希望职业学校</td><td>成教学费,成教学费,</td><td>建筑装饰高级设计师</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>38900.00</td><td>33800.00</td><td>5100.00</td><td>0.00</td><td>1700.00</td><td>2016</td><td>9月（秋季）</td><td>中专+专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601131</td><td>李奇峰</td><td>513021199912237576</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,成教学费,</td><td>汽车电子技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>41300.00</td><td>8800.00</td><td>32500.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>中专+专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601133</td><td>沙海琪</td><td>513401200012033625</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,成教学费,</td><td>学前教育</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>41300.00</td><td>30800.00</td><td>10500.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>中专+专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>G21600471</td><td>赵耀</td><td>511521199705031239</td><td>四川希望汽车技师学院</td><td>成教学费,</td><td>汽车维修</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>22800.00</td><td>8800.00</td><td>14000.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>B21600387</td><td>袁琳琳</td><td>513721199808147042</td><td>成都郫县希望职业学校</td><td>成教学费,</td><td>护理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>26400.00</td><td>7800.00</td><td>18600.00</td><td>0.00</td><td>2200.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600669</td><td>刘挚阳</td><td>320621200911090031</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>148200.00</td><td>12350.00</td><td>135850.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>D31602642</td><td>虎清华</td><td>51082219960821211X</td><td>四川文化传媒职业学院</td><td>统招学费,</td><td>会计信息管理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-25</td><td>2016-08-30</td><td>28850.00</td><td>10350.00</td><td>18500.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602053</td><td>兰红玲</td><td>52272420000625022X</td><td>贵州应用技术职业学院</td><td>成教学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>10750.00</td><td>2550.00</td><td>8200.00</td><td>0.00</td><td>2000.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>H21600321</td><td>勒伍阿西</td><td>513431199603060222</td><td>文化传媒学院继续教育学院</td><td>成教学费,</td><td>学前教育</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>26030.00</td><td>8810.00</td><td>17220.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600674</td><td>何明浩</td><td>512002201008123810</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>148200.00</td><td>12350.00</td><td>135850.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>B21600393</td><td>姜兴</td><td>513722199909292974</td><td>成都郫县希望职业学校</td><td>成教学费,成教学费,</td><td>UI数字艺术高级设计师</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>38900.00</td><td>9800.00</td><td>29100.00</td><td>0.00</td><td>1700.00</td><td>2016</td><td>9月（秋季）</td><td>中专+专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602079</td><td>周盼</td><td>522425200007209923</td><td>贵州应用技术职业学院</td><td>成教学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>10750.00</td><td>2550.00</td><td>8200.00</td><td>0.00</td><td>2000.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602086</td><td>曾椿喜</td><td>522425199809021513</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604226</td><td>万蓉</td><td>510183199706045305</td><td>民办四川天一学院(绵竹)</td><td>统招学费,</td><td>护理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>41120.00</td><td>14900.00</td><td>26220.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604234</td><td>凌吉丽</td><td>513227199203052420</td><td>民办四川天一学院(绵竹)</td><td>统招学费,</td><td>护理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>41120.00</td><td>6900.00</td><td>34220.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604160</td><td>白科</td><td>513401199711041311</td><td>民办四川天一学院(绵竹)</td><td>统招学费,</td><td>汽车运用与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-27</td><td>2016-08-30</td><td>33920.00</td><td>12100.00</td><td>21820.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604224</td><td>吉克鲁则</td><td>513436199801082213</td><td>民办四川天一学院(绵竹)</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>30920.00</td><td>3100.00</td><td>27820.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B31601149</td><td>林超华</td><td>511621199901018336</td><td>四川希望汽车职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>31850.00</td><td>3350.00</td><td>28500.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602087</td><td>刘明明</td><td>522401199509140018</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602042</td><td>蒋乔妹</td><td>522229199608095422</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601978</td><td>任江</td><td>522222199710121215</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602016</td><td>周浩</td><td>522227199707035211</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602048</td><td>张小义</td><td>522228199810142468</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602093</td><td>张海飞</td><td>522228199609272447</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车营销与服务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602033</td><td>陈煜</td><td>522729199510083615</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车营销与服务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602054</td><td>张昌博</td><td>520202199707278513</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602039</td><td>肖弦</td><td>522121199704207416</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601997</td><td>娄超</td><td>522123199708185018</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602049</td><td>王涛</td><td>522530199804240553</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602002</td><td>陈丽娟</td><td>522427199708163443</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601977</td><td>钟宏莲</td><td>522428199704050026</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602070</td><td>王庭忠</td><td>52262219941221153X</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602088</td><td>石玉凤</td><td>52263219980807014X</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车营销与服务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>C31604086</td><td>李雪</td><td>510603199801302408</td><td>西南交通大学希望学院(金堂)</td><td>统招学费,</td><td>市场营销</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>68000.00</td><td>18050.00</td><td>49950.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>本科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>C31604080</td><td>罗宇</td><td>511521199812167772</td><td>西南交通大学希望学院(金堂)</td><td>统招学费,</td><td>工程造价</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>42300.00</td><td>5000.00</td><td>37300.00</td><td>10000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600212</td><td>李均浩</td><td>511502200908235174</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-05-15</td><td>2016-08-30</td><td>123500.00</td><td>4550.00</td><td>118950.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600382</td><td>王文斌</td><td>361002200703232812</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2013级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-06-17</td><td>2016-08-30</td><td>74100.00</td><td>8150.00</td><td>65950.00</td><td>4200.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600394</td><td>杨宸</td><td>510402200611050914</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2013级</td><td>&nbsp;</td><td>&nbsp;</td><td>2002-01-22</td><td>2016-08-30</td><td>74100.00</td><td>7550.00</td><td>66550.00</td><td>4800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600447</td><td>张垚曦</td><td>513223200703150019</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2013级</td><td>&nbsp;</td><td>&nbsp;</td><td>2013-08-01</td><td>2016-08-30</td><td>74100.00</td><td>4550.00</td><td>69550.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600553</td><td>王心怡</td><td>500236200608285588</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2012级</td><td>&nbsp;</td><td>&nbsp;</td><td>2013-07-15</td><td>2016-08-30</td><td>49400.00</td><td>4050.00</td><td>45350.00</td><td>8300.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600579</td><td>洪曦东</td><td>512021201009200012</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-05-27</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601149</td><td>刘金凤</td><td>510121200104228944</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,</td><td>学前教育</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>2016-08-30</td><td>28100.00</td><td>8800.00</td><td>19300.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600654</td><td>陈静芸</td><td>445281200701171286</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2013级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-07-11</td><td>2016-08-30</td><td>74100.00</td><td>5350.00</td><td>68750.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600661</td><td>马绍栩</td><td>610721200704043018</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2013级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-06-27</td><td>2016-08-30</td><td>74100.00</td><td>5350.00</td><td>68750.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600662</td><td>郑伟鹏</td><td>33038120071205403X</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-06-03</td><td>2016-08-30</td><td>98800.00</td><td>5350.00</td><td>93450.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>D31602775</td><td>魏智琼</td><td>51192319981224682X</td><td>四川文化传媒职业学院</td><td>统招学费,</td><td>会计信息管理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28850.00</td><td>10350.00</td><td>18500.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604225</td><td>冯艳梅</td><td>513822199710018148</td><td>民办四川天一学院(绵竹)</td><td>统招学费,</td><td>护理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>41120.00</td><td>14900.00</td><td>26220.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600666</td><td>陈芮粞</td><td>51102520081216599X</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>123500.00</td><td>10350.00</td><td>113150.00</td><td>2000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>陈诗琪</td><td>510125200012041221</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,成教学费,</td><td>航空服务</td><td>&nbsp;</td><td>2016-08-30</td><td>&nbsp;</td><td>2016-08-30</td><td>53900.00</td><td>1000.00</td><td>52900.00</td><td>11800.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>中专+专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602024</td><td>王伟</td><td>522727199609302731</td><td>贵州应用技术职业学院</td><td>成教学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>22500.00</td><td>7900.00</td><td>14600.00</td><td>14600.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>D31602781</td><td>刘娟</td><td>510823199601188942</td><td>四川文化传媒职业学院</td><td>统招学费,</td><td>会计信息管理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28850.00</td><td>10350.00</td><td>18500.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601145</td><td>杜兰妮</td><td>511325199901252826</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,成教学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>37100.00</td><td>8800.00</td><td>28300.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>专科+本科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602044</td><td>秦中芳</td><td>52272519961008162X</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>500.00</td><td>27985.00</td><td>9495.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600673</td><td>薛凯元</td><td>130208201008184118</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>148200.00</td><td>12350.00</td><td>135850.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>陈周虎</td><td>511524199806246510</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,成教学费,</td><td>计算机及应用</td><td>&nbsp;</td><td>2016-08-30</td><td>&nbsp;</td><td>2016-08-30</td><td>37100.00</td><td>200.00</td><td>36900.00</td><td>8600.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>专科+本科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>曹兵</td><td>511524199708136713</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,成教学费,</td><td>电子商务</td><td>&nbsp;</td><td>2016-08-30</td><td>&nbsp;</td><td>2016-08-30</td><td>37100.00</td><td>200.00</td><td>36900.00</td><td>8600.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>专科+本科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604235</td><td>糜婷婷</td><td>513030199706155066</td><td>民办四川天一学院(绵竹)</td><td>统招学费,</td><td>财务管理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>30920.00</td><td>9000.00</td><td>21920.00</td><td>2100.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B31601040</td><td>冯开相</td><td>510823199902198933</td><td>四川希望汽车职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-26</td><td>2016-08-30</td><td>31850.00</td><td>11350.00</td><td>20500.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602017</td><td>陈丽菊</td><td>520202199501129360</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>6000.00</td><td>22485.00</td><td>3995.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602025</td><td>杨朝继</td><td>520122199712180035</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602011</td><td>邵成</td><td>520181199706195214</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602004</td><td>袁晋山</td><td>522121199708286238</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>6000.00</td><td>22485.00</td><td>3995.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602041</td><td>黄行健</td><td>522501199610100016</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-31</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602038</td><td>王紫文</td><td>522501199803145560</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602067</td><td>张菊香</td><td>522401199512017029</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602046</td><td>陈珊</td><td>522422199409022622</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602018</td><td>艾琪杰</td><td>522422199605070058</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601990</td><td>赵永爱</td><td>522427199610110132</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602055</td><td>潘子煜</td><td>522632199609210023</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>C31604087</td><td>张旭</td><td>511529199609200427</td><td>西南交通大学希望学院(金堂)</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>42300.00</td><td>6400.00</td><td>35900.00</td><td>8600.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>D31602774</td><td>张春芽</td><td>511623199802085405</td><td>四川文化传媒职业学院</td><td>统招学费,</td><td>学前教育</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28850.00</td><td>2350.00</td><td>26500.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600117</td><td>黄室锦</td><td>510107200912106091</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-03-08</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600240</td><td>黄梓叶</td><td>518232200812152620</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-07-07</td><td>2016-08-30</td><td>98800.00</td><td>3150.00</td><td>95650.00</td><td>9200.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600271</td><td>王濠</td><td>511133200807223214</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-08-30</td><td>2016-08-30</td><td>98800.00</td><td>4550.00</td><td>94250.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600294</td><td>王睿</td><td>510121200808110151</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-04-22</td><td>2016-08-30</td><td>98800.00</td><td>9550.00</td><td>89250.00</td><td>2800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600340</td><td>吕书函</td><td>511324200801180473</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-08-23</td><td>2016-08-30</td><td>98800.00</td><td>4550.00</td><td>94250.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600344</td><td>侯奕岑</td><td>510402200712131414</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-08-14</td><td>2016-08-30</td><td>98800.00</td><td>4550.00</td><td>94250.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600346</td><td>许家宁</td><td>511725200805265317</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-08-27</td><td>2016-08-30</td><td>98800.00</td><td>4550.00</td><td>94250.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600451</td><td>唐雯婷</td><td>512021200307029263</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>初中2015级</td><td>&nbsp;</td><td>2016-07-10</td><td>2016-08-28</td><td>2016-08-30</td><td>61800.00</td><td>6050.00</td><td>55750.00</td><td>9400.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600470</td><td>赖韵竹</td><td>511902200212042923</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>初中2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2013-07-29</td><td>2016-08-30</td><td>30900.00</td><td>5050.00</td><td>25850.00</td><td>10400.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600528</td><td>何南林</td><td>511321200607182214</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2012级</td><td>&nbsp;</td><td>&nbsp;</td><td>2013-09-01</td><td>2016-08-30</td><td>49400.00</td><td>4550.00</td><td>44850.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600550</td><td>李发誉</td><td>513437200606093410</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2012级</td><td>&nbsp;</td><td>&nbsp;</td><td>2013-07-15</td><td>2016-08-30</td><td>49400.00</td><td>4550.00</td><td>44850.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600557</td><td>陈岑</td><td>512021200605150010</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2012级</td><td>&nbsp;</td><td>&nbsp;</td><td>2013-07-15</td><td>2016-08-30</td><td>49400.00</td><td>4050.00</td><td>45350.00</td><td>8300.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600616</td><td>李红</td><td>500232200503251677</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2011级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-08-22</td><td>2016-08-30</td><td>24700.00</td><td>4550.00</td><td>20150.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600650</td><td>梁凯</td><td>512021200910048311</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-04-15</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600652</td><td>李余涵</td><td>511902201007232212</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-06-30</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600655</td><td>伍轩</td><td>510623201006118316</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-06-11</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600656</td><td>唐圣坪</td><td>511381200910258572</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-06-30</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600657</td><td>王鹦夫</td><td>510681201101110316</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-07-10</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B21600381</td><td>李文雪</td><td>51012120001025894X</td><td>成都郫县希望职业学校</td><td>成教学费,</td><td>服装设计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>26900.00</td><td>8800.00</td><td>18100.00</td><td>0.00</td><td>1700.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>G21600464</td><td>巫越洋</td><td>511011200103013194</td><td>四川希望汽车技师学院</td><td>成教学费,</td><td>汽车维修</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>34500.00</td><td>8800.00</td><td>25700.00</td><td>0.00</td><td>1900.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B21600390</td><td>陈晓芳</td><td>513922199808068026</td><td>成都郫县希望职业学校</td><td>成教学费,</td><td>电子商务高级工程师</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>2016-08-30</td><td>26900.00</td><td>21800.00</td><td>5100.00</td><td>0.00</td><td>1700.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>G21600466</td><td>杨子非</td><td>513821199706133075</td><td>四川希望汽车技师学院</td><td>成教学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>22800.00</td><td>8800.00</td><td>14000.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A51600079</td><td>赵琰坤</td><td>511381199809130018</td><td>四川五月花专修学院</td><td>成教学费,成教学费,</td><td>建筑装饰高级设计师</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>33800.00</td><td>9800.00</td><td>24000.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科+本科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602012</td><td>刘超</td><td>522424199708135216</td><td>贵州应用技术职业学院</td><td>成教学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>22500.00</td><td>7900.00</td><td>14600.00</td><td>14600.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>C21600170</td><td>陈贺燕</td><td>513902200011104640</td><td>资阳汽车科技职业学校</td><td>成教学费,</td><td>护理</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>21800.00</td><td>6800.00</td><td>15000.00</td><td>0.00</td><td>2000.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>孙泽胜</td><td>522423199708277330</td><td>贵州应用技术职业学院</td><td>成教学费,</td><td>电子商务</td><td>&nbsp;</td><td>2016-08-30</td><td>&nbsp;</td><td>2016-08-30</td><td>22500.00</td><td>500.00</td><td>22000.00</td><td>22000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602027</td><td>吴培群</td><td>522701199802023423</td><td>贵州应用技术职业学院</td><td>成教学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>22500.00</td><td>7900.00</td><td>14600.00</td><td>14600.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>D31602782</td><td>徐诗梦</td><td>510503199704154567</td><td>四川文化传媒职业学院</td><td>统招学费,</td><td>学前教育</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28850.00</td><td>2350.00</td><td>26500.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>E21600216</td><td>罗均</td><td>51152819970624701X</td><td>四川天一学院继续教育学院(绵竹)</td><td>成教学费,</td><td>电子信息工程技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>26400.00</td><td>8800.00</td><td>17600.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602068</td><td>杨李际</td><td>522601199508288011</td><td>贵州应用技术职业学院</td><td>成教学费,</td><td>应用化工技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>22500.00</td><td>7900.00</td><td>14600.00</td><td>14600.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602085</td><td>付虎</td><td>522401199602219257</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>3000.00</td><td>25485.00</td><td>6995.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A31604237</td><td>刘晓琴</td><td>510902199809251860</td><td>民办四川天一学院(绵竹)</td><td>单招学费,</td><td>市场营销</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>30920.00</td><td>5000.00</td><td>25920.00</td><td>6100.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>E31603614</td><td>张利境</td><td>520221199512243467</td><td>贵州财经大学商务学院</td><td>统招学费,</td><td>金融学</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>58380.00</td><td>7495.00</td><td>50885.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>本科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B31601157</td><td>林吉</td><td>511303199808306510</td><td>四川希望汽车职业学院</td><td>统招学费,</td><td>新能源汽车技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>39950.00</td><td>4000.00</td><td>35950.00</td><td>10050.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B31601150</td><td>范元</td><td>511521199704130518</td><td>四川希望汽车职业学院</td><td>统招学费,</td><td>新能源汽车技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>39950.00</td><td>6050.00</td><td>33900.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B31601156</td><td>张耀巍</td><td>513701199804011812</td><td>四川希望汽车职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>31850.00</td><td>3350.00</td><td>28500.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B31601147</td><td>张都</td><td>511023199811282870</td><td>四川希望汽车职业学院</td><td>统招学费,</td><td>新能源汽车技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>39950.00</td><td>10000.00</td><td>29950.00</td><td>4050.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602082</td><td>陈永荷</td><td>52042119970306004X</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601987</td><td>李兴美</td><td>520424199707200061</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车营销与服务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602083</td><td>陈美</td><td>52242819970801484X</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601998</td><td>周燕</td><td>522224199701070068</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>600.00</td><td>27885.00</td><td>9395.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602073</td><td>安鑫</td><td>522224199701092814</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602080</td><td>胡官鸿</td><td>522324199705105235</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31601984</td><td>谭礼清</td><td>522725199705204821</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602075</td><td>张帅</td><td>52272819960804241X</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>600.00</td><td>27885.00</td><td>9395.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602006</td><td>张籴</td><td>522132199612290979</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>9995.00</td><td>18490.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602037</td><td>左常红</td><td>520201199605284422</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>3995.00</td><td>24490.00</td><td>6000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602052</td><td>陈伟</td><td>52242219980820161X</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602014</td><td>刘红霞</td><td>522425199909083025</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602031</td><td>李丽美</td><td>522634199607054023</td><td>贵州应用技术职业学院</td><td>统招学费,</td><td>会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>28485.00</td><td>1995.00</td><td>26490.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>C31604084</td><td>陈洋</td><td>500106199307083510</td><td>西南交通大学希望学院(金堂)</td><td>统招学费,</td><td>工程造价</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>68000.00</td><td>10050.00</td><td>57950.00</td><td>8000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>本科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>C31604089</td><td>佘鹏宇</td><td>510724199710100859</td><td>西南交通大学希望学院(金堂)</td><td>统招学费,</td><td>建筑工程技术</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>42300.00</td><td>3000.00</td><td>39300.00</td><td>12000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>C31604088</td><td>吉克曲呷</td><td>513432199611244319</td><td>西南交通大学希望学院(金堂)</td><td>统招学费,</td><td>工程测量技术</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>42300.00</td><td>15000.00</td><td>27300.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600118</td><td>王子</td><td>510781200911073554</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-08-18</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600120</td><td>黄瑜琳</td><td>512002201011096120</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-06-08</td><td>2016-08-30</td><td>148200.00</td><td>2800.00</td><td>145400.00</td><td>9550.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600137</td><td>曾莅涵</td><td>510603200902241873</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2015级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-06-29</td><td>2016-08-30</td><td>123500.00</td><td>4550.00</td><td>118950.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600239</td><td>谭佳欣</td><td>621222200801012426</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-07-10</td><td>2016-08-30</td><td>98800.00</td><td>2950.00</td><td>95850.00</td><td>9400.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600262</td><td>李若楠</td><td>510108200710160125</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-06-15</td><td>2016-08-30</td><td>98800.00</td><td>6550.00</td><td>92250.00</td><td>5800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600264</td><td>余雅涵</td><td>510821200712298821</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-08-25</td><td>2016-08-30</td><td>98800.00</td><td>4550.00</td><td>94250.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600291</td><td>李发莉</td><td>513437200712223426</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-04-30</td><td>2016-08-30</td><td>98800.00</td><td>4550.00</td><td>94250.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600293</td><td>陈智扬</td><td>420821200809304050</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-05-30</td><td>2016-08-30</td><td>98800.00</td><td>4550.00</td><td>94250.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600357</td><td>向瑞君</td><td>500230200807064763</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-08-28</td><td>2016-08-30</td><td>98800.00</td><td>5950.00</td><td>92850.00</td><td>6400.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600360</td><td>夏硕溢</td><td>130532200803244011</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2015-05-25</td><td>2016-08-30</td><td>98800.00</td><td>4550.00</td><td>94250.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600368</td><td>宋泰愚</td><td>510321200708287719</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-08-31</td><td>2016-08-30</td><td>98800.00</td><td>4550.00</td><td>94250.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600376</td><td>曾良焱</td><td>510421200803220016</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-02-25</td><td>2016-08-30</td><td>98800.00</td><td>1550.00</td><td>97250.00</td><td>10800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600532</td><td>王宜煊</td><td>511702200610021043</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2012级</td><td>&nbsp;</td><td>&nbsp;</td><td>2014-08-23</td><td>2016-08-30</td><td>49400.00</td><td>4550.00</td><td>44850.00</td><td>7800.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600574</td><td>白诗羽</td><td>510112201003120123</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-04-20</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600576</td><td>余承乐</td><td>500225201002011932</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-04-29</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600649</td><td>项方炫</td><td>330327201008070614</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>陈静怡</td><td>&nbsp;</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2016级</td><td>&nbsp;</td><td>2016-07-11</td><td>&nbsp;</td><td>2016-08-30</td><td>148200.00</td><td>5350.00</td><td>142850.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>C21600167</td><td>袁伦进</td><td>513901200103187010</td><td>资阳汽车科技职业学校</td><td>成教学费,</td><td>汽车运用与维修</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>22500.00</td><td>7800.00</td><td>14700.00</td><td>0.00</td><td>1900.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600659</td><td>毛楷麒</td><td>331003200808263114</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>98800.00</td><td>3750.00</td><td>95050.00</td><td>8600.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B21600380</td><td>何珊珊</td><td>513921200103187825</td><td>成都郫县希望职业学校</td><td>成教学费,成教学费,</td><td>幼儿教育</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>39800.00</td><td>33800.00</td><td>6000.00</td><td>0.00</td><td>2000.00</td><td>2016</td><td>9月（秋季）</td><td>中专+专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600664</td><td>刘馨怡</td><td>320382200701140068</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2013级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-05-03</td><td>2016-08-30</td><td>74100.00</td><td>5350.00</td><td>68750.00</td><td>7000.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B21600384</td><td>李芳婷</td><td>51172120010816032X</td><td>成都郫县希望职业学校</td><td>成教学费,</td><td>财务会计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>26900.00</td><td>8800.00</td><td>18100.00</td><td>0.00</td><td>1700.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>C21600169</td><td>刘志生</td><td>513921200101133874</td><td>资阳汽车科技职业学校</td><td>成教学费,</td><td>计算机应用</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>22500.00</td><td>7800.00</td><td>14700.00</td><td>0.00</td><td>1900.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>B21600386</td><td>王畔欣</td><td>511011199808084157</td><td>成都郫县希望职业学校</td><td>成教学费,成教学费,</td><td>游戏动漫高级设计师</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>38900.00</td><td>9800.00</td><td>29100.00</td><td>0.00</td><td>1700.00</td><td>2016</td><td>9月（秋季）</td><td>中专+专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601140</td><td>喻辉</td><td>511322199809282177</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,成教学费,</td><td>艺术设计</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>37100.00</td><td>30800.00</td><td>6300.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>专科+本科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>陈林涛</td><td>522702199807152490</td><td>贵州应用技术职业学院</td><td>成教学费,</td><td>工业检测与分析</td><td>&nbsp;</td><td>2016-08-30</td><td>&nbsp;</td><td>2016-08-30</td><td>10750.00</td><td>1000.00</td><td>9750.00</td><td>1550.00</td><td>2000.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>H21600320</td><td>林玲</td><td>510521199701102908</td><td>文化传媒学院继续教育学院</td><td>成教学费,</td><td>电子商务</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>26030.00</td><td>8810.00</td><td>17220.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr><tr>
+		<td>在校</td><td>A11600671</td><td>詹森</td><td>510302200806273119</td><td>成都市金牛区天一学校</td><td>中小学学费,</td><td>小学2014级</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>98800.00</td><td>10750.00</td><td>88050.00</td><td>1600.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>中小学</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A21601148</td><td>宋渝</td><td>510181200011304641</td><td>成都五月花计算机专业学校(金堂)</td><td>成教学费,成教学费,</td><td>学前教育</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>41300.00</td><td>30800.00</td><td>10500.00</td><td>0.00</td><td>2100.00</td><td>2016</td><td>9月（秋季）</td><td>中专+专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>F31602069</td><td>余华山</td><td>522601199609203558</td><td>贵州应用技术职业学院</td><td>成教学费,</td><td>汽车检测与维修技术</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>22500.00</td><td>7900.00</td><td>14600.00</td><td>14600.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>预报名</td><td>&nbsp;</td><td>段秋月</td><td>511781200303305746</td><td>四川文化传媒职业学院(团结)</td><td>五年一贯制学费,</td><td>学前教育</td><td>&nbsp;</td><td>2016-08-30</td><td>&nbsp;</td><td>2016-08-30</td><td>27800.00</td><td>21800.00</td><td>6000.00</td><td>0.00</td><td>2000.00</td><td>2016</td><td>9月（秋季）</td><td>中专</td><td><span style=color:#ff0000>逾期</span></td>
+	</tr><tr>
+		<td>在校</td><td>A51600080</td><td>王昌杰</td><td>511102199908100715</td><td>四川五月花专修学院</td><td>成教学费,成教学费,</td><td>互联网高级工程师</td><td>&nbsp;</td><td>&nbsp;</td><td>2016-08-30</td><td>2016-08-30</td><td>33800.00</td><td>9800.00</td><td>24000.00</td><td>0.00</td><td>0.00</td><td>2016</td><td>9月（秋季）</td><td>专科+本科</td><td><span style=color:#1d5ea0>正常</span></td>
+	</tr>
+</table>

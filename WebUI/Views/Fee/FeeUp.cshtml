@@ -1,0 +1,98 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+<link href="@Url.Content("~/Content/uploadify/uploadify.css")" rel="stylesheet" type="text/css" />
+<script src="@Url.Content("~/Content/uploadify/swfobject.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<script src="@Url.Content("~/Content/uploadify/jquery.uploadify.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<script src="@Url.Content("~/Content/Scripts/Fee/FeeUp.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<div id="feeLayout" class="easyui-layout" data-options="fit:true">
+    <div title="收费数据" data-options="region:'north',border:false,height:310,doSize:false" id="northPanel">
+        <form id="fUpload" class="easyui-form" method="post">
+            <table class="t-form">
+                <tr style="display: none;">
+                    <td></td>
+                    <td>
+                        <div id="uploadfileQueue"></div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="width: 80px;">
+                        校区:
+                    </td>
+                    <td>
+                        <input type="text" id="Dept" name="Dept" class="easyui-combotree" data-options="required:true" />
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>证书：</td>
+                    <td>
+                        <input class="easyui-combotree" type="text" id="ItemID" name="ItemID" data-options="required:true" />
+                    </td>
+                    <td>交款人员:</td>
+                    <td>
+                        <input class="easyui-combobox" type="text" id="PersonSort" name="PersonSort" data-options="required:true" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>收费项目：</td>
+                    <td>
+                        <input class="easyui-combotree" type="text" id="ItemDetailID" name="ItemDetailID" data-options="required:true" />
+                    </td>
+                    <td>交费金额：</td>
+                    <td>
+                        <input class="easyui-numberspinner" type="text" id="Money" name="Money" data-options="required:true" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>报名时间：</td>
+                    <td>
+                        <input class="easyui-datebox" type="text" id="EnrollTime" name="EnrollTime" data-options="required:true">
+                    </td>
+                    <td>收费时间：</td>
+                    <td>
+                        <input class="easyui-datebox" type="text" id="FeeTime" name="FeeTime" data-options="required:true">
+                    </td>
+                </tr>
+                <tr>
+                    <td>缴费方式:</td>
+                    <td><input class="easyui-combobox" type="text" id="FeeMode" name="FeeMode" data-options="required:true" /></td>
+                    <td>教师:</td>
+                    <td><input class="easyui-textbox" type="text" id="Teacher" name="Teacher" data-options="validType:['length[0,32]']" /></td>
+                </tr>
+
+                <tr>
+                    <td>选择文件:</td>
+                    <td>
+                        <div id="file_upload"></div>
+                    </td>
+                    <td>文件名:</td>
+                    <td>
+                        <input type="text" id="filePath" name="filePath" class="easyui-textbox" data-options="required:true,readonly:true" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>说明：</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="Explain" name="Explain" data-options="multiline:true" style="height: 50px; width: 200px;" />
+                    </td>
+                    <td>备注：</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="Remark" name="Remark" data-options="multiline:true" style="height: 50px; width: 200px;" />
+                    </td>
+                </tr>
+                <tr></tr>
+            </table>
+        </form>
+    </div>
+    <div title="交费人信息" data-options="region:'center',border:false">
+        <table id="gridStudent" data-options="border:false,fit:true"></table>
+    </div>
+</div>
+
+
+

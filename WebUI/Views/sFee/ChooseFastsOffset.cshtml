@@ -1,0 +1,55 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+<script src="@Url.Content("~/Content/Scripts/sFee/ChooseFastsOffset.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<div  class="easyui-layout" data-options="fit:true">
+    <div title="搜索" data-options="region:'north',border:false,collapsible:false,iconCls:'icon-search'" style="height: 57px;">
+        <div  class="easyui-layout" data-options="fit:true">
+            <form id="sOffsetForm" class="easyui-form">
+                <div data-options="region:'north',border:false">
+                    <div class="t-div">
+                        <div>缴费人:</div>
+                        <div>
+                            <input id="txtChoStudName" name="txtChoStudName" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>凭证号:</div>
+                        <div>
+                            <input id="txtChoVoucherNum" name="txtChoVoucherNum" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>身份证号:</div>
+                        <div>
+                            <input id="txtChoIdCard" name="txtChoIdCard" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnSubmitForm" class="easyui-linkbutton" iconcls="icon-search">查询</a>
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnResetForm" class="easyui-linkbutton" iconcls="icon-undo">重置</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div data-options="region:'west',border:false,collapsible:false,split:true,disabled:true" style="width: 290px;">
+        <table id="sfeeDetail" data-options="fit:true,border:true"></table>
+    </div>
+    <div data-options="region:'center',border:false">
+        <table id="sFeeOrder" data-options="fit:true,border:true"></table>
+    </div>
+    <div data-options="region:'south',border:false" style="height:250px;">
+        <div id="btn" class="easyui-layout" data-options="fit:true">
+            <div data-options="region:'north',border:false" style="height: 36px;">
+                <div style="text-align: center; margin: 5px 0;">
+                    <a id="btnAddsOffset" href="javascript:void(0)" class="easyui-linkbutton"> 添&nbsp;&nbsp; 加 </a> &nbsp;&nbsp;
+                    <a id="btnRemovesOffset" href="javascript:void(0)" class="easyui-linkbutton"> 移&nbsp;&nbsp; 除 </a>
+                </div>
+            </div>
+            <div data-options="region:'center',border:false">
+                <table id="sFeesOffset" data-options="fit:true,border:true"></table>
+            </div>
+        </div>
+    </div>
+</div>
+

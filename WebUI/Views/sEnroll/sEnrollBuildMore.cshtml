@@ -1,0 +1,43 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sEnroll/sEnrollBuildMore.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr>
+            <td>校区：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="buildDeptID" name="buildDeptID" data-options="required:true" />
+            </td>
+            <td>年份：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="buildYear" name="buildYear" data-options="required:true" />
+            </td>
+        </tr>
+        <tr>
+            <td>月份：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="buildMonth" name="buildMonth" data-options="required:true" />
+            </td>
+            <td>学习层次：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="buildEnrollLevel" name="buildEnrollLevel" />
+            </td>
+        </tr>
+        <tr>
+            <td>专业：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="buildsProfessionID" name="buildsProfessionID" />
+            </td>
+            <td>缴费方案：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="buildScheme" name="buildScheme" />
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+

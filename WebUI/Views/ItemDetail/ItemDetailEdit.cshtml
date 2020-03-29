@@ -1,0 +1,65 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/ItemDetail/ItemDetailEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave1" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>ItemDetailID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="ItemDetailID" name="ItemDetailID" />
+                <input class="easyui-textbox" type="text" id="ItemID1" name="ItemID1" />
+            </td>
+        </tr>
+        <tr>
+            <td>收费项：</td>@*,validType:['isRight[2,\'此收费项已经存在\']']*@
+            <td>
+                <input class="easyui-combotree" type="text" id="DetailID" name="DetailID" data-options="required:true" style="width: 250px;" />
+            </td>
+        </tr>
+        <tr>
+            <td>项目分类：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="SortID" name="SortID" data-options="required:true" style="width: 250px;" />
+            </td>
+        </tr>
+        <tr>
+            <td>类别：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="IsGive" name="IsGive" data-options="required:true" style="width: 250px;" />
+            </td>
+        </tr>
+        <tr>
+            <td>金额：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="Money" name="Money" data-options="required:true,min:0,precision:2" value="0" style="width: 250px;" />
+            </td>
+        </tr>
+        <tr>
+            <td>是否是报表列：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="IsReport1" name="IsReport1" data-options="required:true,editable:false" style="width: 250px;" />
+            </td>
+        </tr>
+        <tr>
+            <td>是否显示</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="IsShow1" name="IsShow1" data-options="required:true,editable:false" style="width: 250px;" />
+            </td>
+        </tr>
+        <tr>
+            <td>排序：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="QueueID" name="QueueID" data-options="required:true" style="width: 250px;" />
+            </td>
+        </tr>
+        <tr>
+            <td>备注：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="Remark1" name="Remark1" data-options="multiline:true" style="height: 80px; width: 280px;" />
+            </td>
+        </tr>
+    </table>
+</form>

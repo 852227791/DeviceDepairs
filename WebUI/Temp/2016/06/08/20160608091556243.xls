@@ -1,0 +1,21 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>姓名</td><td>身份证号</td><td>学历层次</td><td>专业</td><td>缴费学年</td><td>费用类别</td><td>缴费类别</td><td>供款金额</td><td>缴费方式</td><td>打印说明</td><td>备注</td><td>系统备注</td>
+	</tr><tr>
+		<td>张航</td><td>510623199308180414</td><td>专科</td><td>会计电算化</td><td>第一年</td><td>学费</td><td>实收</td><td>9890</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>缴费金额超过此订单的金额;</td>
+	</tr><tr>
+		<td>廖雪玲</td><td>51303019950726</td><td>专科</td><td>旅游管理</td><td>第一年</td><td>学费</td><td>实收</td><td>9390</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;此学生不存在;</td>
+	</tr><tr>
+		<td>刘波</td><td>511112199308194511</td><td>专科</td><td>体育服务与管理</td><td>第一年</td><td>学费</td><td>实收</td><td>9390</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>此缴费单已交清;缴费金额超过此订单的金额;</td>
+	</tr><tr>
+		<td>杨宇</td><td>511621199307280016</td><td>专科</td><td>环境艺术设计(室内设计方向)</td><td>第一年</td><td>学费</td><td>实收</td><td>12490</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>此学生没有报过该层次下的任何专业;</td>
+	</tr><tr>
+		<td>冯福恒</td><td>510723199409043617</td><td>专科</td><td>市场营销</td><td>第一年</td><td>学费</td><td>实收</td><td>9610</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>缴费金额超过此订单的金额;</td>
+	</tr><tr>
+		<td>刘洋</td><td>510623199303012817</td><td>专科</td><td>计算机应用技术（网络构建与维护方向）</td><td>第一年</td><td>学费</td><td>实收</td><td>12490</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>缴费金额超过此订单的金额;</td>
+	</tr><tr>
+		<td>沈阿军</td><td>51342319900709491X</td><td>专科</td><td>文秘</td><td>第一年</td><td>学费</td><td>实收</td><td>9390</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>缴费金额超过此订单的金额;</td>
+	</tr><tr>
+		<td>孙金龙</td><td>510902199403198473</td><td>专科</td><td>体育服务与管理</td><td>第一年</td><td>学费</td><td>实收</td><td>9890</td><td>现金</td><td>&nbsp;</td><td>&nbsp;</td><td>缴费金额超过此订单的金额;</td>
+	</tr>
+</table>

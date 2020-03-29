@@ -1,0 +1,13 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>姓名</td><td>身份证号</td><td>证书名称</td><td>证书编号</td><td>系统备注</td>
+	</tr><tr>
+		<td>肖兴微</td><td>51392219970211440X</td><td>物流师（三级）</td><td>1154566856475</td><td>姓名和身份证号不匹配;</td>
+	</tr><tr>
+		<td>杨婷</td><td>510121199609021564</td><td>计算机辅助设计师CAD</td><td>1154566856479</td><td>姓名和身份证号不匹配;</td>
+	</tr><tr>
+		<td>郑应胜</td><td>511681199412033419</td><td>计算机辅助设计师CA</td><td>&nbsp;</td><td>系统内不存在此证书名称;此学生没有报此证书;证书编号不能为空;</td>
+	</tr><tr>
+		<td>兰雅琳</td><td>511522199611065565</td><td>计算机辅助设计师CAD</td><td>1154566856491115456685649111545668564911154566856491115456685649111545668564911154566856491</td><td>证书编号不能超过36个字符;</td>
+	</tr>
+</table>

@@ -1,0 +1,7 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>考生号</td><td>姓名</td><td>身份证号</td><td>性别</td><td>手机号</td><td>QQ</td><td>微信</td><td>地址</td><td>民族</td><td>生源地_省</td><td>生源地_市</td><td>邮政编码</td><td>毕业学校</td><td>父母姓名</td><td>父母电话</td><td>学习层次</td><td>录取专业</td><td>招生部门</td><td>系统备注</td>
+	</tr><tr>
+		<td>16511803121415</td><td>李寒</td><td>511023199705105512</td><td>男</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省资阳市安岳县岳阳镇柠都大道32号新天地咨询中心</td><td>四川省资阳市安岳县岳阳镇柠都大道32号新天地咨询中心</td><td>&nbsp;</td><td>&nbsp;</td><td>000000</td><td>安岳县实验中学</td><td>&nbsp;</td><td>&nbsp;</td><td>大专</td><td>工程造价</td><td>绵竹1</td><td>手机号不能为空;</td>
+	</tr>
+</table>

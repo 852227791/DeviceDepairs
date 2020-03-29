@@ -1,0 +1,11 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>姓名</td><td>身份证号</td><td>学号</td><td>性别</td><td>手机</td><td>系统备注</td>
+	</tr><tr>
+		<td>罗均</td><td>513723197604137524</td><td>C1600018</td><td>女</td><td>13655556666</td><td>姓名/身份证号/学号不匹配;</td>
+	</tr><tr>
+		<td>罗均</td><td>511024195608240016</td><td>C1600008</td><td>男</td><td>12344445555</td><td>姓名/身份证号/学号不匹配;</td>
+	</tr><tr>
+		<td>罗均</td><td>511024195608240016</td><td>C1600008</td><td>男</td><td>12344445555</td><td>姓名/身份证号/学号不匹配;</td>
+	</tr>
+</table>

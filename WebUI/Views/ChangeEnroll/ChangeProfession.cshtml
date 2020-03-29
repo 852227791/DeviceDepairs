@@ -1,0 +1,58 @@
+﻿@{
+    Layout = "~/Views/Shared/_Blank.cshtml";
+}
+
+@section head
+{
+    <script src="@Url.Content("~/Content/Scripts/ChangeEnroll/ChangeProfession.js")?v=@(new Random().Next())" type="text/javascript"></script>
+}
+
+<div id="infoMain" class="easyui-layout" data-options="fit:true">
+    <div title="搜索" data-options="region:'north',border:false,collapsible:false,iconCls:'icon-search'" style="height: 57px;">
+        <div id="searchBox" class="easyui-layout" data-options="fit:true">
+            <form id="fSearch" class="easyui-form">
+                <div data-options="region:'north',border:false">
+                    <div class="t-div">
+                        <div>姓名:</div>
+                        <div>
+                            <input id="txtName" name="txtName" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>身份证号:</div>
+                        <div>
+                            <input id="txtIDCard" name="txtIDCard" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>学号:</div>
+                        <div>
+                            <input id="txtEnrollNum" name="txtEnrollNum" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnSearch" class="easyui-linkbutton" iconcls="icon-search">查询</a>
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnReset" class="easyui-linkbutton" iconcls="icon-undo">重置</a>
+                        </div>
+                        @*<div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="openSearchBox" class="easyui-linkbutton" iconcls="icon-add2">展开高级搜索</a>
+                            <a href="javascript:void(0)" id="closeSearchBox" class="easyui-linkbutton" iconcls="icon-clear" style="display: none;">关闭高级搜索</a>
+                        </div>*@
+                    </div>
+                </div>
+                <div data-options="region:'center',border:false">
+                    @*<div class="t-div">
+                        <div>校区:</div>
+                        <div>
+                            <input class="easyui-combotree" id="selDept" name="selDept" type="text" style="width: 100px;">
+                        </div>
+                    </div>*@
+                </div>
+            </form>
+        </div>
+    </div>
+    <div data-options="region:'center',border:false">
+        <table id="grid" data-options="fit:true,border:false"></table>
+    </div>
+</div>
+<div id="viewChangeProfession"></div>
+<div id="viewChangeProfession-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#viewChangeProfession').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>

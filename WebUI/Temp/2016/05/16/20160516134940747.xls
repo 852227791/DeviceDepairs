@@ -1,0 +1,9 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>姓名</td><td>身份证号</td><td>学历层次</td><td>专业</td><td>班级</td><td>系统备注</td>
+	</tr><tr>
+		<td>a</td><td>b</td><td>c</td><td>d</td><td>e</td><td>身份证号不规范;学习层次不存在;此学生不存在;</td>
+	</tr><tr>
+		<td>谢明旭</td><td>120000197105236511</td><td>大专</td><td>财务管理</td><td>财务管理2班</td><td>此学生不存在;</td>
+	</tr>
+</table>

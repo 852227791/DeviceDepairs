@@ -1,0 +1,78 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<link href="@Url.Content("~/Content/uploadify/uploadify.css")" rel="stylesheet" type="text/css" />
+<script src="@Url.Content("~/Content/uploadify/swfobject.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<script src="@Url.Content("~/Content/uploadify/jquery.uploadify.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<script src="@Url.Content("~/Content/Scripts/Prove/ProveEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td><div id="uploadfileQueuepic"></div></td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="ProveID" name="ProveID" />
+                <input class="easyui-textbox" type="text" id="StudentID" name="StudentID" />
+                <input class="easyui-textbox" type="text" id="IsForce" name="IsForce" value="2" data-options="validType:['isHiddenNull[0]']" />
+                <input type="text" id="filePathpic" name="filePathpic" class="easyui-textbox" />
+            </td>
+        </tr>
+        <tr>
+            <td>校区：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="DeptID" name="DeptID" data-options="required:true,editable:false" />
+            </td>
+            <td>报名时间：</td>
+            <td>
+                <input class="easyui-datebox" type="text" id="EnrollTime" name="EnrollTime" data-options="required:true,editable:false">
+            </td>
+
+        </tr>
+        <tr>
+            <td>专业：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="ProfessionID" name="ProfessionID" data-options="editable:false" />
+            </td>
+            <td>班级：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="ClassID" name="ClassID" data-options="editable:false" />
+            </td>
+        </tr>
+        <tr>
+            <td>学生：</td>
+            <td colspan="2">
+                <input class="easyui-textbox" type="text" id="Name" name="Name" data-options="required:true,editable:false" />
+                <a id="btnChooseStudent" href="javascript:void(0)" class="easyui-linkbutton">选择学生</a>
+            </td>
+            <td  rowspan="4" style="width:200px;">
+                <div id="uploadtab" style="display:none;text-align:center;margin:40px;">
+                    没有学生照片
+                   <div id="file_uploadpic" ></div>
+                </div>
+                <div id="picture"style="text-align:center">
+                    <img id="photo" style="width:120px;">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>证书名称：</td>
+            <td colspan="3">
+                <input class="easyui-combobox" type="text" id="ItemID" name="ItemID" data-options="required:true" />
+                <span id="htmlForce" style="display:none;">
+                    &nbsp;
+                    强制保存
+                    <input id="ckIsForce" name="ckIsForce" type="checkbox" />
+                </span>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>备注：</td>
+            <td colspan="2">
+                <input class="easyui-textbox" type="text" id="Remark" name="Remark" data-options="multiline:true" style="height: 80px; width: 260px;" />
+            </td>
+        </tr>
+    </table>
+</form>

@@ -1,0 +1,67 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sFee/sFeeModify.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="feditSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>sFeeID：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="editsFeeID" name="editsFeeID" />
+                <input class="easyui-textbox" type="text" id="editOrderJsonData" name="editOrderJsonData" />
+                <input class="easyui-textbox" type="text" id="editGiveJsonData" name="editGiveJsonData" />
+                <input class="easyui-textbox" type="text" id="editsEnrollsProfessionID" name="editsEnrollsProfessionID" />
+            </td>
+        </tr>
+        <tr>
+            <td>收费单位：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="editDeptID" name="editDeptID" data-options="required:true,readonly:true" />
+            </td>
+            <td>收费时间：</td>
+            <td>
+                <input class="easyui-datebox" type="text" id="editFeeTime" name="editFeeTime" data-options="required:true">
+            </td>
+        </tr>
+        <tr>
+            <td>交费方案：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="editsEnrollText" name="editsEnrollText" data-options="required:true,editable:false" style="width:550px" />
+            </td>
+        </tr>
+        <tr>
+            <td>缴费方式：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="editFeeMode" name="editFeeMode" data-options="required:true" />
+            </td>
+            <td>交费总额：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="editShouldMoney" name="editShouldMoney" data-options="required:true,min:0,precision:2">
+            </td>
+        </tr>
+        <tr>
+            <td>充抵总额：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="editOffsetMoney" name="editOffsetMoney" data-options="required:true,min:0,precision:2">
+            </td>
+            <td>优惠总额：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="editDiscountMoney1" name="editDiscountMoney" data-options="required:true,min:0,precision:2">
+            </td>
+        </tr>
+        <tr>
+            <td>说明：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="editExplain" name="editExplain" data-options="multiline:true" style="height: 50px; width: 230px;" />
+            </td>
+            <td>备注：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="editRemark" name="editRemark" data-options="multiline:true" style="height: 50px; width: 230px;" />
+            </td>
+        </tr>
+    </table>
+    <div id="tabseditFee" class="easyui-tabs" data-options="border:false">
+    </div>
+</form>

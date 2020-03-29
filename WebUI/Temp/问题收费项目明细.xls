@@ -1,0 +1,21 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>主体</td><td>DetailID</td><td>IsReport</td><td>ItemDetailID</td><td>字段</td><td>收费项</td><td>类型</td>
+	</tr><tr>
+		<td>四川五月花专修学院</td><td>8</td><td>1</td><td>4543</td><td>预报预收</td><td>预收学费类</td><td>少</td>
+	</tr><tr>
+		<td>四川五月花专修学院</td><td>8</td><td>2</td><td>4679</td><td>预报预收</td><td>预收学费类</td><td>多</td>
+	</tr><tr>
+		<td>成都五月花计算机专业学校(金堂)</td><td>170</td><td>2</td><td>11784</td><td>其他押金</td><td>押金类</td><td>少</td>
+	</tr><tr>
+		<td>成都五月花计算机专业学校(金堂)</td><td>169</td><td>2</td><td>11931</td><td>其他保证金</td><td>押金类</td><td>多</td>
+	</tr><tr>
+		<td>成都五月花培训学校(万年场校区)</td><td>173</td><td>2</td><td>12033</td><td>单招考试报名费</td><td>重修类</td><td>多</td>
+	</tr><tr>
+		<td>成都五月花培训学校(万年场校区)</td><td>174</td><td>2</td><td>12034</td><td>其他考试报名费</td><td>重修类</td><td>多</td>
+	</tr><tr>
+		<td>四川天一学院继续教育学院(金堂)</td><td>179</td><td>2</td><td>11796</td><td>其他罚款</td><td>罚款类</td><td>少</td>
+	</tr><tr>
+		<td>四川天一学院继续教育学院(金堂)</td><td>174</td><td>2</td><td>11777</td><td>其他考试报名费</td><td>罚款类</td><td>多</td>
+	</tr>
+</table>

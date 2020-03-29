@@ -1,0 +1,43 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sEnroll/sEnrollModStatus.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<style type="text/css">
+    .datagrid-wrap {
+        border: 0;
+    }
+</style>
+
+
+<table class="bodytable0">
+    <tr style="display:none">
+        <td></td>
+        <td><input id="modsEnrollsProfessionID" name="modsEnrollsProfessionID" type="text" class="easyui-textbox" /></td>
+    </tr>
+    <tr>
+        <td>姓名：</td>
+        <td><span id="modName"></span></td>
+    </tr>
+    <tr>
+        <td>身份证号：</td>
+        <td><span id="modIDCard"></span></td>
+    </tr>
+    <tr>
+        <td>学号：</td>
+        <td><span id="modEnrollNum"></span></td>
+    </tr>
+    <tr>
+        <td>专业：</td>
+        <td><span id="modMajor"></span></td>
+    </tr>
+    <tr>
+        <td>状态：</td>
+        <td><input id="modStatus" name="modStatus" type="text" class="easyui-combobox" /></td>
+    </tr>
+    <tr>
+        <td>原因：</td>
+        <td><input class="easyui-textbox" type="text" id="Explain" name="Explain" data-options="multiline:true" style="height: 40px; width:250px;" /></td>
+    </tr>
+</table>

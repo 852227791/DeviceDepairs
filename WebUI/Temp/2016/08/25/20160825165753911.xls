@@ -1,0 +1,11 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>姓名</td><td>身份证号</td><td>学号</td><td>系统备注</td>
+	</tr><tr>
+		<td>ss</td><td>sss</td><td>ss</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>张青蓉</td><td>511321199810258000</td><td>&nbsp;</td><td>身份证号不规范;学号不能为空;</td>
+	</tr><tr>
+		<td>aaaa</td><td>'511524199904247429</td><td>sdfsdf</td><td>身份证号不规范;</td>
+	</tr>
+</table>

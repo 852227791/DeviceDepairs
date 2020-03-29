@@ -1,0 +1,7 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>凭证号</td><td>收费项目</td><td>系统备注</td><td>核销类别</td><td>核销金额</td><td>核销时间</td><td>支付对象</td><td>备注</td>
+	</tr><tr>
+		<td>1</td><td>2</td><td>凭证号不存在；收费项目不存在；核销类别不存在；核销时间必须是时间格式；核销金额必须是数字；</td><td>3</td><td>s</td><td>5</td><td>6</td><td>7</td>
+	</tr>
+</table>

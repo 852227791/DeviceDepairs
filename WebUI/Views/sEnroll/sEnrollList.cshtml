@@ -1,0 +1,241 @@
+﻿@{
+    Layout = "~/Views/Shared/_Blank.cshtml";
+}
+@section head
+{
+    <script src="@Url.Content("~/Content/Scripts/sEnroll/sEnrollList.js")?v=@(new Random().Next())" type="text/javascript"></script>
+}
+<div id="infoMain" class="easyui-layout" data-options="fit:true">
+    <div title="搜索" data-options="region:'north',border:false,collapsible:false,iconCls:'icon-search'" style="height: 57px;">
+        <div id="searchBox" class="easyui-layout" data-options="fit:true">
+            <form id="fSearch" class="easyui-form">
+                <div data-options="region:'north',border:false">
+                    <div class="t-div">
+                        <div>学生姓名:</div>
+                        <div>
+                            <input id="txtStuName" name="txtStuName" type="text" class="easyui-textbox" style="width: 60px;" />
+                        </div>
+                        <div>考生号:</div>
+                        <div>
+                            <input id="txtExamNum" name="txtExamNum" type="text" class="easyui-textbox" style="width: 60px;" />
+                        </div>
+                        <div>学号:</div>
+                        <div>
+                            <input id="txtEnrollNum" name="txtEnrollNum" type="text" class="easyui-textbox" style="width: 60px;" />
+                        </div>
+                        <div>身份证号:</div>
+                        <div>
+                            <input id="txtIDCard" name="txtIDCard" type="text" class="easyui-textbox" style="width: 80px;" />
+                        </div>
+                        <div>正式报名时间:</div>
+                        <div>
+                            <input id="txtSignTimeS" name="txtSignTimeS" type="text" class="easyui-datebox" style="width: 100px;" />
+                        </div>
+                        <div>至</div>
+                        <div>
+                            <input id="txtSignTimeE" name="txtSignTimeE" type="text" class="easyui-datebox" style="width: 100px;" />
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnSearch" class="easyui-linkbutton" iconcls="icon-search">查询</a>
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnReset" class="easyui-linkbutton" iconcls="icon-undo">重置</a>
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="openSearchBox" class="easyui-linkbutton" iconcls="icon-add2">展开高级搜索</a>
+                            <a href="javascript:void(0)" id="closeSearchBox" class="easyui-linkbutton" iconcls="icon-clear" style="display: none;">关闭高级搜索</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-options="region:'center',border:false">
+                    <div class="t-div">
+                        <div>校区:</div>
+                        <div>
+                            <input id="treeDept" name="treeDept" type="text" class="easyui-combotree" style="width: 100px;">
+                        </div>
+                        <div>学习层次:</div>
+                        <div>
+                            <input id="selLevel" name="selLevel" type="text" class="easyui-combobox" style="width: 60px;" />
+                        </div>
+                        <div>报读类别:</div>
+                        <div>
+                            <input id="selPlanSort" name="selPlanSort" type="text" class="easyui-combobox" style="width: 80px;" />
+                        </div>
+                        <div>专业:</div>
+                        <div>
+                            <input id="txtMajor" name="txtMajor" type="text" class="easyui-textbox" style="width: 80px;" />
+                        </div>
+                        <div>班级:</div>
+                        <div>
+                            <input id="txtClass" name="txtClass" type="text" class="easyui-textbox" style="width: 80px;" />
+                        </div>
+                        <div>年份:</div>
+                        <div>
+                            <input id="selYear" name="selYear" type="text" class="easyui-combobox" style="width: 80px;" />
+                        </div>
+                        <div>月份:</div>
+                        <div>
+                            <input id="selMonth" name="selMonth" type="text" class="easyui-combobox" style="width: 80px;" />
+                        </div>
+                        <div>毕业年份:</div>
+                        <div>
+                            <input id="txtLeaveYear" name="txtLeaveYear" type="text" class="easyui-combobox" style="width: 80px;" />
+                        </div>
+                        <div>状态:</div>
+                        <div>
+                            <input id="selStatus" name="selStatus" type="text" class="easyui-combobox" style="width: 80px;" />
+                        </div>
+                        <div>欠费:</div>
+                        <div>
+                            <input id="selNo" name="selNo" type="text" class="easyui-combobox" style="width: 80px;" />
+                        </div>
+                        <div>预报名时间:</div>
+                        <div>
+                            <input id="txtBeforeEnrollTimeS" name="txtBeforeEnrollTimeS" type="text" class="easyui-datebox" style="width: 100px;" />
+                        </div>
+                        <div>至</div>
+                        <div>
+                            <input id="txtBeforeEnrollTimeE" name="txtBeforeEnrollTimeE" type="text" class="easyui-datebox" style="width: 100px;" />
+                        </div>
+                        <div>第一次缴费时间:</div>
+                        <div>
+                            <input id="txtFirstFeeTimeS" name="txtFirstFeeTimeS" type="text" class="easyui-datebox" style="width: 100px;" />
+                        </div>
+                        <div>至</div>
+                        <div>
+                            <input id="txtFirstFeeTimeE" name="txtFirstFeeTimeE" type="text" class="easyui-datebox" style="width: 100px;" />
+                        </div>
+                        <div>创建时间:</div>
+                        <div>
+                            <input id="txtCreateTimeS" name="txtCreateTimeS" type="text" class="easyui-datebox" style="width: 100px;" />
+                        </div>
+                        <div>至</div>
+                        <div>
+                            <input id="txtCreateTimeE" name="txtCreateTimeE" type="text" class="easyui-datebox" style="width: 100px;" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div data-options="region:'center',border:false">
+        <table id="grid" data-options="fit:true,border:false"></table>
+    </div>
+</div>
+<div id="editsEnroll"></div>
+<div id="editsEnroll-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSave" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#editsEnroll').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="addsEnroll"></div>
+<div id="addsEnroll-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveAddCo" iconcls="icon-ok">保存并生成缴费单</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveAdd" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#addsEnroll').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="chooseStudent"></div>
+<div id="chooseStudent-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveStudent" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#chooseStudent').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="choosesFeeScheme"></div>
+<div id="choosesFeeScheme-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSavesFeeScheme" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#choosesFeeScheme').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="upsEnroll"></div>
+<div id="upsEnroll-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveUpsEnroll" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: Easy.closeWindow('upsEnroll', 'file_upload');" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="sEnrollDetail"></div>
+<div id="sEnrollDetail-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#sEnrollDetail').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="sEnrollBuild"></div>
+<div id="sEnrollBuild-buttons">
+    <a href="javascript:void(0)" id="btnsEnrollBuild" class="easyui-linkbutton" onclick="javascript: $('#sEnrollBuild').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="sEnrollBuildMore"></div>
+<div id="sEnrollBuildMore-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSavesEnrollBuildMore" iconcls="icon-ok">生成</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#sEnrollBuildMore').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="sEnrollStop"></div>
+<div id="sEnrollStop-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSavesEnrollStop" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#sEnrollStop').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="sEnrollTurnMajor"></div>
+<div id="sEnrollTurnMajor-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSavesEnrollTurnMajorCo" iconcls="icon-ok">保存并生成缴费单</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSavesEnrollTurnMajor" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#sEnrollTurnMajor').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="sEnrollTurn"></div>
+<div id="sEnrollTurn-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveTurn" iconcls="icon-ok">确定</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#sEnrollTurn').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="sEnrollAudit"></div>
+<div id="sEnrollAudit-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSavesEnrollAudit" iconcls="icon-ok">通过审查</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#sEnrollAudit').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="ModifyStatus"></div>
+<div id="ModifyStatus-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveModifyStatus" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#ModifyStatus').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="UploadStatus"></div>
+<div id="UploadStatus-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveUploadStatus" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript:  Easy.closeWindow('UploadStatus', 'file_upload1');" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="ClassGrouping"></div>
+<div id="ClassGrouping-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveClassGrouping" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: Easy.closeWindow('ClassGrouping', 'file_upload2');" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="ModfiyClass"></div>
+<div id="ModfiyClass-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveModfiyClass" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#ModfiyClass').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="ModifyLeaveYear"></div>
+<div id="ModifyLeaveYear-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveModifyLeaveYear" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#ModifyLeaveYear').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="upLeaveYear"></div>
+<div id="upLeaveYear-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveupLeaveYear" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: Easy.closeWindow('upLeaveYear', 'yearfile_upload');" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="upEnrollDept"></div>
+<div id="upEnrollDept-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveupEnrollDept" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: Easy.closeWindow('upEnrollDept', 'enroll_file');" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="changeTurn"></div>
+<div id="changeTurn-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSavechangeTurn" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#changeTurn').dialog('close')" iconcls="icon-cancel">关闭</a>
+
+</div>
+<div id="senrollRefund"></div>
+<div id="senrollRefund-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSavesenrollRefund" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#senrollRefund').dialog('close')" iconcls="icon-cancel">关闭</a>
+
+</div>
+
+<div id="upStudyNum"></div>
+<div id="upStudyNum-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveupStudyNum" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: Easy.closeWindow('upStudyNum', 'study_file');" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="gridtoolbar">
+    @* <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-edit',plain:true">按钮</a>*@
+</div>
+

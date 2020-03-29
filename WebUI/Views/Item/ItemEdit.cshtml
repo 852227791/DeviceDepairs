@@ -1,0 +1,96 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/Item/ItemEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>ItemID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="ItemID" name="ItemID" />
+            </td>
+            <td>DeptID</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="DeptID" name="DeptID" />
+            </td>
+        </tr>
+        <tr>
+            <td>项目名称：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="Name" name="Name" data-options="required:true,validType:['length[1,32]','isRight[0,\'项目名称不能重复\']']" />
+            </td>
+            <td>所属项目：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="ParentID" name="ParentID" data-options="required:true,validType:['isRight[1,\'不能选择自己或自己的下级作为上级部门\']']" />
+            </td>
+        </tr>
+        <tr>
+            <td>首字母：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="EnglishName" name="EnglishName" data-options="required:true,validType:['length[1,4]']" />
+            </td>
+            <td>类别：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="Sort" name="Sort" data-options="required:true,editable:false" />
+            </td>
+        </tr>
+        <tr>
+            <td>年份：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="Year" name="Year" data-options="required:true,editable:false" />
+            </td>
+            <td>月份：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="Month" name="Month" data-options="required:true,editable:false" />
+            </td>
+        </tr>
+        <tr>
+            <td>是否是方案：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="IsPlan" name="IsPlan" data-options="required:true,editable:false" />
+            </td>
+            <td>学习层次：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="PlanLevel" name="PlanLevel" data-options="required:true,editable:false" />
+            </td>
+        </tr>
+        <tr>
+            <td>开始时间：</td>
+            <td>
+                <input class="easyui-datebox" type="text" id="StartTime" name="StartTime" />
+            </td>
+            <td>截止时间：</td>
+            <td>
+                <input class="easyui-datebox" type="text" id="EndTime" name="EndTime" />
+            </td>
+        </tr>
+        <tr>
+            <td>缴费截止时间：</td>
+            <td >
+                <input class="easyui-datebox" type="text" id="LimitTime" name="LimitTime" />
+            </td>
+            <td>排序：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="Queue" name="Queue" data-options="required:true,validType:['length[1,4]']" />
+            </td>
+        </tr>
+        <tr>
+            <td>是否显示</td>
+            <td >
+                <input class="easyui-combobox" type="text" id="IsShow" name="IsShow" data-options="required:true,editable:false" />
+            </td>
+            <td>是否是报表列：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="IsReport" name="IsReport" data-options="required:true,editable:false" />
+            </td>
+        </tr>
+        <tr>
+            <td>说明：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="Remark" name="Remark" data-options="multiline:true" style="height: 80px; width: 470px;" />
+            </td>
+        </tr>
+    </table>
+</form>

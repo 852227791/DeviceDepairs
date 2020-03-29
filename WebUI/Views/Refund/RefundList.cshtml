@@ -1,0 +1,91 @@
+﻿@{
+    Layout = "~/Views/Shared/_Blank.cshtml";
+}
+
+@section head
+{
+    <script src="@Url.Content("~/Content/Scripts/Refund/RefundList.js")?v=@(new Random().Next())" type="text/javascript"></script>
+}
+
+<div id="infoMain" class="easyui-layout" data-options="fit:true">
+    <div title="搜索" data-options="region:'north',border:false,collapsible:false,iconCls:'icon-search'" style="height: 57px;">
+        <div id="searchBox" class="easyui-layout" data-options="fit:true">
+            <form id="fSearch" class="easyui-form">
+                <div data-options="region:'north',border:false">
+                    <div class="t-div">
+                        <div>学生姓名:</div>
+                        <div>
+                            <input id="txtName" name="txtName" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>凭证号:</div>
+                        <div>
+                            <input id="txtVoucherNum" name="txtVoucherNum" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>身份证号:</div>
+                        <div>
+                            <input id="txtIDCard" name="txtIDCard" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>状态:</div>
+                        <div>
+                            <input id="selStatus" name="selStatus" type="text" class="easyui-combobox" style="width: 100px;" />
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnSearch" class="easyui-linkbutton" iconcls="icon-search">查询</a>
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="btnReset" class="easyui-linkbutton" iconcls="icon-undo">重置</a>
+                        </div>
+                        <div style="padding-top: 2px;">
+                            <a href="javascript:void(0)" id="openSearchBox" class="easyui-linkbutton" iconcls="icon-add2">展开高级搜索</a>
+                            <a href="javascript:void(0)" id="closeSearchBox" class="easyui-linkbutton" iconcls="icon-clear" style="display: none;">关闭高级搜索</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-options="region:'center',border:false">
+                    <div class="t-div">
+                        <div>核销类别:</div>
+                        <div>
+                            <input class="easyui-combobox" id="selSort" name="selSort" type="text" style="width: 100px;">
+                        </div>
+                        <div>票据号:</div>
+                        <div>
+                            <input id="txtNoteNum" name="txtNoteNum" type="text" class="easyui-textbox" style="width: 100px;" />
+                        </div>
+                        <div>核销时间:</div>
+                        <div>
+                            <input id="txtRefundTimeS" name="txtRefundTimeS" type="text" class="easyui-datebox" style="width: 100px;" />
+                        </div>
+                        <div>至</div>
+                        <div>
+                            <input id="txtRefundTimeE" name="txtRefundTimeE" type="text" class="easyui-datebox" style="width: 100px;" />
+                        </div>
+                        <div>校区:</div>
+                        <div>
+                            <input class="easyui-combotree" id="txtDeptID" name="txtDeptID" type="text" style="width: 100px;">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div data-options="region:'center',border:false">
+        <table id="grid" data-options="fit:true,border:false"></table>
+    </div>
+</div>
+
+<div id="editRefund"></div>
+<div id="editRefund-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSave" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#editRefund').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="chooseFee"></div>
+<div id="chooseFee-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveChooseFee" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#chooseFee').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="uploadRefund"></div>
+<div id="uploadRefund-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveUploadRefund" iconcls="icon-ok">导入</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#uploadRefund').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+

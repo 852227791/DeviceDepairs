@@ -1,0 +1,139 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+<script src="@Url.Content("~/Content/Scripts/iFee/iFeeDetail.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<div id="ViewInfo" class="easyui-tabs" data-options="border:false,fit:true">
+    <div id="t1_orderinfo" title="缴费信息">
+        <table class="bodytable0">
+            <tr>
+                <td>单位：</td>
+                <td><span id="spDeptName"></span></td>
+                <td>收费校区：</td>
+                <td><span id="spFeeDept"></span></td>
+            </tr>
+            <tr>
+                <td style="width:135px;">缴费人：</td>
+                <td><span id="spPersonName"></span></td>
+                <td style="width:135px;">缴费项目：</td>
+                <td><span id="spItemName"></span></td>
+            </tr>
+            <tr>
+                <td>交款人员：</td>
+                <td><span id="spPersonType"></span></td>
+                <td>缴费方式：</td>
+                <td><span id="spFeeType"></span></td>
+            </tr>
+            <tr>
+                <td>凭证号：</td>
+                <td><span id="spVocNum"></span></td>
+                <td>票据号：</td>
+                <td><span id="spBillNum"></span></td>
+            </tr>
+            <tr>
+                <td>应缴金额：</td>
+                <td><span id="spShouldMoney"></span></td>
+                <td>实缴金额：</td>
+                <td><span id="spPaidMoney"></span></td>
+            </tr>
+            <tr>
+                <td>优惠金额：</td>
+                <td><span id="spDiscountMoney"></span></td>
+                <td>冲抵金额：</td>
+                <td><span id="spOffsetMoney"></span></td>
+
+            </tr>
+            <tr>
+                <td>被冲抵金额：</td>
+                <td><span id="spByOffsetMoney"></span></td>
+                <td>核销金额：</td>
+                <td><span id="spRefundMoney"></span></td>
+            </tr>
+            <tr>
+                <td>收费人：</td>
+                <td><span id="spFeeUser"></span></td>
+                <td>收费时间：</td>
+                <td><span id="spFeeTime"></span></td>
+            </tr>
+            <tr>
+                <td>结账人：</td>
+                <td><span id="spAffirmUser"></span></td>
+                <td>结账时间：</td>
+                <td><span id="spAffirmTime"></span></td>
+            </tr>
+            <tr>
+                <td>打印说明：</td>
+                <td colspan="3"><span id="spExplain"></span></td>
+            </tr>
+            <tr>
+                <td>系统备注：</td>
+                <td colspan="3"><span id="spRemark"></span></td>
+            </tr>
+            <tr>
+                <td>状态：</td>
+                <td colspan="3"><span id="spStatus"></span></td>
+            </tr>
+        </table>
+    </div>
+    <div title="学生信息" data-options="closable:false,fit:true">
+        <div class="easyui-layout" style="width:786px;height:490px;">
+            <div data-options="region:'north',title:'基础信息',split:true,border:false,collapsible:false" style="height:205px;">
+                <table class="bodytable0">
+                    <tr>
+                        <td style="width: 60px">姓名:</td>
+                        <td><span id="spStudentName"></span></td>
+                        <td style="width: 60px">身份证号:</td>
+                        <td><span id="spStudentIDCard"></span></td>
+                    </tr>
+                    <tr>
+                        <td>性别:</td>
+                        <td><span id="spSex"></span></td>
+                        <td>联系电话:</td>
+                        <td><span id="spMobile"></span></td>
+                    </tr>
+                    <tr>
+                        <td>QQ号:</td>
+                        <td><span id="spQQ"></span></td>
+                        <td>微信号:</td>
+                        <td><span id="spWeChat"></span></td>
+                    </tr>
+
+                    <tr>
+                        <td>家庭地址：</td>
+                        <td colspan="3"><span id="spAddress"></span></td>
+                    </tr>
+                    <tr>
+                        <td>说明：</td>
+                        <td colspan="3"><span id="spStudentRemark"></span></td>
+                    </tr>
+
+                </table>
+            </div>
+            <div data-options="region:'center',title:'扩展信息',border:false">
+                <table class="bodytable0">
+                    <tr>
+                        <td style="width: 60px">生源地:</td>
+                        <td colspan="3"><span id="spPC"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 60px">民族:</td>
+                        <td><span id="spNation"></span></td>
+                        <td style="width: 60px">邮编:</td>
+                        <td><span id="spZip"></span></td>
+                    </tr>
+                    <tr>
+                        <td>毕业学校：</td>
+                        <td colspan="3"><span id="spSchool"></span></td>
+                    </tr>
+                </table>
+
+            </div>
+            <div data-options="region:'south',title:'联系人信息',split:true,border:false,collapsible:false" style="height:140px;">
+                <table id="studentContanctgrid" data-options="fit:true,border:false"></table>
+            </div>
+        </div>
+
+    </div>
+    <div  title="核销信息" data-options="closable:false">
+        <table id="refundGrid" data-options="border:false" style="height:495px"></table>
+    </div>
+</div>

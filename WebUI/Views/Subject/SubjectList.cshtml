@@ -1,0 +1,51 @@
+﻿@{
+    Layout = "~/Views/Shared/_Blank.cshtml";
+}
+
+
+@section head
+{
+    <script src="@Url.Content("~/Content/Scripts/Subject/SubjectList.js")?v=@(new Random().Next())" type="text/javascript"></script>
+}
+
+
+
+<div id="infoMain" class="easyui-layout" data-options="fit:true" style="margin-top: 3px;">
+    <div title="会计科目" data-options="region:'west',border:false,collapsible:false,split:true,disabled:true" >
+        <div id="subtree" style="padding: 10px;" data-options="fit:true,border:false" ></div>
+    </div>
+    @*<div title="收费类别信息" data-options="region:'center',border:false">
+        <table class="bodytable0">
+            <tr>
+                <td style="width: 100px;">收费类别名称：</td>
+                <td>
+                    <span id="txtName"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>上级类别：</td>
+                <td>
+                    <span id="txtParentName"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>英文首字母：</td>
+                <td>
+                    <span id="txtEnglistName"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>备注：</td>
+                <td>
+                    <span id="txtRemark"></span>
+                </td>
+            </tr>
+        </table>
+    </div>*@
+</div>
+
+<div id="editsubject"></div>
+<div id="editsubject-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSave" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#editsubject').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>

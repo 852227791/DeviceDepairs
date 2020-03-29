@@ -1,0 +1,47 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>学号</td><td>姓名</td><td>身份证号</td><td>性别</td><td>手机号</td><td>QQ</td><td>微信</td><td>地址</td><td>备注</td><td>系统备注</td>
+	</tr><tr>
+		<td>L160002</td><td>曾兴武</td><td>000000200003150001</td><td>男</td><td>13540456190</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>L160029</td><td>孔祥义</td><td>000000200102150007</td><td>男</td><td>18180679873</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>L160071</td><td>胡瑶</td><td>666666200107230001</td><td>女</td><td>18228438529</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160002</td><td>王坤龙</td><td>000000199910140004</td><td>男</td><td>18980148710</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160018</td><td>何佳</td><td>000000200101050004</td><td>女</td><td>15308232938</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160037</td><td>罗迎春</td><td>000000199912220008</td><td>女</td><td>18482350712</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160039</td><td>陈飞鸿</td><td>000000200004200007</td><td>男</td><td>17740900533</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160103</td><td>龙左强</td><td>000000200008180007</td><td>男</td><td>15228717527</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160121</td><td>刘田榆</td><td>000000200005170006</td><td>男</td><td>6</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160133</td><td>王长宣</td><td>000000200104030009</td><td>女</td><td>6</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160139</td><td>邱月</td><td>00000020000530000x</td><td>女</td><td>13438207550</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160151</td><td>龙星月</td><td>000000200105240008</td><td>女</td><td>6</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160171</td><td>舒悦</td><td>00000020010501000x</td><td>女</td><td>6</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160174</td><td>伍艳梅</td><td>000000200011190003</td><td>女</td><td>18302818410</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160193</td><td>段少菊</td><td>000000200010160005</td><td>女</td><td>15884466884</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160197</td><td>邱漩龙</td><td>000000200007260005</td><td>男</td><td>18080056853</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160221</td><td>张小凤</td><td>666666200011240002</td><td>女</td><td>13551032669</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160224</td><td>王婷玉</td><td>666666200105286669</td><td>女</td><td>18190921207</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160240</td><td>舒慧敏</td><td>000000200110160002</td><td>女</td><td>6</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160243</td><td>黄玉</td><td>666666200011150007</td><td>女</td><td>6</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr><tr>
+		<td>M160244</td><td>蒋佳文</td><td>666666200110120006</td><td>女</td><td>15982553250</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;</td>
+	</tr>
+</table>

@@ -1,0 +1,9 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>考生号</td><td>姓名</td><td>身份证号</td><td>性别</td><td>手机号</td><td>QQ</td><td>微信</td><td>地址</td><td>民族</td><td>生源地_省</td><td>生源地_市</td><td>生源地_县</td><td>邮政编码</td><td>毕业学校</td><td>父母姓名</td><td>父母电话</td><td>学习层次</td><td>录取专业</td><td>招生部门</td><td>系统备注</td>
+	</tr><tr>
+		<td>16520103152596</td><td>江凯天</td><td>522129199803015517</td><td>男</td><td>15885536154</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省贵阳市观山湖区黔灵山路96号龙潭春天7栋1单元903号</td><td>汉族</td><td>贵州省</td><td>贵阳市</td><td>观山湖区</td><td>550023</td><td>贵阳八中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>汽车检测与维修技术</td><td>资阳校区</td><td>生源地_县不存在;</td>
+	</tr><tr>
+		<td>16520526153206</td><td>陈艳省</td><td>522427199507023874</td><td>男</td><td>15286586989</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省威宁彝族回族苗族自治县阳光学校教务处</td><td>汉族</td><td>贵州省</td><td>毕节市</td><td>威宁县</td><td>553100</td><td>威宁县第三中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>汽车检测与维修技术</td><td>资阳校区</td><td>生源地_县不存在;</td>
+	</tr>
+</table>

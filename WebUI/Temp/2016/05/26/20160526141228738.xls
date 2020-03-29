@@ -1,0 +1,25 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>姓名</td><td>身份证号</td><td>学历层次</td><td>专业</td><td>缴费学年</td><td>费用类别</td><td>缴费类别</td><td>供款金额</td><td>缴费方式</td><td>打印说明</td><td>备注</td><td>系统备注</td>
+	</tr><tr>
+		<td>吉日小曲1</td><td>513436199911043426</td><td>大专</td><td>会计</td><td>第一学年</td><td>学平险</td><td>学平险</td><td>150</td><td>银行转账</td><td>&nbsp;</td><td>&nbsp;</td><td>姓名和身份证号不匹配;此学生不存在;</td>
+	</tr><tr>
+		<td>吉日小曲</td><td>513436199911043427</td><td>专科</td><td>会计</td><td>第一学年</td><td>学平险</td><td>学平险</td><td>150</td><td>银行转账</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号不规范;学习层次不存在;此学生不存在;</td>
+	</tr><tr>
+		<td>吉日小曲</td><td>513436199911043426</td><td>大专</td><td>会计2</td><td>第一学年</td><td>学平险</td><td>学平险</td><td>150</td><td>银行转账</td><td>&nbsp;</td><td>&nbsp;</td><td>专业不存在;</td>
+	</tr><tr>
+		<td>吉日小曲</td><td>513436199911043426</td><td>大专</td><td>会计</td><td>第4学年</td><td>学平险</td><td>学平险</td><td>150</td><td>银行转账</td><td>&nbsp;</td><td>&nbsp;</td><td>此缴费单不存在;</td>
+	</tr><tr>
+		<td>吉日小曲</td><td>513436199911043426</td><td>大专</td><td>会计</td><td>第一学年</td><td>学平险2</td><td>学平险2</td><td>150</td><td>银行转账</td><td>&nbsp;</td><td>&nbsp;</td><td>此缴费单不存在;</td>
+	</tr><tr>
+		<td>吉日小曲</td><td>513436199911043426</td><td>大专</td><td>会计</td><td>第一学年</td><td>学平险</td><td>学平险</td><td>150</td><td>银行转账</td><td>&nbsp;</td><td>&nbsp;</td><td>缴费类别必须是实收或者优惠;此学生不存在;</td>
+	</tr><tr>
+		<td>吉日小曲</td><td>513436199911043426</td><td>大专</td><td>会计</td><td>第一学年</td><td>学平险</td><td>学平险</td><td>&nbsp;</td><td>银行转账</td><td>&nbsp;</td><td>&nbsp;</td><td>供款金额只能是数字;此学生不存在;</td>
+	</tr><tr>
+		<td>吉日小曲</td><td>513436199911043426</td><td>大专</td><td>会计</td><td>第一学年</td><td>学平险</td><td>学平险</td><td>150</td><td>银行转账4</td><td>&nbsp;</td><td>&nbsp;</td><td>缴费方式不存在;此学生不存在;</td>
+	</tr><tr>
+		<td>吉日小曲</td><td>513436199911043426</td><td>大专</td><td>会计</td><td>第一学年</td><td>学平险</td><td>学平险</td><td>150</td><td>银行转账</td><td>&nbsp;</td><td>&nbsp;</td><td>此缴费单已交清;缴费金额超过此订单的金额;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td> </td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>姓名不能为空;身份证号不规范;缴费类别必须是实收或者优惠;供款金额只能是数字;缴费方式不存在;学习层次不存在;缴费学年不能为空;此学生不存在;</td>
+	</tr>
+</table>

@@ -1,0 +1,63 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>考生号</td><td>姓名</td><td>身份证号</td><td>性别</td><td>手机号</td><td>QQ</td><td>微信</td><td>地址</td><td>民族</td><td>生源地_省</td><td>生源地_市</td><td>邮政编码</td><td>毕业学校</td><td>父母姓名</td><td>父母电话</td><td>学习层次</td><td>录取专业</td><td>招生部门</td><td>系统备注</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>陈子婧</td><td>52212719961210002X</td><td>女</td><td>13985658008</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省遵义市凤冈县龙泉镇凤冈县烟草公司门卫室 </td><td>苗族</td><td>贵州省</td><td>&nbsp;</td><td>564200</td><td>预科转入</td><td>陈显华</td><td>&nbsp;</td><td>本科</td><td>会计学</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>冯鹏</td><td>522126199601101012</td><td>男</td><td>18885206304</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省铜仁市德江县城北微企一条街228号</td><td>土家族　</td><td>贵州省</td><td>&nbsp;</td><td>565200</td><td>预科转入</td><td>　冯修喜</td><td>&nbsp;</td><td>本科</td><td>会计学</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>周彰桦</td><td>522627199610260019</td><td>男</td><td>18285551576</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省黔东南天柱县大花园大炮筒</td><td>侗族</td><td>贵州省</td><td>&nbsp;</td><td>556699</td><td>预科转入</td><td>周乐东</td><td>&nbsp;</td><td>本科</td><td>金融学</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>耿瑗</td><td>522601199704110827</td><td>女</td><td>15185597110</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省凯里市新生路1号31栋7号</td><td>苗族</td><td>贵州省</td><td>&nbsp;</td><td>556000</td><td>预科转入</td><td>潘文元</td><td>&nbsp;</td><td>本科</td><td>金融学</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>丁沙</td><td>522322199508252049</td><td>女</td><td>13885981542</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省黔西南州兴仁县马马崖镇新马场</td><td>回族</td><td>贵州省</td><td>&nbsp;</td><td>562303</td><td>预科转入</td><td>丁宪胜</td><td>&nbsp;</td><td>本科</td><td>财政学</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>徐跃</td><td>522126199211051056</td><td>男</td><td>18300851258</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省遵义市务川县丰乐镇新杨村</td><td>苗族</td><td>贵州省</td><td>&nbsp;</td><td>564300</td><td>预科转入</td><td>徐念碧</td><td>&nbsp;</td><td>本科</td><td>电子商务</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>滕学娟</td><td> 522633199606257420</td><td>女</td><td>15185753442</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省从江县东朗乡友谊村3组</td><td>苗族</td><td>贵州省</td><td>&nbsp;</td><td>557499</td><td>预科转入</td><td>滕老追</td><td>&nbsp;</td><td>本科</td><td>工商管理</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>董金怀</td><td>522123199604190031</td><td>男</td><td>18184234706</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省绥阳县洋川镇新西路33号1栋一单元8号</td><td>仡佬族</td><td>贵州省</td><td>&nbsp;</td><td>563300</td><td>预科转入</td><td>濮兰兰</td><td>&nbsp;</td><td>本科</td><td>金融学</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>熊荣贵</td><td>522629199701013411</td><td>男</td><td>15885121934</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省凯里市剑河县</td><td>苗族</td><td>贵州省</td><td>&nbsp;</td><td>556400</td><td>预科转入</td><td>熊政辉 </td><td>&nbsp;</td><td>本科</td><td>工商管理</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>杨锦锋</td><td>522323199710017532</td><td>男</td><td>18083409093</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省普安县龙吟镇高云村高枧组</td><td>苗族</td><td>贵州省</td><td>&nbsp;</td><td>562511</td><td>预科转入</td><td>杨秀能</td><td>&nbsp;</td><td>本科</td><td>财务管理</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>向宇清</td><td>522701199702080340</td><td>女</td><td>18085583217</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省黎平县金泰商贸城8栋502</td><td>苗族</td><td>贵州省</td><td>&nbsp;</td><td>557300</td><td>预科转入</td><td>郑凤华 </td><td>&nbsp;</td><td>本科</td><td>金融学</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>姜宗钰</td><td>522629199507280014</td><td>男</td><td>18286516306</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省剑河县革东镇稻香小区6栋1单元302</td><td>苗族</td><td>贵州省</td><td>&nbsp;</td><td>556499</td><td>预科转入</td><td>姜小桥</td><td>&nbsp;</td><td>本科</td><td>法学</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>马钰</td><td>522125199506160042</td><td>女</td><td>15348624231</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省遵义市红花岗区东欣彩虹城B08栋1502</td><td>仡佬族</td><td>贵州省</td><td>&nbsp;</td><td>563000</td><td>预科转入</td><td>　张露霞</td><td>&nbsp;</td><td>本科</td><td>汉语言文学</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>陈伟</td><td>522425199507218417</td><td>男</td><td>13078564404</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省织全县白泥乡倮木村小云上组 </td><td>汉族</td><td>贵州省</td><td>&nbsp;</td><td>552100</td><td>预科转入</td><td>陈志勇　</td><td>&nbsp;</td><td>本科</td><td>法学</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>普德祥</td><td>522328199708010210</td><td>男</td><td>15186549931</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省黔西南州安龙县新安镇五格村</td><td>彝族</td><td>贵州省</td><td>&nbsp;</td><td>552400</td><td>预科转入</td><td>普朝志</td><td>&nbsp;</td><td>本科</td><td>市场营销</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>陆梅</td><td>520202199612018428</td><td>女</td><td>18208581855</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省红果干沟桥一单元旁红星家私前50米周家酒水副食店</td><td>彝族　</td><td>贵州省</td><td>&nbsp;</td><td>553537</td><td>预科转入</td><td>　陆元金</td><td>&nbsp;</td><td>本科</td><td>汉语言文学</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>赵子亿</td><td>522221199710110448</td><td>女</td><td>18286645560</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省铜仁市碧江区鹭鸶岩路49号1栋3</td><td>土家族</td><td>贵州省</td><td>&nbsp;</td><td>554300</td><td>预科转入</td><td>赵国强</td><td>&nbsp;</td><td>本科</td><td>会计学</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>杨伟</td><td>520202199704123014</td><td>男</td><td>18748660430</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省盘县红果镇小关村六组</td><td>彝族</td><td>贵州省</td><td>&nbsp;</td><td>553505</td><td>预科转入</td><td>杨光向</td><td>&nbsp;</td><td>本科</td><td>审计学</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>唐承治</td><td>520222199711230059</td><td>男</td><td>18085852554</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省省盘县响水镇车田村五组</td><td>白族</td><td>贵州省</td><td>&nbsp;</td><td>553505</td><td>预科转入</td><td>唐占熊</td><td>&nbsp;</td><td>本科</td><td>会计学</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>欧思宇</td><td>522631199602060011</td><td>男　</td><td>18685587978</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省凯里市环城西路大地春城11栋1302</td><td>侗族　</td><td>贵州省</td><td>&nbsp;</td><td>556000</td><td>预科转入</td><td>王建辉　</td><td>&nbsp;</td><td>本科</td><td>国际经济与贸易</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>秦艳莲</td><td>522228199602272508</td><td>女　</td><td>15985208910</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省遵义市汇川区董公寺镇邮局</td><td>土家族</td><td>贵州省</td><td>&nbsp;</td><td>563099</td><td>预科转入</td><td>　秦小勇</td><td>&nbsp;</td><td>本科</td><td>商务英语</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>陈鹏</td><td>522322199610209813</td><td>男</td><td>15208594021</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省兴仁县新龙场镇联庄村四组</td><td>布依族</td><td>贵州省</td><td>&nbsp;</td><td>562300</td><td>预科转入</td><td>许光友</td><td>&nbsp;</td><td>本科</td><td>国际经济与贸易</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>朱炳兵</td><td>522528199912060814</td><td>男　</td><td>13595302260</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省安顺市关岭县永宁镇鑫城区2栋2单元402</td><td>黎族</td><td>贵州省</td><td>&nbsp;</td><td>561302</td><td>预科转入</td><td>李龙美</td><td>&nbsp;</td><td>本科</td><td>汉语言文学</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>周胶</td><td>52242519950308153X</td><td>男</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省织金县桂果镇马场村</td><td>汉族</td><td>贵州省</td><td>&nbsp;</td><td>552701</td><td>预科转入</td><td>周祥坤</td><td>&nbsp;</td><td>本科</td><td>人力资源管理</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;手机号不能为空;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>吴超</td><td>522224199707022016</td><td>男</td><td>18785678452</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省石阡县中坝镇河西村一组</td><td>侗族</td><td>贵州省</td><td>&nbsp;</td><td>555104</td><td>预科转入</td><td>吴毅</td><td>&nbsp;</td><td>本科</td><td>行政管理</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>程洋</td><td>522130199701080479</td><td>男</td><td>18786635994</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省仁怀市茅台镇南坳社区三组</td><td>仡佬族</td><td>贵州省</td><td>&nbsp;</td><td>564500</td><td>预科转入</td><td>程云邦</td><td>&nbsp;</td><td>本科</td><td>行政管理</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>徐隆兴</td><td>522629199703140019</td><td>男</td><td>13985809264</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省凯里市剑河县6号区17栋1单元602</td><td>侗族</td><td>贵州省</td><td>&nbsp;</td><td>556400</td><td>预科转入</td><td>俆必富</td><td>&nbsp;</td><td>本科</td><td>人力资源管理</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>周杨易锟</td><td>52010319951119401X</td><td>男</td><td>15185185355</td><td>&nbsp;</td><td>&nbsp;</td><td>贵阳市云岩区市东村</td><td>侗族</td><td>贵州省</td><td>&nbsp;</td><td>520001</td><td>预科转入</td><td>杨文</td><td>&nbsp;</td><td>本科</td><td>物流管理</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>贺于桁</td><td>522128199608270014</td><td>男</td><td>18585265171</td><td>&nbsp;</td><td>&nbsp;</td><td>贵州省湄潭县湄江镇浙大南路12号2号楼1单元101室 </td><td>仡佬族</td><td>贵州省</td><td>&nbsp;</td><td>564100</td><td>预科转入</td><td>曾凡琴</td><td>&nbsp;</td><td>本科</td><td>物流管理</td><td>惠水校区</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr>
+</table>

@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+<link href="@Url.Content("~/Content/uploadify/uploadify.css")" rel="stylesheet" type="text/css" />
+<script src="@Url.Content("~/Content/uploadify/swfobject.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<script src="@Url.Content("~/Content/uploadify/jquery.uploadify.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<script src="@Url.Content("~/Content/Scripts/Prove/ProveOldUp.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<form id="fupOldProve" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td></td>
+            <td>
+                <div id="uploadfileQueue"></div>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="width: 80px;">
+                校区:
+            </td>
+            <td colspan="3">
+                <input type="text" id="Dept1" name="Dept" class="easyui-combotree" data-options="required:true,editable:false" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>选择文件:</td>
+            <td colspan="3">
+                <div id="file_upload"></div>
+            </td>
+
+        </tr>
+        <tr>
+            <td>文件名:</td>
+            <td colspan="3">
+                <input type="text" id="filePath" name="filePath" class="easyui-textbox" data-options="required:true,readonly:true" />
+            </td>
+        </tr>
+        <tr style="display: none" id="hideTR">
+            <td>错误报告：</td>
+            <td colspan="3">
+                <a id="BtnExport" href="javascript:void(0)" class="easyui-linkbutton" target="_blank">导出</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <span style="color: red;" id="Mesg"></span>
+            </td>
+        </tr>
+    </table>
+</form>
+
+

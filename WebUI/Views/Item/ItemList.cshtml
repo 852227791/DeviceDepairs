@@ -1,0 +1,86 @@
+﻿@{
+    Layout = "~/Views/Shared/_Blank.cshtml";
+}
+
+@section head
+{
+    <script src="@Url.Content("~/Content/Scripts/Item/ItemList.js")?v=@(new Random().Next())" type="text/javascript"></script>
+}
+
+<div id="infoMain" class="easyui-layout" data-options="fit:true" style="margin-top: 3px;">
+    <div title="校区信息" data-options="region:'west',border:false,collapsible:true,split:true,disabled:true" style="width: 320px;">
+        <table id="deptTree" data-options="fit:true,border:false"></table>
+    </div>
+    <div title="收费项目" data-options="region:'center',border:false">
+        <table id="itemTree" data-options="fit:true,border:false"></table>
+    </div>
+    <div title="收费项目设置" data-options="region:'east',border:false,collapsible:false,split:true,disabled:true" style="width: 500px;" id="set" >
+        <div class="easyui-tabs" id="mainTabs" data-options="fit:true,border:false">
+            <div title="收费类别" id="tabFee">
+                <table id="grid" data-options="fit:true,border:false"></table>
+            </div>
+            <div title="专业" id="tabProfession">
+                <table id="gridProfession" data-options="fit:true,border:false"></table>
+            </div>
+            <div title="配品" id="tabGive">
+                <table id="gridGive" data-options="fit:true,border:false"></table>
+            </div>
+            <div title="优惠方案" id="tabDiscount">
+                <table id="gridDiscount" data-options="fit:true,border:false"></table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="editItem"></div>
+<div id="editItem-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSave" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#editItem').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="editDetailItem"></div>
+<div id="editDetailItem-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveItemDetail" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#editDetailItem').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="copyItem"></div>
+<div id="copyItem-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnCopyAndContinue" iconcls="icon-ok">复制并继续</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnCopy" iconcls="icon-ok">复制</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#copyItem').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+
+<div id="editItemPro"></div>
+<div id="editItemPro-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSave_Pro" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#editItemPro').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="upItem"></div>
+<div id="upItem-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnUpItem" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#upItem').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+
+<div id="editItemGive"></div>
+<div id="editItemGive-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSave_Give" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#editItemGive').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="editDiscountPlan"></div>
+<div id="editDiscountPlan-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSaveDiscountPlan" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#editDiscountPlan').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="copyItemDetail"></div>
+<div id="copyItemDetail-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnCopyDetailAndContinue" iconcls="icon-ok">复制并继续</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#copyItemDetail').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="check"></div>
+<div id="check-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#check').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+<div id="mm" class="easyui-menu" style="width:120px;">
+    <div onclick="itemReload()" data-options="iconCls:'icon-redo'">刷新</div>
+    <div onclick="addDownload()" data-options="iconCls:'icon-add'">加入导出队列</div>
+    <div onclick="setNull()" data-options="iconCls:'icon-no'">清空导出队列</div>
+</div>

@@ -1,0 +1,46 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<link href="@Url.Content("~/Content/uploadify/uploadify.css")" rel="stylesheet" type="text/css" />
+<script src="@Url.Content("~/Content/uploadify/swfobject.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<script src="@Url.Content("~/Content/uploadify/jquery.uploadify.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<script src="@Url.Content("~/Content/Scripts/Student/StudentPicture.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<div id="stuLayout" class="easyui-layout" data-options="fit:true">
+    <div title="上传" data-options="region:'north',border:false,height:90,doSize:false" id="northPanel">
+        <form id="fUploadpic" class="easyui-form" method="post">
+            <table class="t-form">
+                <tr style="display: none;">
+                    <td></td>
+                    <td></td>
+                    <td><input type="text" id="StudentIDpic" name="StudentIDpic" class="easyui-textbox" style="float:left; width:300px" data-options="required:true,readonly:true" /></td>
+                    <td>
+                        <div id="uploadfileQueuepic"></div>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td><span style="float:right;"> 选择文件:</span> </td>
+                    <td>
+                        <div id="file_uploadpic"></div>
+                    </td>
+                    <td><span style="float:right;"> 文件名:</span></td>
+                    <td>
+                        <input type="text" id="filePathpic" name="filePathpic" class="easyui-textbox" style="float:left; width:300px" data-options="required:true,readonly:true" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div title="照片" data-options="region:'center',border:false">
+        <div style="text-align:center;padding:5px;">
+            <img id="picture"  style="height:395px;"/>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+

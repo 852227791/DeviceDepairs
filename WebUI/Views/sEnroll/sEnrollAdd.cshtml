@@ -1,0 +1,170 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sEnroll/sEnrollAdd.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<div class="easyui-layout" data-options="fit:true">
+    <form id="faddSave" class="easyui-form" method="post">
+        <div data-options="region:'north',title:'学生信息',split:false,border:false" style="height:260px">
+            <table class="t-form" style="margin-top:2px">
+                <tr style="display: none;">
+                    <td>sEnrollsProfessionID：</td>
+                    <td colspan="3">
+                        <input class="easyui-textbox" type="text" id="enrollsProfessionId" name="enrollsProfessionId" />
+                        <input class="easyui-textbox" type="text" id="scheme" name="scheme" />
+                        <input class="easyui-textbox" type="text" id="studentId" name="studentId" />
+                        <input class="easyui-textbox" type="text" id="studentContactId" name="studentContactId" />
+                        <input class="easyui-textbox" type="text" id="studentInfoId" name="studentInfoId" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>姓名:</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="name" name="name" data-options="required:true,validType:['length[1,16]']" />
+                    </td>
+                    <td>身份证号:</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="idCard" name="idCard" data-options="required:true,validType:['idCard']">
+                    </td>
+                </tr>
+                <tr>
+                    <td>性别:</td>
+                    <td>
+                        <input class="easyui-combobox" type="text" id="sex" name="sex" data-options="editable:false,required:true" />
+                    </td>
+                    <td>联系电话：</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="mobile" name="mobile" data-options="validType:['length[0,16]'],required:true" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>民族：</td>
+                    <td>
+                        <input class="easyui-combobox" type="text" id="nation" name="nation" data-options="editable:false" />
+                    </td>
+                    <td>家庭地址:</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="address" name="address" data-options="validType:['length[0,128]']" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>父母姓名:</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="parentName" name="parentName" data-options="validType:['length[0,16]']" />
+                    </td>
+                    <td>父母电话:</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="tel" name="tel" data-options="validType:['length[0,16]']" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>生源地:</td>
+                    <td colspan="3">
+                        <input class="easyui-combobox" type="text" id="province" name="province" data-options="editable:false" style="width:130px;" />&nbsp;&nbsp;&nbsp;
+                        <input class="easyui-combobox" type="text" id="city" name="city" data-options="editable:false,valueField: 'id',textField: 'text'" style="width:130px;" />&nbsp;&nbsp;&nbsp;
+                        <input class="easyui-combobox" type="text" id="district" name="district" data-options="editable:false,valueField: 'id',textField: 'text'" style="width:130px;" />
+                        <input  type="text" id="search" name="search" data-options="valueField: 'id',textField: 'text',editable:true" style="width:130px;" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>毕业学校:</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="school" name="school" data-options="validType:['length[0,64]']" />
+                    </td>
+                    <td>邮编:</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="zip" name="zip" data-options="validType:['length[0,6]']" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>QQ号:</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="qq" name="qq" data-options="validType:['length[0,16]']" />
+                    </td>
+                    <td>微信号:</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="weChat" name="weChat" data-options="validType:['length[0,32]']" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div data-options="region:'center',title:'报名信息',split:false,border:false">
+            <table class="t-form" style="margin-top:2px">
+                <tr>
+                    <td>报名学校:</td>
+                    <td>
+                        <input class="easyui-combotree" type="text" id="deptId" name="deptId" data-options="required:true" />
+                    </td>
+                    <td>报名校区:</td>
+                    <td>
+                        <input class="easyui-combobox" type="text" id="senrollDeptId" name="senrollDeptId" data-options="required:true" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>年份：</td>
+                    <td>
+                        <input class="easyui-combobox" type="text" id="year" name="year" data-options="required:true" />
+                    </td>
+                    <td>月份：</td>
+                    <td>
+                        <input class="easyui-combobox" type="text" id="month" name="month" data-options="required:true" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>学习层次：</td>
+                    <td>
+                        <input class="easyui-combobox" type="text" id="enrollLevel" name="enrollLevel" data-options="required:true" />
+                    </td>
+                    <td>报名时间：</td>
+                    <td>
+                        <input class="easyui-datebox" type="text" id="enrollTime" name="enrollTime" data-options="required:true" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>专业：</td>
+                    <td>
+                        <input class="easyui-combobox" type="text" id="professionId" name="professionId" data-options="required:true">
+                    </td>
+                    <td>班级：</td>
+                    <td>
+                        <input class="easyui-combobox" type="text" id="classId" name="classId">
+                    </td>
+                </tr>
+                <tr>
+                    <td>缴费方案：</td>
+                    <td colspan="3">
+                        <input class="easyui-textbox" type="text" id="schemeName" name="schemeName" data-options="required:true,editable:false" />
+                        <a id="btnchooseScheme" href="javascript:void(0)" class="easyui-linkbutton">选择缴费方案</a>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>报名方式：</td>
+                    <td colspan="3">
+                        <input type="radio" value="1" checked="checked" id="formal" name="isRepeat" data-options="required:true" style="vertical-align:middle;" /><span>正式报名</span>&nbsp;
+                        <input type="radio" value="2" id="beforehand" name="isRepeat" data-options="required:true" style="vertical-align:middle;" /><span>预报名</span>&nbsp;
+                        <span id="repeatSign">
+                            <input type="radio" value="3" id="continue" name="isRepeat" data-options="required:true" style="vertical-align:middle;" /><span>续正报</span>&nbsp;
+                            <input type="radio" value="5" id="continue" name="isRepeat" data-options="required:true" style="vertical-align:middle;" /><span>续预报</span>&nbsp;
+                            <input type="radio" value="4" id="repeat" name="isRepeat" data-options="required:true" style="vertical-align:middle;" /> <span>重复报名</span>&nbsp;
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>备注：</td>
+                    <td colspan="3">
+                        <input class="easyui-textbox" type="text" id="remark" name="remark" data-options="multiline:true" style="height: 40px; width: 460px;" />
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+
+    </form>
+</div>
+
+
+

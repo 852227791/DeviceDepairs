@@ -1,0 +1,31 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sEnroll/StopsEnroll.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSaveStop" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>sEnrollsProfessionID：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="StopsEnrollsProfessionID" name="sEnrollsProfessionID" />
+            </td>
+        </tr>
+        <tr>
+            <td>停用类型：</td>
+            <td colspan="3">
+                <input class="easyui-combobox" type="text" id="StopSort" name="Sort" data-options="required:true" />
+            </td>
+        </tr>
+        <tr>
+            <td>停用原因：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="StopExplain" name="Explain" data-options="required:true,multiline:true" style="height: 80px; width: 460px;" />
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+

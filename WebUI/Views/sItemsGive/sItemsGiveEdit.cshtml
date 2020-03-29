@@ -1,0 +1,30 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sItemsGive/sItemsGiveEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave_Give" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>sItemsGiveID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="sItemsGiveID" name="sItemsGiveID" />
+                <input class="easyui-textbox" type="text" id="ItemID3" name="ItemID" />
+            </td>
+        </tr>
+        <tr>
+            <td>配品：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="sGiveID" name="sGiveID" data-options="required:true,editable:false"  style="width: 250px;" >
+            </td>
+        </tr>
+        <tr>
+            <td>排序：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="Queue" name="Queue" data-options="required:true" style="width: 250px;">
+            </td>
+        </tr>
+    </table>
+</form>
+

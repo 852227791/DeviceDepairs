@@ -1,0 +1,53 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>考生号</td><td>姓名</td><td>身份证号</td><td>性别</td><td>手机号</td><td>QQ</td><td>微信</td><td>地址</td><td>民族</td><td>生源地_省</td><td>生源地_市</td><td>生源地_县</td><td>邮政编码</td><td>毕业学校</td><td>父母姓名</td><td>父母电话</td><td>学习层次</td><td>录取专业</td><td>招生部门</td><td>系统备注</td>
+	</tr><tr>
+		<td>16510115612088</td><td>甘雪连</td><td>513002199702032020</td><td>女</td><td>15008386921</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省万源市井溪乡盐井坝村梁家坪组42号</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>636350</td><td>成都市铁路卫生学校</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>护理</td><td>绵竹1</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16511001612590</td><td>兰一</td><td>511129199505284812</td><td>男</td><td>15298033285</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省乐山市沐川县烟草公司</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>614500</td><td>乐山职业技术学院</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>护理</td><td>绵竹2</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16511605612022</td><td>倪小兰</td><td>51312519970715182X</td><td>女</td><td>18783517381</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省成都市温江区正宗社区</td><td>彝族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>610000</td><td>四川省达州中医学校成都校区</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>护理</td><td>绵竹2</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16512108612008</td><td>夏成松</td><td>513428199402051516</td><td>男</td><td>18784591849</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省普格县邮政局</td><td>彝族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>615300</td><td>乐山职业技术学院</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>护理</td><td>绵竹2</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16511202140234</td><td>谢非</td><td>511521199807138459</td><td>男</td><td>15892511410</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省宜宾县横江镇和平村和平组</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>644613</td><td>宜宾县横江中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>体育运营与管理</td><td>绵竹2</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16510404121812</td><td>程思容</td><td>510521199610202663</td><td>女</td><td>18090848817</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省泸州市泸县玄滩镇中和社区南大街邮政局</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>646104</td><td>泸县一中</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>护理</td><td>绵竹1</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16510505121038</td><td>黄昭</td><td>510623199610156327</td><td>女</td><td>18284227662</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省德阳市中江县城北中学</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>618100</td><td>城北中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>护理</td><td>绵竹1</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16511101120662</td><td>鲜欣</td><td>511325199910161440</td><td>女</td><td>13990818723</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省南充市涪江路97号南充高级中学</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>637000</td><td>南充高中</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>护理</td><td>绵竹2</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16511303122374</td><td>蒋涛</td><td>511621199805030634</td><td>男</td><td>13688266650</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省广安市岳池县九龙镇花园路东城.假日绿洲A栋2-3</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>638300</td><td>岳池县顾县中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>工程造价</td><td>绵竹2</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16511406122885</td><td>甘泽志</td><td>511623199810100396</td><td>男</td><td>13404042487</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省邻水县太和乡高家庙村8组31号</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>638500</td><td>大竹县庙坝中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>计算机应用技术</td><td>绵竹2</td><td>姓名和身份证号不匹配;</td>
+	</tr><tr>
+		<td>16511604120325</td><td>余宏鑫</td><td>513124199608260223</td><td>女</td><td>15281271897</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省雅安市田家炳中学高三八班余宏鑫收</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>625000</td><td>雅安市田家炳中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>护理</td><td>绵竹2</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16511702120781</td><td>唐明慧</td><td>51382219971104732X</td><td>女</td><td>18384716563</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省仁寿县二职中（职教中心）</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>620500</td><td>仁寿中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>护理</td><td>绵竹1</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16511703130002</td><td>王书青</td><td>513823199512310021</td><td>女</td><td>14780101040</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省彭山区第一中学</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>620860</td><td>眉山科学技术学校</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>市场营销</td><td>绵竹1</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16511802122795</td><td>王鹏</td><td>513902199709156973</td><td>男</td><td>13981905563</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省简阳市养马镇养马中学</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>641402</td><td>简阳市养马中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>烹调工艺与营养</td><td>绵竹2</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16511802140431</td><td>马双宇</td><td>513902199611027110</td><td>男</td><td>15282260298</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省简阳市三星中学</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>641404</td><td>简阳市三星中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>会计</td><td>绵竹2</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16511802140498</td><td>韩鑫杰</td><td>513902199812206879</td><td>男</td><td>15884203744</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省简阳市养吗中学蔡贵玖收</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>641402</td><td>简阳市养马中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>汽车运用与维修技术</td><td>绵竹2</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16512110110208</td><td>黄古博</td><td>513430199705153212</td><td>男</td><td>18113238516</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省金阳县新区  黄古博</td><td>彝族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>616250</td><td>金阳县中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>护理</td><td>绵竹2</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16510303160712</td><td>何林珈</td><td>51132419980605506X</td><td>女</td><td>0812-15308142358</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省攀枝花市仁和区虹桥巷9号1栋3单元28号</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>617000</td><td>攀枝花市九中</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>会计</td><td>绵竹2</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16510402160073</td><td>周邦路</td><td>510504199803190615</td><td>男</td><td>18982474197</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省泸州市龙马潭区石洞镇花博园村二十一社21号</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>646000</td><td>泸州市十七中</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>工程造价</td><td>绵竹2</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16511207161051</td><td>詹成秋</td><td>511527199705091846</td><td>女</td><td>15283657038</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省筠连县第二中学</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>645253</td><td>筠连县第二中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>护理</td><td>绵竹1</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16511209161027</td><td>罗均</td><td>51152819970624701X</td><td>男</td><td>13795814072</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省兴文县大坝苗族乡小寨村五组54号</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>644400</td><td>四川省兴文第二中学校</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>计算机应用技术</td><td>绵竹1</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16511301164505</td><td>蒲周萍</td><td>511602199707195209</td><td>女</td><td>15284918084</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省广安市广安区协兴镇堡寨村6组4号</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>638000</td><td>广安思源中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>护理</td><td>绵竹1</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16511407162873</td><td>汪岗霖</td><td>513030199901214711</td><td>男</td><td>18381935060</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省渠县射洪乡射洪村五组</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>635225</td><td>渠县清溪中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>汽车运用与维修技术</td><td>绵竹2</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr><tr>
+		<td>16511501162557</td><td>唐静</td><td>513701199603164724</td><td>女</td><td>18090440153</td><td>&nbsp;</td><td>&nbsp;</td><td>四川省巴中市巴州区祠堂街191号6幢2单元4室</td><td>汉族</td><td>四川省</td><td>&nbsp;</td><td>&nbsp;</td><td>636000</td><td>巴中市第二中学</td><td>&nbsp;</td><td>&nbsp;</td><td>专科</td><td>护理</td><td>绵竹2</td><td>该学生已经报过名了,不能重复报名;</td>
+	</tr>
+</table>

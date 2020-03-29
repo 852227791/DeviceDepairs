@@ -1,0 +1,65 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sOrderAdd/sOrderAdd.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fsOrderAddMoreSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display:none;">
+            <td colspan="4">
+                <input class="easyui-textbox" type="text" id="sOrderContent" name="sOrderContent" />
+            </td>
+        </tr>
+        <tr>
+            <td>名称：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="Name" name="Name" data-options="required:true,validType:['length[1,32]']" />
+            </td>
+            <td>校区：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="DeptID" name="DeptID" data-options="required:true" />
+            </td>
+        </tr>
+        <tr>
+            <td>年份：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="Year" name="Year" data-options="required:true,editable:false" />
+            </td>
+            <td>月份：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="Month" name="Month" data-options="required:true,editable:false" />
+            </td>
+        </tr>
+        <tr>
+            <td>专业：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="sProfessionID" name="sProfessionID" data-options="required:true,editable:false" />
+            </td>
+            <td>缴费方案：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="Scheme" name="Scheme" data-options="required:true,editable:false" />
+            </td>
+        </tr>
+        <tr>
+            <td>缴费次数：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="Semester" name="Semester" data-options="required:true,editable:false" />
+            </td>
+            <td>缴费项：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="sOrderName" name="sOrderName" data-options="required:true,editable:false" />
+                <a id="btnAddSetsOrder" href="javascript:void(0)" class="easyui-linkbutton">设置缴费项</a>
+            </td>
+        </tr>
+        <tr>
+            <td>备注：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="Remark" name="Remark" data-options="multiline:true" style="height: 80px; width: 455px;" />
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+

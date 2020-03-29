@@ -1,0 +1,60 @@
+﻿@{
+    Layout = "~/Views/Shared/_Blank.cshtml";
+}
+
+@section head
+{
+    <script src="@Url.Content("~/Content/Scripts/Dept/DeptList.js")?v=@(new Random().Next())" type="text/javascript"></script>
+}
+
+<div id="infoMain" class="easyui-layout" data-options="fit:true" style="margin-top: 3px;">
+    <div title="全部部门" data-options="region:'west',border:false,collapsible:false,split:true,disabled:true" style="width: 320px;">
+        <div id="deptTree" style="padding: 10px;"></div>
+    </div>
+    <div title="部门信息" data-options="region:'center',border:false">
+        <table class="bodytable0">
+            <tr>
+                <td style="width: 100px;">部门名称：</td>
+                <td>
+                    <span id="txtName"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>上级部门：</td>
+                <td>
+                    <span id="txtParentName"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>部门简称：</td>
+                <td>
+                    <span id="txtShortName"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>部门编码：</td>
+                <td>
+                    <span id="txtCode"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>部门排序：</td>
+                <td>
+                    <span id="txtQueue"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>备注：</td>
+                <td>
+                    <span id="txtRemark"></span>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div id="editDept"></div>
+<div id="editDept-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSave" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript:$('#editDept').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>

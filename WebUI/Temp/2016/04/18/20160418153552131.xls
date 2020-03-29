@@ -1,0 +1,7 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>姓名</td><td>身份证号</td><td>学号</td><td>性别</td><td>手机</td><td>系统备注</td>
+	</tr><tr>
+		<td>1</td><td>5.2033019961005E+17</td><td>&nbsp;</td><td>男</td><td>1666666</td><td>身份证号和姓名不匹配;</td>
+	</tr>
+</table>

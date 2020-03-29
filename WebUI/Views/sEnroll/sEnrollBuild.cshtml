@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sEnroll/sEnrollBuild.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<div class="easyui-layout" data-options="fit:true">
+    <div data-options="region:'north',border:false">
+        <h1 id="titleTips" style="text-align:center;"></h1>
+    </div>
+    <div data-options="region:'center',border:false" style="padding-left:1px; padding-right:1px; margin-top:1px;">
+        <table id="sOrderGrid" data-options="fit:true,border:true"></table>
+    </div>
+</div>

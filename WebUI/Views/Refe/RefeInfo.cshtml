@@ -1,0 +1,29 @@
+﻿@{
+    Layout = "~/Views/Shared/_Blank.cshtml";
+}
+
+@section head
+{
+    <script src="@Url.Content("~/Content/Scripts/Refe/RefeInfo.js")?v=@(new Random().Next())" type="text/javascript"></script>
+}
+
+<div id="infoMain" class="easyui-layout" data-options="fit:true">
+    <div title="基础信息分类" data-options="region:'west',border:false,collapsible:false,split:true,disabled:true" style="width: 450px;">
+        <table id="refeTypeGrid" data-options="fit:true,border:false"></table>
+    </div>
+    <div title="基础信息明细" data-options="region:'center',border:false">
+        <table id="refeGrid" data-options="fit:true,border:false"></table>
+    </div>
+</div>
+
+<div id="editRefeType"></div>
+<div id="editRefeType-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnRefeTypeSave" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript:$('#editRefeType').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>
+
+<div id="editRefe"></div>
+<div id="editRefe-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnRefeSave" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript:$('#editRefe').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>

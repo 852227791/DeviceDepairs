@@ -1,0 +1,32 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/Profession/ProfessionEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSaveProfession" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>ProfessionID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="ProfessionID" name="ProfessionID" />
+                <input class="easyui-textbox" type="text" id="DeptID" name="DeptID" />
+            </td>
+        </tr>
+        <tr>
+            <td>专业名称：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="ProfessionName" name="ProfessionName" data-options="required:true,validType:['length[1,32]','isRight[0,\'专业名称不能重复\']']" />
+            </td>
+        </tr>
+        <tr>
+            <td>首字母：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="EnglishName" name="EnglishName" data-options="required:true,validType:['length[1,4]']">
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+

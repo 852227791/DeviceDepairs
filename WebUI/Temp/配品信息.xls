@@ -1,0 +1,5 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>状态</td><td>校区</td><td>学生姓名</td><td>学号</td><td>身份证号</td><td>年份</td><td>月份</td><td>学习层次</td><td>专业</td><td>报名时间</td><td>缴费方案名称</td><td>配品名称</td><td>创建时间</td>
+	</tr>
+</table>

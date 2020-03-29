@@ -1,0 +1,224 @@
+﻿@{
+    Layout = "~/Views/Shared/_Authorize.cshtml";
+}
+
+@section head
+{
+    <style type="text/css">
+        .topbar {
+            background-color: #0071c5;
+            height: 52px;
+            display: table-row;
+            width: 100%;
+        }
+
+        .topcenter {
+            margin: 0 auto;
+            width: 800px;
+            display: block;
+        }
+
+        .logo {
+            background: url(../Content/Images/logo.png) no-repeat;
+            height: 52px;
+            width: 218px;
+            float: left;
+        }
+
+        .toptext {
+            float: right;
+            color: #fff;
+            height: 52px;
+            line-height: 52px;
+        }
+
+        .wrap {
+            width: 100%;
+            vertical-align: middle;
+            text-align: center;
+            display: table-cell;
+            *margin: 100px auto;
+        }
+
+        .login {
+            margin: 0 auto;
+            text-align: left;
+            width: 380px;
+        }
+
+            .login .input {
+                border: 1px solid #b9b9b9;
+                width: 318px;
+                padding: 6px;
+                color: #9b9b9f;
+            }
+
+            .login .required {
+                width: 251px;
+            }
+
+        .logintitle {
+            background: url(../Content/Images/loginlogo.png) no-repeat;
+            width: 32px;
+            height: 27px;
+        }
+
+
+        ul, li {
+            list-style-type: none;
+            margin-top: 8px;
+            margin-left: 0;
+            padding-left: 0;
+            text-align: left;
+        }
+
+            ul li.check table {
+            }
+
+        a {
+            cursor: pointer;
+            color: #0071c5;
+            margin-bottom: 5px;
+            text-decoration: none;
+        }
+
+        .copyright {
+            margin: 0 auto;
+            width: 800px;
+            display: block;
+            border-top: 1px solid #cbcbcb;
+            color: #7f7f7f;
+            text-align: center;
+            padding: 10px;
+        }
+
+        form {
+            display: table;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+    <script type="text/javascript">
+        if (window.location.href != top.location.href) {
+            top.location.href = window.location.href;
+        }
+
+        $(function () {
+            $("#valiCode").bind("click", function () {
+                var vkey = Math.random();//(new Date()).getTime()
+                this.src = "@Url.Content("~/Authorize/GetValidateCode")?time=" + vkey;
+            });
+
+            $("#LoginName").val(Easy.cookies.get("loginname"));
+            $("#remember")[0].checked = Easy.cookies.get("savename") == "1";
+
+            Easy.toolTip();
+
+            $("form").submit(function () {
+                if ($("#remember")[0].checked) {
+                    if ($("#LoginName").val() != "") {
+                        Easy.cookies.set("loginname", $("#LoginName").val(), 7);
+                        Easy.cookies.set("savename", "1", 7);
+                    }
+                }
+                else {
+                    Easy.cookies.remove("loginname");
+                    Easy.cookies.remove("savename");
+                }
+            });
+        });
+    </script>
+}
+
+@using (Html.BeginForm())
+{
+    <div class="topbar">
+        <div class="topcenter">
+            <div class="logo"></div>
+            <div class="toptext">
+                <span>感恩 阳光 严谨 责任</span>
+            </div>
+        </div>
+    </div>
+    <div style="display: table-row">
+        <div class="wrap">
+            <div class="login">
+                <div class="logintitle">
+                    <div style="background: url(@Url.Content("~/Content/Images/logintitle.png")) no-repeat; width: 186px; height: 27px; margin-left: 40px"></div>
+                </div>
+                <div>
+                    <ul style="margin-top: 12px">
+                        <li>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input id="LoginName" class="input" name="LoginName" type="text" tooltip="在此输入用户名" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input id="Password" class="input" name="Password" type="password" tooltip="密码" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input id="Code" class="input required" name="Code" type="text" tooltip="验证码" />
+                                    </td>
+                                    <td>
+                                        <img src="@Url.Content("~/Authorize/GetValidateCode")" id="valiCode" alt="刷新验证码" style="width: 55px; height: 29px; cursor: pointer; margin-left: 10px;" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="check">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input id="remember" type="checkbox" style="border: none; margin-right: 5px;" />
+                                    </td>
+                                    <td>
+                                        <label for="remember">记住用户名</label>
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                    </ul>
+                </div>
+                <div style="margin-top: 25px">
+                    <input type="submit" value="登录" style="width: 81px; height: 30px; background-color: #0071c5; color: #fff; border: none; font-size: 14px; cursor: pointer" />
+                    <span style="color: red;" id="message">@ViewBag.Message</span>
+                </div>
+                <div style="margin-top: 25px">
+                    <ul>
+                        @*<li><a>忘记你的密码了？</a></li>
+                            <li><a>帮助</a></li>*@
+                        @*<li>
+                                建议使用谷歌浏览器（版本 41.0.2272.118）登录系统<br />
+                                <a href="@Url.Content("~/Download/41.0.2272.118_chrome_installer.exe")" target="_blank">点击下载谷歌浏览器</a>
+                            </li>*@
+                        @*<li><a href="@Url.Content("~/Authorize/TestPrint")" targe target="_blank">测试打印控件</a></li>*@
+                        <li>
+                            建议使用谷歌浏览器登录系统<br />
+                            <a href="@Url.Content("~/Download/ChromeStandalone_52.0.2743.116_Setup.exe")" target="_blank">点击下载谷歌浏览器</a>
+                        </li>
+                        <li><a href="@Url.Content("~/Authorize/TestNewPrint")" targe target="_blank">测试新版打印控件</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display: table-row; height: 55px">
+        <div class="copyright">
+            四川希望教育产业集团有限公司 信息部
+        </div>
+    </div>
+}

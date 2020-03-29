@@ -1,0 +1,30 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/Refe/RefeTypeEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fRefeTypeSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>RefeTypeID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="RefeTypeID" name="RefeTypeID" /></td>
+        </tr>
+        <tr>
+            <td>模块名称：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="ModuleName" name="ModuleName" data-options="required:true,validType:['length[1,16]']" /></td>
+        </tr>
+        <tr>
+            <td>分类名称：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="TypeName" name="TypeName" data-options="required:true,validType:['length[1,16]','isRight[0,\'名称不能重复\']']" /></td>
+        </tr>
+        <tr>
+            <td>备注：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="RefeTypeRemark" name="RefeTypeRemark" data-options="multiline:true" style="height: 80px; width: 470px;" /></td>
+        </tr>
+    </table>
+</form>

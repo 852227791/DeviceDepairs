@@ -1,0 +1,17 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>姓名</td><td>身份证号</td><td>性别</td><td>手机</td><td>证书名称</td><td>报名时间</td><td>教师</td><td>备注</td><td>地址</td><td>系统备注</td>
+	</tr><tr>
+		<td>王晓弟</td><td>510231196908060031</td><td>女</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>【证书不存在，请先录入该证书】【报名时间必须是时间格式】【电话号码不能为空】</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>【姓名不能为空】【身份证号码不规范】【证书不存在，请先录入该证书】【报名时间必须是时间格式】【电话号码不能为空】【性别必须为男/女】</td>
+	</tr><tr>
+		<td>王晓弟</td><td>510231196908060031</td><td>男</td><td>15988886666</td><td>普通话</td><td>2014/10/12</td><td>刘老师</td><td>dd</td><td>成都市</td><td>【该证书已存在，不能重复导入】</td>
+	</tr><tr>
+		<td>dd</td><td>510231196908060030</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>【身份证号码不规范】【证书不存在，请先录入该证书】【报名时间必须是时间格式】【电话号码不能为空】【性别必须为男/女】</td>
+	</tr><tr>
+		<td>王晓弟</td><td>510231196908060031</td><td>女</td><td>15988886666</td><td>普通话</td><td>2014/10/12</td><td>刘老师</td><td>测试</td><td>成都市</td><td>【该证书已存在，不能重复导入】</td>
+	</tr><tr>
+		<td>王弟</td><td>510231196908060031</td><td>女</td><td>15988886666</td><td>普通话</td><td>2014/10/12</td><td>刘老师</td><td>测试</td><td>成都市</td><td>【身份证号和姓名不匹配】【该证书已存在，不能重复导入】</td>
+	</tr>
+</table>

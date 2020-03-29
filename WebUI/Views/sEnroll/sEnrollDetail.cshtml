@@ -1,0 +1,120 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sEnroll/sEnrollDetail.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<style type="text/css">
+    .datagrid-wrap {
+        border: 0;
+    }
+</style>
+
+<div id="ViewInfo" class="easyui-tabs" data-options="border:false">
+    <div id="t1_signup" title="报名信息">
+        <table class="bodytable0">
+            <tr>
+                <td>校区：</td>
+                <td colspan="3"><span id="spDept"></span></td>
+            </tr>
+            <tr>
+                <td style="width:135px;">学号（报名号）：</td>
+                <td><span id="spEnrollNum"></span></td>
+                <td style="width:135px;">学生：</td>
+                <td><span id="spStudent"></span></td>
+            </tr>
+            <tr>
+                <td>年份：</td>
+                <td><span id="spYear"></span></td>
+                <td>月份：</td>
+                <td><span id="spMonth"></span></td>
+            </tr>
+            <tr>
+                <td>学习层次：</td>
+                <td><span id="spLevel"></span></td>
+                <td>专业：</td>
+                <td><span id="spMajor"></span></td>
+            </tr>
+            <tr>
+                <td>报名时间：</td>
+                <td><span id="spEnrollTime"></span></td>
+                <td>缴费方案：</td>
+                <td><span id="spsFeeScheme"></span></td>
+            </tr>
+            <tr>
+                <td>状态：</td>
+                <td><span id="spStatus"></span></td>
+                <td>缴费单状态：</td>
+                <td><span id="spsOrderStatus"></span></td>
+            </tr>
+            <tr>
+                <td>备注：</td>
+                <td colspan="3"><span id="spRemark"></span></td>
+            </tr>
+        </table>
+    </div>
+    <div id="t2" title="学生信息" data-options="closable:false,fit:true">
+        <div id="cc" class="easyui-layout" style="width:786px;height:490px;">
+            <div data-options="region:'north',title:'基础信息',split:true,border:false,collapsible:false" style="height:205px;">
+                <table class="bodytable0">
+                    <tr>
+                        <td style="width: 60px">姓名:</td>
+                        <td><span id="spStudentName"></span></td>
+                        <td style="width: 60px">身份证号:</td>
+                        <td><span id="spStudentIDCard"></span></td>
+                    </tr>
+                    <tr>
+                        <td>性别:</td>
+                        <td><span id="spSex"></span></td>
+                        <td>联系电话:</td>
+                        <td><span id="spMobile"></span></td>
+                    </tr>
+                    <tr>
+                        <td>QQ号:</td>
+                        <td><span id="spQQ"></span></td>
+                        <td>微信号:</td>
+                        <td><span id="spWeChat"></span></td>
+                    </tr>
+
+                    <tr>
+                        <td>家庭地址：</td>
+                        <td colspan="3"><span id="spAddress"></span></td>
+                    </tr>
+                    <tr>
+                        <td>说明：</td>
+                        <td colspan="3"><span id="spStudentRemark"></span></td>
+                    </tr>
+
+                </table>
+            </div>
+            <div data-options="region:'center',title:'扩展信息',border:false">
+                <table class="bodytable0">
+                    <tr>
+                        <td style="width: 60px">生源地:</td>
+                        <td colspan="3"><span id="spPC"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 60px">民族:</td>
+                        <td><span id="spNation"></span></td>
+                        <td style="width: 60px">邮编:</td>
+                        <td><span id="spZip"></span></td>
+                    </tr>
+                    <tr>
+                        <td>毕业学校：</td>
+                        <td colspan="3"><span id="spSchool"></span></td>
+                    </tr>
+                </table>
+
+            </div>
+            <div data-options="region:'south',title:'联系人信息',split:true,border:false,collapsible:false" style="height:140px;">
+                <table id="studentContanctgrid" data-options="fit:true,border:false"></table>
+            </div>
+        </div>
+
+
+    </div>
+    <div id="t3_sfeeinfo" title="缴费信息">
+        <div id="SchemeTab" class="easyui-tabs" style="height:497px;width:786px;" data-options="tabPosition:'left',headerWidth:180,border:false">
+        </div>
+    </div>
+</div>

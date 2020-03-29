@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/Refe/RefeEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fRefeSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>RefeID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="RefeID" name="RefeID" /></td>
+        </tr>
+        <tr>
+            <td>名称：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="RefeName" name="RefeName" data-options="required:true,validType:['length[1,16]','isRight[1,\'名称不能重复\']']" /></td>
+        </tr>
+        <tr>
+            <td>明细分类：</td>
+            <td>
+                <input class="easyui-combobox" id="RefeType" name="RefeType" type="text" data-options="required:true"></td>
+        </tr>
+        <tr>
+            <td>值：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="Value" name="Value" data-options="required:true,validType:['isRight[2,\'值不能重复\']']" /></td>
+        </tr>
+        <tr>
+            <td>排序：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="Queue" name="Queue" data-options="required:true" /></td>
+        </tr>
+        <tr>
+            <td>备注：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="RefeRemark" name="RefeRemark" data-options="multiline:true" style="height: 80px; width: 470px;" /></td>
+        </tr>
+    </table>
+</form>

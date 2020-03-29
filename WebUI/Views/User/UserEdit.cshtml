@@ -1,0 +1,46 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/User/UserEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>UserID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="UserID" name="UserID" /></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>登录名：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="LoginName" name="LoginName" data-options="required:true,validType:['length[1,16]','isRight[0,\'登录名已被占用\']']" /></td>
+            <td>真实姓名：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="Name" name="Name" data-options="required:true,validType:['length[1,8]']" /></td>
+        </tr>
+        <tr>
+            <td>性别：</td>
+            <td>
+                <input class="easyui-validatebox" type="radio" name="Sex" id="Boy" value="1" />男&nbsp;&nbsp;
+                <input class="easyui-validatebox" type="radio" name="Sex" id="Girl" value="2" />女&nbsp;&nbsp;
+                <input class="easyui-validatebox" type="radio" name="Sex" id="Secret" value="3" />保密</td>
+            <td>手机：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="Mobile" name="Mobile" data-options="validType:['length[0,16]']" /></td>
+        </tr>
+        <tr>
+            <td>用户分类：</td>
+            <td colspan="3">
+                <input class="easyui-combobox" type="text" id="UserType" name="UserType" data-options="required:true"></td>
+        </tr>
+        <tr>
+            <td>备注：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="Remark" name="Remark" data-options="multiline:true" style="height: 80px; width: 460px;" /></td>
+        </tr>
+    </table>
+</form>
+

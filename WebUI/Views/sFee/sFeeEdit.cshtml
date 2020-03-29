@@ -1,0 +1,79 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sFee/sFeeEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>sFeeID：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="sFeeID" name="sFeeID" />
+                <input class="easyui-textbox" type="text" id="OrderJsonData" name="OrderJsonData" />
+                <input class="easyui-textbox" type="text" id="GiveJsonData" name="GiveJsonData" />
+                <input class="easyui-textbox" type="text" id="sEnrollsProfessionID" name="sEnrollsProfessionID" />
+            </td>
+        </tr>
+        <tr>
+            <td>收费单位：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="DeptID" name="DeptID" data-options="required:true" />
+            </td>
+            <td>收费时间：</td>
+            <td>
+                <input class="easyui-datebox" type="text" id="FeeTime" name="FeeTime" data-options="required:true">
+            </td>
+        </tr>
+        <tr>
+            <td>考生号/身份证号：</td>
+            <td id="num">
+                <input class="easyui-textbox" type="text" id="ExamNum" name="ExamNum">
+            </td>
+            <td>学生：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="sEnrollText" name="sEnrollText" data-options="required:true" />
+                <a id="btnChooseFeePlan" href="javascript:void(0)" class="easyui-linkbutton">选择学生</a>
+            </td>
+        </tr>
+        <tr>
+            <td>缴费方式：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="FeeMode" name="FeeMode" data-options="required:true,editable:false" />
+            </td>
+            <td>交费总额：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="ShouldMoney" name="ShouldMoney" data-options="required:true,min:0,precision:2">
+            </td>
+        </tr>
+        <tr>
+            <td>充抵总额：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="offsetTotal" name="offsetTotal" data-options="min:0,precision:2,readonly:true" value="0.00">
+            </td>
+            <td>优惠总额：</td>
+            <td>
+                <input class="easyui-numberspinner" type="text" id="discountTotal" name="discountTotal" data-options="min:0,precision:2,readonly:true" value="0.00">
+            </td>
+        </tr>
+        <tr>
+            <td>优惠方案：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="discountPlan" name="discountPlan" data-options="required:true">
+            </td>
+        </tr>
+
+        <tr>
+            <td>说明：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="Explain" name="Explain" data-options="multiline:true" style="height: 50px; width: 230px;" />
+            </td>
+            <td>备注：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="Remark" name="Remark" data-options="multiline:true" style="height: 50px; width: 230px;" />
+            </td>
+        </tr>
+    </table>
+</form>
+<div id="tabsFee" class="easyui-tabs" data-options="border:false">
+</div>

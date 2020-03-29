@@ -1,0 +1,44 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/Detail/DetailEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>DetailID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="DetailID" name="DetailID" />
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>收费类别名称：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="Name" name="Name" data-options="required:true,validType:['length[1,32]','isRight[0,\'收费类别名称不能重复\']']" />
+            </td>
+            <td>上级类别：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="ParentID" name="ParentID" data-options="required:true,validType:['isRight[1,\'不能选择自己或自己的下级作为上级类别\']']" />
+            </td>
+        </tr>
+        <tr>
+            <td>英文首字母(大写)：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="EnglishName" name="EnglishName" data-options="required:true,validType:['length[1,4]']" />
+            </td>
+            <td>会计科目：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="SubjectID" name="SubjectID" data-options="required:true" />
+            </td>
+        </tr>
+        <tr>
+            <td>备注：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="Remark" name="Remark" data-options="multiline:true" style="height: 80px; width: 470px;" />
+            </td>
+        </tr>
+    </table>
+</form>

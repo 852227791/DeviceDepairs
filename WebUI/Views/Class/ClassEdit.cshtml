@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/Class/ClassEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSaveClass" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>ClassID：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="ClassID" name="ClassID" />
+                <input class="easyui-textbox" type="text" id="cProfessionID" name="cProfessionID" />
+            </td>
+        </tr>
+        <tr>
+            <td>班级名称：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="ClassName" name="ClassName" data-options="required:true,validType:['length[1,32]','isRight[1,\'班级名称不能重复\']']" />
+            </td>
+        </tr>
+    </table>
+</form>

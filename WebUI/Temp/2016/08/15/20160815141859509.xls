@@ -1,0 +1,7 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>姓名</td><td>身份证号</td><td>学历层次</td><td>专业</td><td>校区</td><td>系统备注</td>
+	</tr><tr>
+		<td>杨珂</td><td>511124199711306611</td><td>专科</td><td>广告设计与制作</td><td>崇州1</td><td>报名校区不存在;</td>
+	</tr>
+</table>

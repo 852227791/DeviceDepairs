@@ -1,0 +1,19 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>姓名</td><td>身份证号</td><td>学号</td><td>性别</td><td>手机</td><td>系统备注</td>
+	</tr><tr>
+		<td>测试</td><td>610115199008220345</td><td>1</td><td>男</td><td>0</td><td>身份证号和姓名不匹配;学号和姓名不匹配;</td>
+	</tr><tr>
+		<td>测试</td><td>610115199008220344</td><td>C1600008</td><td>男</td><td>0</td><td>身份证号不规范;身份证号和姓名不匹配;学号和姓名不匹配;</td>
+	</tr><tr>
+		<td>罗均2</td><td>513723197604137524</td><td>C1600008</td><td>女</td><td>13655556666</td><td>身份证号和姓名不匹配;学号和姓名不匹配;</td>
+	</tr><tr>
+		<td>d</td><td>140106199507040016</td><td>&nbsp;</td><td>男</td><td>0</td><td>身份证号和姓名不匹配;</td>
+	</tr><tr>
+		<td>乱输入</td><td>&nbsp;</td><td>11</td><td>女</td><td>11</td><td>学号和姓名不匹配;</td>
+	</tr><tr>
+		<td>罗均1</td><td>&nbsp;</td><td>C1600008</td><td>女</td><td>13655556666</td><td>学号和姓名不匹配;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>身份证号和学号不能同时为空;姓名不能为空;手机不能为空;性别必须为男/女;</td>
+	</tr>
+</table>

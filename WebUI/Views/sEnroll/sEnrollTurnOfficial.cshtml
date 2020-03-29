@@ -1,0 +1,28 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sEnroll/sEnrollTurnOfficial.js")?v=@(new Random().Next())" type="text/javascript"></script>
+<form id="fturnSave" class="easyui-form" method="post">
+    <table class="t-form" style="margin-top:2px">
+        <tr style="display: none;">
+            <td>sEnrollsProfessionID：</td>
+            <td >
+                <input class="easyui-textbox" type="text" id="Id" name="Id" />
+                <input class="easyui-textbox" type="text" id="stuId" name="stuId" />
+            </td>
+        </tr>
+        <tr>
+            <td>姓名:</td>
+            <td><input type="text" class="easyui-textbox" id="nameTurn" name="nameTurn" data-options="editable:false" /></td>
+        </tr>
+        <tr>
+            <td>身份证号:</td>
+            <td><input type="text" class="easyui-textbox" id="idCardTurn" name="idCardTurn"  data-options="required:true,validType:['idCard']"  /></td>
+        </tr>
+        <tr>
+            <td>正式报名时间:</td>
+            <td><input type="text" class="easyui-datebox" id="sEnrollTime" name="sEnrollTime" /></td>
+        </tr>
+    </table>
+</form>

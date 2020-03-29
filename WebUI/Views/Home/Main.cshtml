@@ -1,0 +1,36 @@
+﻿@{
+    Layout = "~/Views/Shared/_Blank.cshtml";
+}
+
+@section head
+{
+    <link href="@Url.Content("~/Content/Styles/welcome.css")" rel="stylesheet" />
+}
+
+<div style="padding: 10px; overflow: hidden; text-align: center; background: #FFFFFF;">
+    <div class="navbar">
+        <div class="navbar-l"></div>
+        <div class="navbar-r"></div>
+        <div class="navbar-icon">
+            <img src="@Url.Content("~/Content/Images/hire_me.gif")" />
+        </div>
+        <div class="navbar-inner">
+            <b><span id="labelwelcome"></span><span>欢迎使用收费管理系统</span></b>
+        </div>
+    </div>
+
+    <div class="navline"></div>
+
+    @*<div class="links"></div>
+
+    <div class="l-clear"></div>
+
+    <div class="button" onclick="RL.addfavorite(loadMyFavorite)">
+        <div class="button-l"></div>
+        <div class="button-r"></div>
+        <div class="button-icon">
+            <img src="/Content/ligerUI/skins/icons/add.gif" />
+        </div>
+        <span>增加快捷方式</span>
+    </div>*@
+</div>

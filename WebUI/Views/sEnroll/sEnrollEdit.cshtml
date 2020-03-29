@@ -1,0 +1,89 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sEnroll/sEnrollEdit.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSave" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>sEnrollsProfessionID：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="editsEnrollsProfessionID" name="sEnrollsProfessionID" />
+                <input class="easyui-textbox" type="text" id="editStudentID" name="editStudentID" />
+                <input class="easyui-textbox" type="text" id="editScheme" name="editScheme" />
+            </td>
+        </tr>
+        <tr>
+            <td>校区：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="editDeptID" name="DeptID" data-options="required:true" />
+            </td>
+
+            <td>报名校区:</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="editDeptAreaId" name="DeptAreaID" data-options="required:true" />
+            </td>
+        </tr>
+        <tr>
+            <td>学生：</td>
+            <td>
+                <input class="easyui-textbox" type="text" id="editStuName" name="editStuName" data-options="required:true,editable:false" />
+                <a id="btnChooseStudent" href="javascript:void(0)" class="easyui-linkbutton">选择学生</a>
+            </td>
+            <td>学习层次：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="editEnrollLevel" name="EnrollLevel" data-options="required:true" />
+            </td>
+        </tr>
+        <tr>
+            <td>年份：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="editYear" name="Year" data-options="required:true" />
+            </td>
+            <td>月份：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="editMonth" name="Month" data-options="required:true" />
+            </td>
+        </tr>
+        <tr>
+            <td>专业：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="editsProfessionID" name="sProfessionID" data-options="required:true">
+            </td>
+            <td>班级：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="editClassID" name="ClassID">
+            </td>
+        </tr>
+        <tr>
+            <td>报名时间：</td>
+            <td>
+                <input class="easyui-datebox" type="text" id="editEnrollTime" name="EnrollTime" data-options="required:true" />
+            </td></tr>
+        <tr colspan="3">
+            <td>缴费方案：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="editSchemeName" name="editSchemeName" data-options="required:true,editable:false" />
+                <a id="btnChooseScheme" href="javascript:void(0)" class="easyui-linkbutton">选择缴费方案</a>
+            </td>
+        </tr>
+        <tr>
+            <td>备注：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="editRemark" name="Remark" data-options="multiline:true" style="height: 80px; width: 460px;" />
+            </td>
+        </tr>
+        <tr id="repeatSignEdit">
+            <td>报名方式：</td>
+            <td colspan="3">
+                <input type="radio" value="goon" id="editGoOnSign" name="editIsRepeatSign" data-options="required:true" style="vertical-align:middle;" /> <label for="editGoOnSign">续报名</label>&nbsp;
+                <input type="radio" value="repeat" id="editRepeatSign" name="editIsRepeatSign" data-options="required:true" style="vertical-align:middle;" /> <label for="editRepeatSign">重复报名</label>&nbsp;
+                <input type="radio" value="default" checked="checked" id="editDefaultSign" name="editIsRepeatSign" data-options="required:true" style="vertical-align:middle;" /> <label for="editDefaultSign">默认</label>
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+

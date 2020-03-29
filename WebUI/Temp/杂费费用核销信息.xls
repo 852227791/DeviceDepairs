@@ -1,0 +1,7 @@
+﻿<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;vnd.ms-excel.numberformat:@">
+	<tr style="font-weight:bold;">
+		<td>收费单位</td><td>凭证号</td><td>票据号</td><td>姓名</td><td>身份证号</td><td>收费项</td><td>核销类别</td><td>核销金额</td><td>核销时间</td><td>支付对象</td><td>核销员</td><td>核销备注</td>
+	</tr><tr>
+		<td>成都五月花计算机专业学校(金堂)</td><td>Z20160420005788</td><td>2003986</td><td>4-684</td><td>&nbsp;</td><td>公寓损坏赔偿</td><td>退款</td><td>150.00</td><td>2016-05-06</td><td>sss</td><td>业务管理员</td><td>&nbsp;</td>
+	</tr>
+</table>

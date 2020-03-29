@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "~/Views/Shared/_Blank.cshtml";
+}
+
+@section head
+{
+    <script src="@Url.Content("~/Content/Scripts/Detail/DetailList.js")?v=@(new Random().Next())" type="text/javascript"></script>
+}
+
+<div id="infoMain" class="easyui-layout" data-options="fit:true" style="margin-top: 3px;">
+    <div title="全部收费类别" data-options="region:'west',border:false,collapsible:false,split:true,disabled:true" style="width: 250px;">
+        <div id="detailTree" style="padding: 10px;"></div>
+    </div>
+    <div title="收费类别信息" data-options="region:'center',border:false">
+        <table class="bodytable0">
+            <tr>
+                <td style="width: 100px;">收费类别名称：</td>
+                <td>
+                    <span id="txtName"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>上级类别：</td>
+                <td>
+                    <span id="txtParentName"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>英文首字母：</td>
+                <td>
+                    <span id="txtEnglistName"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>会计科目：</td>
+                <td>
+                    <span id="txtSubject"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>备注：</td>
+                <td>
+                    <span id="txtRemark"></span>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div id="editDetail"></div>
+<div id="editDetail-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSave" iconcls="icon-ok">保存</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="javascript: $('#editDetail').dialog('close')" iconcls="icon-cancel">关闭</a>
+</div>

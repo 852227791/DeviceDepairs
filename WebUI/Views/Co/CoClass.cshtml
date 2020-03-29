@@ -1,0 +1,119 @@
+﻿@{
+    Layout = "~/Views/Shared/_Co.cshtml";
+}
+<div>
+    <input id="TableHead" type="text" value="T_Sys_" /><br />
+    <textarea id="TableData" cols="40" rows="5"></textarea><br />
+    <input id="CoModel" type="button" value="生成实体类" /><input id="CoDal" type="button"
+        value="生成业务类" /><br />
+    <span id="ResultData"></span>
+</div>
+<script>
+    $("#CoModel").click(function () {
+        var tableData = $("#TableData").val();
+        var tableDataArr = tableData.split(',');
+        var result = "";
+        for (var i = 0; i < tableDataArr.length; i++) {
+            result += "public string " + tableDataArr[i] + " { get; set; }<br />";
+        }
+        result += "<br />public " + tableDataArr[0].replace('ID', '') + "Model()<br />{}<br />";
+        var temp = "";
+        for (var i = 0; i < tableDataArr.length; i++) {
+            temp += "string " + tableDataArr[i].toLocaleLowerCase() + ",";
+        }
+        temp = temp.substring(0, temp.length - 1);
+        result += "public " + tableDataArr[0].replace('ID', '') + "Model(" + temp + ")<br />{<br />";
+        for (var i = 0; i < tableDataArr.length; i++) {
+            result += "this." + tableDataArr[i] + " = " + tableDataArr[i].toLocaleLowerCase() + ";<br />";
+        }
+        result += "}";
+        $("#ResultData").html(result);
+    });
+
+    $("#CoDal").click(function () {
+        var tableHead = $("#TableHead").val();
+        var tableData = $("#TableData").val();
+        var tableDataArr = tableData.split(',');
+        var result = "";
+
+
+
+        result += "public static int Insert" + tableDataArr[0].replace('ID', '') + "(" + tableDataArr[0].replace('ID', '') + "Model " + $.modelName(tableDataArr[0].replace('ID', '') + "Model") + ")<br />{<br />string cmdText = @@\"INSERT  INTO " + tableHead + tableDataArr[0].replace('ID', '') + "<br />(";
+        var temp = "";
+        for (var i = 1; i < tableDataArr.length; i++) {
+            temp += "" + tableDataArr[i] + "<br />,";
+        }
+        temp = temp.substring(0, temp.length - 1);
+        result += temp + ")<br />VALUES (";
+        temp = "";
+        for (var i = 1; i < tableDataArr.length; i++) {
+            temp += "@@" + tableDataArr[i] + "<br />,";
+        }
+        temp = temp.substring(0, temp.length - 1);
+        result += temp + ");SELECT CAST(scope_identity() AS int)\";<br />";
+        result += "SqlParameter[] paras = new SqlParameter[] { <br />";
+        temp = "";
+        for (var i = 1; i < tableDataArr.length; i++) {
+            temp += "new SqlParameter(\"@@" + tableDataArr[i] + "\", " + $.modelName(tableDataArr[0].replace('ID', '') + "Model") + "." + tableDataArr[i] + "),<br />";
+        }
+        temp = temp.substring(0, temp.length - 7) + "<br />";
+        result += temp + "};<br />";
+        result += "int result = Convert.ToInt32(DatabaseFactory.ExecuteScalar(cmdText, CommandType.Text, paras));<br />if (result > 0)<br />{<br />return result;<br />}<br />else<br />{<br />return -1;<br />}<br />}<br /><br />";
+
+
+
+        result += "public static int Update" + tableDataArr[0].replace('ID', '') + "(" + tableDataArr[0].replace('ID', '') + "Model " + $.modelName(tableDataArr[0].replace('ID', '') + "Model") + ")<br />{<br />string cmdText = @@\"UPDATE  " + tableHead + tableDataArr[0].replace('ID', '') + " SET<br />";
+        temp = "";
+        for (var i = 1; i < tableDataArr.length; i++) {
+            temp += "" + tableDataArr[i] + "=@@" + tableDataArr[i] + "<br />,";
+        }
+        temp = temp.substring(0, temp.length - 1);
+        result += temp + "WHERE " + tableDataArr[0] + "=@@" + tableDataArr[0] + "\";<br />";
+        result += "SqlParameter[] paras = new SqlParameter[] { <br />";
+        temp = "";
+        for (var i = 0; i < tableDataArr.length; i++) {
+            temp += "new SqlParameter(\"@@" + tableDataArr[i] + "\", " + $.modelName(tableDataArr[0].replace('ID', '') + "Model") + "." + tableDataArr[i] + "),<br />";
+        }
+        temp = temp.substring(0, temp.length - 7) + "<br />";
+        result += temp + "};<br />";
+        result += "int result = DatabaseFactory.ExecuteNonQuery(cmdText, CommandType.Text, paras);<br />if (result > 0)<br />{<br />return Convert.ToInt32(" + $.modelName(tableDataArr[0].replace('ID', '') + "Model") + "." + tableDataArr[0] + ");<br />}<br />else<br />{<br />return -1;<br />}<br />}<br /><br />";
+
+
+
+        result += "public static " + tableDataArr[0].replace('ID', '') + "Model " + tableDataArr[0].replace('ID', '') + "ModelByWhere(string where, SqlParameter[] paras)<br />{<br />DataTable dt = new DataTable();<br />";
+        result += "" + tableDataArr[0].replace('ID', '') + "Model " + $.modelName(tableDataArr[0].replace('ID', '') + "Model") + " = new " + tableDataArr[0].replace('ID', '') + "Model();<br />string cmdText = \"SELECT * FROM " + tableHead + tableDataArr[0].replace('ID', '') + " WHERE 1=1 {0}\";<br />";
+        result += "cmdText = string.Format(cmdText, where);<br />";
+        result += "dt = DatabaseFactory.ExecuteDataset(cmdText, CommandType.Text, paras).Tables[0];<br />if (dt.Rows.Count > 0)<br />{<br />";
+        temp = "";
+        for (var i = 0; i < tableDataArr.length; i++) {
+            temp += "" + $.modelName(tableDataArr[0].replace('ID', '') + "Model") + "." + tableDataArr[i] + " = dt.Rows[0][\"" + tableDataArr[i] + "\"].ToString();<br />";
+        }
+        result += temp + "}<br />return " + $.modelName(tableDataArr[0].replace('ID', '') + "Model") + ";<br />}<br /><br />";
+
+
+
+        result += "public static DataTable " + tableDataArr[0].replace('ID', '') + "TableByWhere(string where, SqlParameter[] paras, string queue)<br />{<br />DataTable dt = new DataTable();<br />";
+        result += "string cmdText = \"SELECT * FROM " + tableHead + tableDataArr[0].replace('ID', '') + " WHERE 1=1 {0} {1}\";<br />";
+        result += "cmdText = string.Format(cmdText, where, queue);<br />";
+        result += "dt = DatabaseFactory.ExecuteDataset(cmdText, CommandType.Text, paras).Tables[0];<br />";
+        result += "return dt;<br />}";
+        $("#ResultData").html(result);
+    });
+
+    $("#TableData").blur(function () {
+        $("#TableData").val($("#TableData").val().replace(/ /g, '').replace(/\n/g, '').replace(/\[/g, '').replace(/\]/g, '')); //
+    });
+
+    $.modelName = function (str) {
+        var reStr = "";
+        var strT = str.toLocaleLowerCase();
+        var strArr = str.split('');
+        var strTArr = strT.split('');
+        for (var i = 0; i < strArr.length; i++) {
+            if (strArr[i] != strTArr[i]) {
+                reStr += strTArr[i];
+            }
+        }
+        return reStr;
+    };
+</script>

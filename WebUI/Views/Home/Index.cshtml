@@ -1,0 +1,132 @@
+﻿@{
+}
+
+@section head
+{
+    <script type="text/javascript">
+        $(function () {
+            //绑定当前用户名
+            bindCurrentUserEvent();
+
+            //绑定菜单
+            bindMenuEvent();
+
+            //绑定标签
+            bindTabEvent();
+
+            //绑定菜单按钮的点击事件
+            setTimeout(bindMenuClickEvent, 1000);
+        });
+
+        //绑定当前用户名
+        bindCurrentUserEvent = function () {
+            $.ajax({
+                type: "post",
+                url: "@Url.Content("~/Home/CurrentUser")?cmd=getName",
+                async: true,
+                data: "",
+                dataType: "json",
+                success: function (result) {
+                    if (window.location.toString().toLowerCase().indexOf("provetest") > -1) {
+                        $(".istest").html("测试系统");
+                    }
+                    $(".l-topmenu-username").html(result.Result + "，");
+                },
+                error: function () {
+                    Easy.centerShow("系统消息", "用户信息加载失败", 3000);
+                }
+            });
+        }
+
+        //绑定菜单
+        bindMenuEvent = function () {
+            $.ajax({
+                type: "post",
+                url: "@Url.Content("~/Home/Menu")?rnd=" + Math.random(),
+                async: true,
+                data: "",
+                dataType: "json",
+                success: function (data) {
+                    $.each(data, function (i, menu) {
+                        var subitem = "";
+                        $(menu.children).each(function (j, submenu) {
+                            subitem += "<li menuid='#menuid#' src='#src#'><a href='javascript:void(0)'>#name#</a></li>";
+                            subitem = subitem.replace("#menuid#", submenu.MenuID).replace("#src#", submenu.PagePath).replace("#name#", submenu.Name);
+                        });
+                        $("#menu").accordion("add", {
+                            menuid: menu.MenuID,
+                            title: menu.Name,
+                            iconCls: menu.IconPath,
+                            selected: i === 0 ? true : false,//默认第一个菜单展开
+                            content: "<ul class='menulist'>" + subitem + "</ul>"
+                        });
+                    });
+                },
+                error: function () {
+                    Easy.centerShow("系统消息", "菜单信息加载失败", 3000);
+                }
+            });
+        }
+
+        //绑定标签
+        bindTabEvent = function () {
+            $("#worktab").tabs({ border: false });
+            $("#worktab").tabs("add", {//添加tab的节点，调用easyUITab标签的方法,
+                id: "0",
+                title: "我的主页",
+                href: "@Url.Content("~/Home/Main")"
+            });
+        }
+
+        //绑定菜单按钮的点击事件
+        bindMenuClickEvent = function () {
+            $("ul.menulist li").on("click", function () {
+                var menuid = $(this).attr("menuid");
+
+                var src = $(this).attr("src");//获取按钮里面的src属性
+                if (src.indexOf("?") > -1)//给url附加menuid
+                {
+                    src += "&";
+                }
+                else {
+                    src += "?";
+                }
+                src += "MenuID=" + menuid;
+
+                var title = $(this).text();//得到节点的名字来放去Title
+
+                var isExist = $("#worktab").tabs("exists", title);//首先判断用户是否已经单击了此项，如果单击了直接获取焦点，负责打开
+                if (!isExist) {
+                    $("#worktab").tabs("add", {//添加tab的节点，调用easyUITab标签的方法
+                        id: menuid,
+                        title: title,
+                        //href: src,
+                        content: "<iframe width='100%' height='100%' frameborder='0' src='" + src + "'></iframe>",
+                        closable: true
+                    });
+                }
+                else {
+                    $("#worktab").tabs("select", title);//如果存在则获取焦点
+                    var tab = $('#worktab').tabs('getSelected');  // 获取选择的面板
+                    $('#worktab').tabs('update', {
+                        tab: tab,
+                        options: {
+                            content: "<iframe width='100%' height='100%' frameborder='0' src='" + src + "'></iframe>"
+                        }
+                    });
+                }
+            }).on("mouseover", function () {
+                $(this).addClass("over");
+            }).on("mouseout", function () {
+                $(this).removeClass("over");
+            });
+        }
+    </script>
+}
+
+<div data-options="region:'west',split:true" title="导航菜单" style="width: 140px;">
+    <div id="menu" class="easyui-accordion" data-options="fit:true,border:false"></div>
+</div>
+<div data-options="region:'center'">
+    <div id="worktab" data-options="fit:true"></div>
+</div>

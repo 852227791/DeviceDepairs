@@ -1,0 +1,80 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sEnroll/TurnMajor.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<form id="fSaveMajor" class="easyui-form" method="post">
+    <table class="t-form">
+        <tr style="display: none;">
+            <td>sEnrollID：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="MajorsEnrollID" name="sEnrollID" />
+                <input class="easyui-textbox" type="text" id="MajorsEnrollsProfessionID" name="MajorsEnrollsProfessionID" />
+                <input class="easyui-textbox" type="text" id="MajorScheme" name="MajorScheme" />
+            </td>
+        </tr>
+        <tr>
+            <td>校区：</td>
+            <td>
+                <input class="easyui-combotree" type="text" id="MajorDeptID" name="DeptID" data-options="required:true" />
+            </td>
+            <td>已读学年：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="Read" name="Read" data-options="required:true">
+            </td>
+        </tr>
+        <tr>
+            <td>年份：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="MajorYear" name="Year" data-options="required:true" />
+            </td>
+            <td>月份：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="MajorMonth" name="Month" data-options="required:true" />
+            </td>
+        </tr>
+        <tr>
+            <td>学习层次：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="MajorEnrollLevel" name="EnrollLevel" data-options="required:true" />
+            </td>
+            <td>转专业时间：</td>
+            <td>
+                <input class="easyui-datebox" type="text" id="MajorChangeTime" name="MajorChangeTime" data-options="required:true" />
+            </td>
+        </tr>
+        <tr>
+            <td>专业：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="MajorsProfessionID" name="sProfessionID" data-options="required:true">
+            </td>
+            <td>班级：</td>
+            <td>
+                <input class="easyui-combobox" type="text" id="MajorClassID" name="ClassID">
+            </td>
+        </tr>
+        <tr>
+            <td>缴费方案：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="MajorSchemeName" name="MajorSchemeName" data-options="required:true,editable:false" />
+                <a id="btnChoosesFeeScheme" href="javascript:void(0)" class="easyui-linkbutton">选择缴费方案</a>
+            </td>
+        </tr>
+        <tr>
+            <td>转专业原因：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="MajorExplain" name="MajorExplain" data-options="required:true,multiline:true" style="height: 80px; width: 460px;" />
+            </td>
+        </tr>
+        <tr>
+            <td>备注：</td>
+            <td colspan="3">
+                <input class="easyui-textbox" type="text" id="MajorRemark" name="Remark" data-options="multiline:true" style="height: 80px; width: 460px;" />
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+

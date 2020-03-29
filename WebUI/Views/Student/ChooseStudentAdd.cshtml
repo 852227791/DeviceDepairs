@@ -1,0 +1,111 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+<script src="@Url.Content("~/Content/Scripts/Student/ChooseStudentAdd.js")?v=@(new Random().Next())" type="text/javascript"></script>
+@*
+    <div id="infoMainChooseStudent" class="easyui-layout" data-options="fit:true">
+        <div title="搜索" data-options="region:'north',border:false,collapsible:false,iconCls:'icon-search'" style="height: 57px;width:550px" >
+
+        </div>
+        <div data-options="region:'center',border:false" style="width:550px">
+
+        </div>
+
+        <div data-options="region:'east',border:false,collapsible:true ">
+         <table id="choosestudentGrid" data-options="fit:true,border:false"></table>
+        </div>
+    </div>*@
+
+<div id="cc" class="easyui-layout" data-options="fit:true,border:false">
+    <div data-options="region:'center',border:false">
+        <div class="easyui-layout" data-options="fit:true,border:false">
+            <div data-options="region:'north',title:'搜索',border:false,collapsible:false" style="height: 57px;">
+                <div id="searchBoxChooseStudent" class="easyui-layout" data-options="fit:true">
+                    <form id="fSearchChooseStudent" class="easyui-form">
+                        <div data-options="region:'north',border:false">
+                            <div class="t-div">
+                                <div>学号:</div>
+                                <div>
+                                    <input id="txtEnrollNumStudent" name="txtEnrollNumStudent" type="text" class="easyui-textbox" style="width: 100px;" />
+                                </div>
+                                <div>姓名:</div>
+                                <div>
+                                    <input id="txtNameChooseStudent" name="txtNameChooseStudent" type="text" class="easyui-textbox" style="width: 100px;" />
+                                </div>
+                                <div>身份证号:</div>
+                                <div>
+                                    <input id="txtIDCardChooseStudent" name="txtIDCardChooseStudent" type="text" class="easyui-textbox" style="width: 100px;" />
+                                </div>
+
+                                <div style="padding-top: 2px;">
+                                    <a href="javascript:void(0)" id="btnSearchChooseStudent" class="easyui-linkbutton" iconcls="icon-search">查询</a>
+                                </div>
+                                <div style="padding-top: 2px;">
+                                    <a href="javascript:void(0)" id="btnResetChooseStudent" class="easyui-linkbutton" iconcls="icon-undo">重置</a>
+                                </div>
+                                <div style="padding-top: 2px;">
+                                    <a href="javascript:void(0)" id="btnfastAdd" class="easyui-linkbutton" iconcls="icon-add">快速添加</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+            @*<div data-options="region:'west',title:'West',split:true" style="width:100px;"></div> *@
+            <div data-options="region:'center',title:'缴费人信息',border:false"><table id="choosestudentGrid" data-options="fit:true,border:false"></table></div>
+        </div>
+    </div><div data-options="region:'east',title:'新增缴费人',split:true,border:false,collapsed:true,onCollapse:function(){$('#btnSaveStudent').show()},onExpand:function(){$('#btnSaveStudent').hide()}" style="width:260px;">
+        <form id="fSaveStudent" class="easyui-form" method="post">
+            <table class="t-form">
+                @*<tr style="display: none;">
+                    <td>StudentID：</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="StudentID" name="StudentID" />
+                        <input class="easyui-combotree" type="text" id="DeptID" name="DeptID" data-options="required:true,editable:false" />
+                    </td>
+                </tr>*@
+                <tr>
+                    <td>姓名：</td>
+                    <td>
+                        <input class="easyui-textbox" type="text" id="addName" name="addName" data-options="required:true,validType:['length[1,16]']"  style="width:170px;" />
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>身份证：</td>
+                    <td>
+                        <input style="width:170px;"class="easyui-textbox" type="text" id="addIDCard" name="addIDCard" data-options="validType:['length[1,32]']">
+                    </td>
+                </tr>
+                <tr>
+                    <td>性别：</td>
+                    <td>
+                        <input style="width:170px;" class="easyui-combobox" type="text" id="addSex" name="addSex" data-options="required:true,editable:false" />
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>电话：</td>
+                    <td>
+                        <input style="width:170px;" class="easyui-textbox" type="text" id="addMobile" name="addMobile" data-options="required:true,validType:['length[0,16]']" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>地址：</td>
+                    <td>
+                        <input style="width:170px;" class="easyui-textbox" type="text" id="addAddress" name="addAddress" data-options="validType:['length[0,128]']" />
+                    </td>
+
+                </tr>
+                <tr style="text-align:center">
+                    <td colspan="2">
+                        <a href="javascript:void(0)" class="easyui-linkbutton" id="btnSubmitStudent" iconcls="icon-ok">保存</a>
+                    </td>
+
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<script src="@Url.Content("~/Content/Scripts/sOrder/SetsOrder.js")?v=@(new Random().Next())" type="text/javascript"></script>
+
+<div id="infoMain" class="easyui-layout" data-options="fit:true">
+    <div title="项目信息" data-options="region:'west',border:false,collapsible:false,split:true,disabled:true" style="width: 180px;">
+        <table id="itemDetailTree" data-options="fit:true,border:false"></table>
+    </div>
+    <div title="收费项目列表" data-options="region:'center',border:false">
+        <table id="itemDetailGrid" data-options="fit:true,border:false"></table>
+    </div>
+</div>
